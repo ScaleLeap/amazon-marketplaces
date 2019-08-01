@@ -5,11 +5,22 @@
   "scripts": {
     "test": "jest"
   },
-  "keywords": ["amazon", "marketplace", "mws", "advertising"],
+  "keywords": [
+    "amazon",
+    "marketplace",
+    "mws",
+    "advertising"
+  ],
   "author": {
     "name": "Scale Leap",
     "email": "hello@scaleleap.com",
     "url": "https://www.scaleleap.com/"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "24.0.16",
+    "jest": "24.8.0",
+    "ts-jest": "24.0.2",
+    "typescript": "3.5.3"
+  }
 }
