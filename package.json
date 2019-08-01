@@ -1,0 +1,15 @@
+{
+  "name": "@scaleleap/amazon-marketplace-utils",
+  "version": "1.0.0",
+  "description": "A collection of utilities, types, enums, validators for Amazon Marketplace.",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": ["amazon", "marketplace", "mws", "advertising"],
+  "author": {
+    "name": "Scale Leap",
+    "email": "hello@scaleleap.com",
+    "url": "https://www.scaleleap.com/"
+  },
+  "license": "MIT"
+}
