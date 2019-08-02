@@ -1,7 +1,9 @@
 {
   "name": "@scaleleap/amazon-marketplaces",
   "version": "1.0.1",
-  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "A collection of Amazon Marketplace data objects.",
   "scripts": {
     "test": "jest && npm run lint",
