@@ -1,0 +1,41 @@
+stages:
+  - setup
+  - test
+  - build
+  - release
+
+default:
+  image: node:10.15.3
+  cache:
+    untracked: true
+    paths:
+      - node_modules/
+
+setup:
+  stage: setup
+  script:
+    - npm ci
+
+test:
+  stage: test
+  script:
+    - npm t
+
+build:
+  stage: build
+  script:
+    - npm run build
+    - npm run build:docs
+  artifacts:
+    paths:
+      - pkg
+      - docs
+
+release:
+  stage: release
+  script:
+    - npx semantic-release
+  dependencies:
+    - build
+  only:
+    - master

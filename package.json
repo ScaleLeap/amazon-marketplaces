@@ -5,7 +5,7 @@
   "scripts": {
     "test": "jest && npm run lint",
     "build": "pack build",
-    "build:doc": "typedoc",
+    "build:docs": "typedoc",
     "lint": "eslint --ext .ts .",
     "postpublish": "node update-package-version.js"
   },
