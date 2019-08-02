@@ -13,8 +13,11 @@
   "keywords": [
     "amazon",
     "marketplace",
+    "amazon-marketplace",
     "mws",
-    "advertising"
+    "amazon-advertising",
+    "amazon-advertising-api",
+    "amazon-mws"
   ],
   "author": {
     "name": "Roman Filippov",
