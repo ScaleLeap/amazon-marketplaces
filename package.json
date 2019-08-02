@@ -6,7 +6,7 @@
     "test": "jest && npm run lint",
     "build": "pack build",
     "build:docs": "typedoc",
-    "lint": "eslint --ext .ts .",
+    "lint": "eslint --ext .ts --ignore-path .gitignore .",
     "postpublish": "node update-package-version.js"
   },
   "keywords": [
