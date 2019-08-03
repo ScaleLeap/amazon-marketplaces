@@ -1,3 +1,10 @@
+## [1.0.1](https://gitlab.com/ScaleLeap/amazon-marketplaces/compare/v1.0.0...v1.0.1) (2019-08-03)
+
+
+### Bug Fixes
+
+* replaces pika release with vanilla tsc build ([9afd41e](https://gitlab.com/ScaleLeap/amazon-marketplaces/commit/9afd41e))
+
 # 1.0.0 (2019-08-02)
 
 
