@@ -41,6 +41,32 @@ console.log(
 )
 ```
 
+### Full Data Object Example
+
+```json
+{
+  "countryCode": "CA",
+  "currency": "CAD",
+  "id": "A2EUQ1WTGCTBG2",
+  "name": "Canada",
+  "uri": "https://www.amazon.ca",
+  "webServiceUri": "https://mws.amazonservices.ca",
+  "advertising": {
+    "uri": "https://advertising-api.amazon.com",
+    "bids": {
+      "sponsoredBrands": {
+        "min": 10,
+        "max": 4900
+      },
+      "sponsoredProducts": {
+        "min": 2,
+        "max": 100000
+      }
+    }
+  }
+}
+```
+
 ### Download & Installation
 
 ```sh
