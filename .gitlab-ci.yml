@@ -28,7 +28,7 @@ build:
     - npm run build:docs
   artifacts:
     paths:
-      - pkg
+      - dist
       - docs
 
 release:
