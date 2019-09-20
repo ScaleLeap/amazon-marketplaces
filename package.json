@@ -7,7 +7,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "description": "A collection of Amazon Marketplace data objects.",
-  "homepage": "https://gitlab.com/ScaleLeap/amazon-marketplaces#readme",
+  "homepage": "https://github.com/ScaleLeap/amazon-marketplaces#readme",
   "scripts": {
     "test": "jest && npm run lint",
     "build": "tsc",
