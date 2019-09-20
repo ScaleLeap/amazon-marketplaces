@@ -1,4 +1,4 @@
-![Amazon Marketplace Logo](amazon-marketplace.png)
+![Amazon Marketplace Logo](https://raw.githubusercontent.com/ScaleLeap/amazon-marketplaces/master/amazon-marketplace.png)
 
 @scaleleap/amazon-marketplaces
 =======================================
