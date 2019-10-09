@@ -17,9 +17,6 @@ describe('marketplace', () => {
   })
 
   it('object is read only', () => {
-    expect(() => {
-      // @ts-ignore
-      amazonMarketplaces.CA.id = 'a'
-    }).toThrowError(/Cannot assign to read only property/)
+    expect(() => Object.assign(amazonMarketplaces.CA, { id: 'a' })).toThrowError(/Cannot assign to read only property/)
   })
 })
