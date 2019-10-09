@@ -1,3 +1,16 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [1.1.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v1.0.2...v1.1.0) (2019-10-09)
+
+
+### Features
+
+* adds amazonMarketplacesList variable ([28b24e3](https://github.com/ScaleLeap/amazon-marketplaces/commit/28b24e3))
+* adds Singapore ([f5dbdf2](https://github.com/ScaleLeap/amazon-marketplaces/commit/f5dbdf2))
+
 ## [1.0.1](https://gitlab.com/ScaleLeap/amazon-marketplaces/compare/v1.0.0...v1.0.1) (2019-08-03)
 
 
