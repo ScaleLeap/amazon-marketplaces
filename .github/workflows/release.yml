@@ -30,7 +30,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   publish-gpr:
     needs: build
@@ -44,4 +44,4 @@ jobs:
           scope: '@scaleleap'
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
