@@ -96,3 +96,8 @@ export const amazonMarketplaces = {
    */
   US,
 } as const
+
+/**
+ * An array of all of the `AmazonMarketplace` objects.
+ */
+export const amazonMarketplacesList = Object.values(amazonMarketplaces)
