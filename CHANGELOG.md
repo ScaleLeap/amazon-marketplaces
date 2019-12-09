@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/ScaleLeap/amazon-marketplaces/compare/v1.1.0...v1.1.1) (2019-12-09)
+
+
+### Bug Fixes
+
+* removes windows from tests ([250b6bd](https://github.com/ScaleLeap/amazon-marketplaces/commit/250b6bd6805a1d619a1b328b9b5537e749b0ef9e))
+
 # [1.1.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v1.0.2...v1.1.0) (2019-10-09)
 
 
