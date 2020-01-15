@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v1.1.1...v1.2.0) (2020-01-15)
+
+
+### Features
+
+* adds United Arab Emirates support ([b58f110](https://github.com/ScaleLeap/amazon-marketplaces/commit/b58f110de7e220ba8d453d4ec94ffb1a786b1514))
+
 ## [1.1.1](https://github.com/ScaleLeap/amazon-marketplaces/compare/v1.1.0...v1.1.1) (2019-12-09)
 
 
