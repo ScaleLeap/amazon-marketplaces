@@ -43,7 +43,7 @@
     "ts-jest": "24.3.0",
     "tsconfigs": "4.0.2",
     "typedoc": "0.15.4",
-    "typescript": "3.7.3"
+    "typescript": "3.7.4"
   },
   "dependencies": {},
   "release": {
