@@ -31,7 +31,7 @@
   "license": "MIT",
   "devDependencies": {
     "@jedmao/semantic-release-npm-github-config": "1.0.9",
-    "@types/jest": "24.0.23",
+    "@types/jest": "24.0.25",
     "@types/node": "12.12.15",
     "@typescript-eslint/eslint-plugin": "2.16.0",
     "@typescript-eslint/parser": "2.16.0",
@@ -40,7 +40,7 @@
     "eslint-plugin-prettier": "3.1.2",
     "jest": "24.9.0",
     "prettier": "1.19.1",
-    "ts-jest": "24.2.0",
+    "ts-jest": "24.3.0",
     "tsconfigs": "4.0.2",
     "typedoc": "0.15.4",
     "typescript": "3.7.3"
