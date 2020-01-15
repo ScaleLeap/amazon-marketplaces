@@ -42,7 +42,7 @@
     "prettier": "1.19.1",
     "ts-jest": "24.3.0",
     "tsconfigs": "4.0.2",
-    "typedoc": "0.15.4",
+    "typedoc": "0.16.4",
     "typescript": "3.7.4"
   },
   "dependencies": {},
