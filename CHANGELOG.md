@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v1.2.0...v1.3.0) (2020-01-30)
+
+
+### Features
+
+* adds Netherlands marketplace ([cd73d40](https://github.com/ScaleLeap/amazon-marketplaces/commit/cd73d40e1772e001531783879dc0002bb711952a)), closes [#88](https://github.com/ScaleLeap/amazon-marketplaces/issues/88)
+
 # [1.2.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v1.1.1...v1.2.0) (2020-01-15)
 
 
