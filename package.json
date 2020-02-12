@@ -10,7 +10,9 @@
   "homepage": "https://github.com/ScaleLeap/amazon-marketplaces#readme",
   "scripts": {
     "test": "jest",
+    "prebuild": "npm run clean",
     "build": "tsc",
+    "clean": "rimraf lib",
     "build:docs": "typedoc",
     "lint": "eslint --ext .ts --ignore-path .gitignore ."
   },
@@ -40,6 +42,7 @@
     "eslint-plugin-prettier": "3.1.2",
     "jest": "25.1.0",
     "prettier": "1.19.1",
+    "rimraf": "3.0.2",
     "ts-jest": "25.2.0",
     "tsconfigs": "4.0.2",
     "typedoc": "0.16.9",
