@@ -4,8 +4,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "description": "A collection of Amazon Marketplace data objects.",
   "homepage": "https://github.com/ScaleLeap/amazon-marketplaces#readme",
   "scripts": {
