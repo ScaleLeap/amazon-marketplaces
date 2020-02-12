@@ -30,7 +30,7 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
       - name: Install & test
-        run: npm i -g npm && npm ci && npm t
+        run: npm i -g npm && npm ci && npm run lint && npm t
         env:
           CI: true
 
