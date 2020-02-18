@@ -96,3 +96,9 @@ version, because others may rely on iterating over the available marketplaces.
 ### License
 
 This project is licensed under the MIT License.
+
+### Badges
+
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ScaleLeap/amazon-marketplaces/CI)
+[![NPM](https://img.shields.io/npm/v/@scaleleap/amazon-marketplaces)](https://npm.im/@scaleleap/amazon-marketplaces)
+![License](https://img.shields.io/npm/l/@scaleleap/amazon-marketplaces)
