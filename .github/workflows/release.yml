@@ -1,9 +1,11 @@
-name: Release
+name: CI
+
+env:
+  CI: true
 
 on:
-  push:
-    branches:
-      - master
+   - push
+   - pull_request
 
 jobs:
   test:
@@ -21,38 +23,71 @@ jobs:
           - macOS-latest
 
     steps:
-      - name: Preserve line endings
-        run: git config --global core.autocrlf false
       - name: Checkout
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
+
+      - name: Cache node modules
+        uses: actions/cache@v1
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node }}
-      - name: Install & test
-        run: npm i -g npm && npm ci && npm run lint && npm t
-        env:
-          CI: true
 
-  release:
-    name: npm publish / GitHub release
+      - name: Install
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Test
+        run: npm t
+
+  npm-publish:
+    name: npm publish
+
+    if: github.ref == 'refs/heads/master'
+
     needs: test
+
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
+
+      - name: Cache node modules
+        uses: actions/cache@v1
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
           node-version: 12
-          registry-url: https://registry.npmjs.org/
+
       - name: Install
-        env:
-          CI: true
         run: npm ci
+
       - name: Build
-        if: success()
         run: npm run build
+
       - name: Semantic Release
         if: success()
         env:
