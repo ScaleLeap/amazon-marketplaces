@@ -31,6 +31,8 @@ a structured class.
 
 ### Code Demo
 
+#### Enum of Amazon Marketplace Data
+
 ```ts
 import { amazonMarketplaces } from '@scaleleap/amazon-marketplaces'
 
@@ -39,6 +41,14 @@ console.log(
   amazonMarketplaces.CA.name,
   amazonMarketplaces.CA.currency
 )
+```
+
+#### List of Amazon Marketplace Data
+
+```ts
+import { amazonMarketplacesList } from '@scaleleap/amazon-marketplaces'
+
+const marketplaceIds = amazonMarketplacesList.map(marketplace => marketplace.id)
 ```
 
 ### Full Data Object Example
