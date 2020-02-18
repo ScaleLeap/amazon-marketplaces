@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v1.3.0...v1.4.0) (2020-02-18)
+
+
+### Features
+
+* adds utility functions to finding marketplaces ([cad2615](https://github.com/ScaleLeap/amazon-marketplaces/commit/cad261596a85ce16197ffecd7e545238b8a75089))
+
 # [1.3.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v1.2.0...v1.3.0) (2020-01-30)
 
 
