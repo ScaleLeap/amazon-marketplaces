@@ -45,7 +45,7 @@
     "rimraf": "3.0.2",
     "ts-jest": "25.2.0",
     "tsconfigs": "4.0.2",
-    "typedoc": "0.16.9",
+    "typedoc": "0.16.10",
     "typescript": "3.7.5"
   },
   "dependencies": {
