@@ -51,6 +51,19 @@ import { amazonMarketplacesList } from '@scaleleap/amazon-marketplaces'
 const marketplaceIds = amazonMarketplacesList.map(marketplace => marketplace.id)
 ```
 
+#### Utility Functions
+
+```ts
+import { findAmazonMarketplace, findAmazonMarketplaceOrFail } from '@scaleleap/amazon-marketplaces'
+
+// Return value *can* be undefined
+const CA = findAmazonMarketplace('countryCode', 'CA')
+
+// Function will throw an error if marketplace is not found
+// Thus return value is never undefined.
+const US = findAmazonMarketplaceOrFail('countryCode', 'US')
+```
+
 ### Full Data Object Example
 
 ```json

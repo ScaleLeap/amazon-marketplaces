@@ -48,7 +48,9 @@
     "typedoc": "0.16.9",
     "typescript": "3.7.5"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@lavadrop/ensure": "1.0.0"
+  },
   "release": {
     "extends": "@jedmao/semantic-release-npm-github-config",
     "branch": "master"
