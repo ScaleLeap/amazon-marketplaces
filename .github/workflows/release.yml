@@ -1,25 +1,18 @@
-name: Test
+name: Release
 
 env:
   CI: true
 
 on:
-   - pull_request
+  push:
+    branches:
+      - master
 
 jobs:
-  test:
-    name: Node ${{ matrix.node }} and ${{ matrix.os }}
+  npm-publish:
+    name: npm publish
 
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      matrix:
-        node:
-          - 10
-          - 12
-        os:
-          - ubuntu-latest
-          - macOS-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
@@ -40,13 +33,20 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
-          node-version: ${{ matrix.node }}
+          node-version: 12
 
       - name: Install
         run: npm ci
 
-      - name: Lint
-        run: npm run lint
+      - name: Build
+        run: npm run build
 
-      - name: Test
-        run: npm t
+      - name: Semantic Release
+        if: success()
+        env:
+          GIT_AUTHOR_NAME: Scale Bot
+          GIT_AUTHOR_EMAIL: scale-bot@scaleleap.com
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npx semantic-release@latest
