@@ -16,15 +16,13 @@
         "pin",
         "digest"
       ],
-      "automerge": true,
-      "automergeType": "branch"
+      "automerge": true
     },
     {
       "depTypeList": [
         "devDependencies"
       ],
-      "automerge": true,
-      "automergeType": "branch"
+      "automerge": true
     }
   ]
 }
