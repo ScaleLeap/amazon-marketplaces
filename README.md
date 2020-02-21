@@ -108,7 +108,7 @@ version, because others may rely on iterating over the available marketplaces.
 
 ### Original Data Sources
 
-* [Amazon Advertising API](https://advertising.amazon.com/API/docs/v2/guides/supported_features)
+* [Amazon Advertising API](https://advertising.amazon.com/API/docs/en-us/get-started/how-to-use-api)
 * [Amazon Marketplace Web Service](https://docs.developer.amazonservices.com/en_US/dev_guide/DG_Endpoints.html)
 * [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217#X_currencies)
 
