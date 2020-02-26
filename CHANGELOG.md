@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v1.4.0...v1.5.0) (2020-02-26)
+
+
+### Features
+
+* adds advertising account time zone ([f20dbc8](https://github.com/ScaleLeap/amazon-marketplaces/commit/f20dbc8ddb770212318cace1851df9ab3045bb91))
+
 # [1.4.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v1.3.0...v1.4.0) (2020-02-18)
 
 
