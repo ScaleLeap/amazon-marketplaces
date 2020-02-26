@@ -4,6 +4,7 @@ import {
   amazonMarketplacesList,
   findAmazonMarketplace,
   findAmazonMarketplaceOrFail,
+  AmazonMarketplaceAdvertisingTimeZone,
 } from '../src'
 
 describe('index', () => {
@@ -12,6 +13,7 @@ describe('index', () => {
     expect(AmazonMarketplace).toBeTruthy()
     expect(findAmazonMarketplace).toBeTruthy()
     expect(findAmazonMarketplaceOrFail).toBeTruthy()
+    expect(AmazonMarketplaceAdvertisingTimeZone).toBeTruthy()
   })
 
   it('should also provide a list of marketplaces', () => {

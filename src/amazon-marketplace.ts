@@ -1,8 +1,25 @@
+/**
+ * Time Zone Enum.
+ */
+export enum AmazonMarketplaceAdvertisingTimeZone {
+  AMERICA_LOS_ANGELES = 'America/Los_Angeles',
+  ASIA_DUBAI = 'Asia/Dubai',
+  ASIA_TOKYO = 'Asia/Tokyo',
+  AUSTRALIA_SYDNEY = 'Australia/Sydney',
+  EUROPE_LONDON = 'Europe/London',
+  EUROPE_PARIS = 'Europe/Paris',
+}
+
 export interface AmazonMarketplaceAdvertising {
   /**
-   * Amazon Advertising API endpoint URI
+   * Amazon Advertising API endpoint URI.
    */
   readonly uri: string
+
+  /**
+   * Amazon Advertising account time zone.
+   */
+  readonly timeZone: AmazonMarketplaceAdvertisingTimeZone
 
   /**
    * Minimum and maximum bids for each advertising type.
