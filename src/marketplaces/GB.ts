@@ -1,4 +1,4 @@
-import { AmazonMarketplace } from '../amazon-marketplace'
+import { AmazonMarketplace, AmazonMarketplaceAdvertisingTimeZone } from '../amazon-marketplace'
 import { DE } from './DE'
 
 if (!DE.advertising) {
@@ -24,5 +24,6 @@ export const GB = new AmazonMarketplace({
         max: 100000,
       },
     },
+    timeZone: AmazonMarketplaceAdvertisingTimeZone.EUROPE_LONDON,
   },
 })

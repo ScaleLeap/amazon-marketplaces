@@ -1,4 +1,4 @@
-import { AmazonMarketplace } from '../amazon-marketplace'
+import { AmazonMarketplace, AmazonMarketplaceAdvertisingTimeZone } from '../amazon-marketplace'
 
 export const DE = new AmazonMarketplace({
   countryCode: 'DE',
@@ -19,5 +19,6 @@ export const DE = new AmazonMarketplace({
         max: 100000,
       },
     },
+    timeZone: AmazonMarketplaceAdvertisingTimeZone.EUROPE_PARIS,
   },
 })
