@@ -18,6 +18,10 @@ export interface AmazonMarketplaceAdvertising {
 
   /**
    * Amazon Advertising account time zone.
+   *
+   * @example
+   *
+   * "America/Los_Angeles"
    */
   readonly timeZone: AmazonMarketplaceAdvertisingTimeZone
 
