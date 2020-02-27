@@ -2,11 +2,12 @@ import {
   AmazonMarketplace,
   AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceAdvertisingCountryCode,
+  AmazonMarketplaceAdvertisingCurrency,
 } from '../amazon-marketplace'
 
 export const AE = new AmazonMarketplace({
   countryCode: AmazonMarketplaceAdvertisingCountryCode.AE,
-  currency: 'AED',
+  currency: AmazonMarketplaceAdvertisingCurrency.AED,
   id: 'A2VIGQ35RCS4UG',
   name: 'United Arab Emirates',
   uri: 'https://www.amazon.ae',
