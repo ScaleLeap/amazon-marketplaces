@@ -1,4 +1,27 @@
 /**
+ * Country codes.
+ */
+export enum AmazonMarketplaceAdvertisingCountryCode {
+  AE = 'AE',
+  AU = 'AU',
+  BR = 'BR',
+  CA = 'CA',
+  CN = 'CN',
+  DE = 'DE',
+  ES = 'ES',
+  FR = 'FR',
+  GB = 'GB',
+  IN = 'IN',
+  IT = 'IT',
+  JP = 'JP',
+  MX = 'MX',
+  NL = 'NL',
+  SG = 'SG',
+  TR = 'TR',
+  US = 'US',
+}
+
+/**
  * Time Zone Enum.
  */
 export enum AmazonMarketplaceAdvertisingTimeZone {
@@ -89,7 +112,7 @@ export interface AmazonMarketplace {
    *
    * 'CA'
    */
-  readonly countryCode: string
+  readonly countryCode: AmazonMarketplaceAdvertisingCountryCode
 
   /**
    * Currency code for the given marketplace.
