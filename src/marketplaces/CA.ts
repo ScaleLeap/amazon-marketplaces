@@ -1,11 +1,11 @@
-import { AmazonMarketplace } from '../amazon-marketplace'
+import { AmazonMarketplace, AmazonMarketplaceAdvertisingCountryCode } from '../amazon-marketplace'
 import { US } from './US'
 
 /**
  * Canada
  */
 export const CA = new AmazonMarketplace({
-  countryCode: 'CA',
+  countryCode: AmazonMarketplaceAdvertisingCountryCode.CA,
   currency: 'CAD',
   id: 'A2EUQ1WTGCTBG2',
   name: 'Canada',

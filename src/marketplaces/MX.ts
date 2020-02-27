@@ -1,7 +1,7 @@
-import { AmazonMarketplace } from '../amazon-marketplace'
+import { AmazonMarketplace, AmazonMarketplaceAdvertisingCountryCode } from '../amazon-marketplace'
 
 export const MX = new AmazonMarketplace({
-  countryCode: 'MX',
+  countryCode: AmazonMarketplaceAdvertisingCountryCode.MX,
   currency: 'MXN',
   id: 'A1AM78C64UM0Y8',
   name: 'Mexico',

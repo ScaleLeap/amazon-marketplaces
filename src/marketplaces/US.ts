@@ -1,7 +1,11 @@
-import { AmazonMarketplace, AmazonMarketplaceAdvertisingTimeZone } from '../amazon-marketplace'
+import {
+  AmazonMarketplace,
+  AmazonMarketplaceAdvertisingTimeZone,
+  AmazonMarketplaceAdvertisingCountryCode,
+} from '../amazon-marketplace'
 
 export const US = new AmazonMarketplace({
-  countryCode: 'US',
+  countryCode: AmazonMarketplaceAdvertisingCountryCode.US,
   currency: 'USD',
   id: 'ATVPDKIKX0DER',
   name: 'United States',
