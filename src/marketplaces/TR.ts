@@ -1,8 +1,12 @@
-import { AmazonMarketplace, AmazonMarketplaceAdvertisingCountryCode } from '../amazon-marketplace'
+import {
+  AmazonMarketplace,
+  AmazonMarketplaceAdvertisingCountryCode,
+  AmazonMarketplaceAdvertisingCurrency,
+} from '../amazon-marketplace'
 
 export const TR = new AmazonMarketplace({
   countryCode: AmazonMarketplaceAdvertisingCountryCode.TR,
-  currency: 'TRY',
+  currency: AmazonMarketplaceAdvertisingCurrency.TRY,
   id: 'A33AVAJ2PDY3EV',
   name: 'Turkey',
   uri: 'https://www.amazon.com.tr',

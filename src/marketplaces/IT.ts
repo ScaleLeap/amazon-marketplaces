@@ -1,9 +1,13 @@
-import { AmazonMarketplace, AmazonMarketplaceAdvertisingCountryCode } from '../amazon-marketplace'
+import {
+  AmazonMarketplace,
+  AmazonMarketplaceAdvertisingCountryCode,
+  AmazonMarketplaceAdvertisingCurrency,
+} from '../amazon-marketplace'
 import { DE } from './DE'
 
 export const IT = new AmazonMarketplace({
   countryCode: AmazonMarketplaceAdvertisingCountryCode.IT,
-  currency: 'EUR',
+  currency: AmazonMarketplaceAdvertisingCurrency.EUR,
   id: 'APJ6JRA9NG5V4',
   name: 'Italy',
   uri: 'https://www.amazon.it',

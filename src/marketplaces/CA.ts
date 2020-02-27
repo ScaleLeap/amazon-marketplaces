@@ -1,4 +1,8 @@
-import { AmazonMarketplace, AmazonMarketplaceAdvertisingCountryCode } from '../amazon-marketplace'
+import {
+  AmazonMarketplace,
+  AmazonMarketplaceAdvertisingCountryCode,
+  AmazonMarketplaceAdvertisingCurrency,
+} from '../amazon-marketplace'
 import { US } from './US'
 
 /**
@@ -6,7 +10,7 @@ import { US } from './US'
  */
 export const CA = new AmazonMarketplace({
   countryCode: AmazonMarketplaceAdvertisingCountryCode.CA,
-  currency: 'CAD',
+  currency: AmazonMarketplaceAdvertisingCurrency.CAD,
   id: 'A2EUQ1WTGCTBG2',
   name: 'Canada',
   uri: 'https://www.amazon.ca',

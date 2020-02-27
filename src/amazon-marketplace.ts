@@ -1,5 +1,5 @@
 /**
- * Country codes.
+ * Country code enum.
  */
 export enum AmazonMarketplaceAdvertisingCountryCode {
   AE = 'AE',
@@ -22,7 +22,26 @@ export enum AmazonMarketplaceAdvertisingCountryCode {
 }
 
 /**
- * Time Zone Enum.
+ * Currency enum.
+ */
+export enum AmazonMarketplaceAdvertisingCurrency {
+  AED = 'AED',
+  AUD = 'AUD',
+  BRL = 'BRL',
+  CAD = 'CAD',
+  CNY = 'CNY',
+  EUR = 'EUR',
+  GBP = 'GBP',
+  INR = 'INR',
+  JPY = 'JPY',
+  MXN = 'MXN',
+  SGD = 'SGD',
+  TRY = 'TRY',
+  USD = 'USD',
+}
+
+/**
+ * Time Zone enum.
  */
 export enum AmazonMarketplaceAdvertisingTimeZone {
   AMERICA_LOS_ANGELES = 'America/Los_Angeles',
@@ -110,7 +129,7 @@ export interface AmazonMarketplace {
    *
    * @example
    *
-   * 'CA'
+   * AmazonMarketplaceAdvertisingCountryCode.CA
    */
   readonly countryCode: AmazonMarketplaceAdvertisingCountryCode
 
@@ -121,9 +140,9 @@ export interface AmazonMarketplace {
    *
    * @example
    *
-   * 'CAD'
+   * AmazonMarketplaceAdvertisingCurrency.CAD
    */
-  readonly currency: string
+  readonly currency: AmazonMarketplaceAdvertisingCurrency
 
   /**
    * Amazon Marketplace URI.
