@@ -117,6 +117,7 @@ version, because others may rely on iterating over the available marketplaces.
 * [Amazon Advertising API](https://advertising.amazon.com/API/docs/en-us/get-started/how-to-use-api)
 * [Amazon Marketplace Web Service](https://docs.developer.amazonservices.com/en_US/dev_guide/DG_Endpoints.html)
 * [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217#Active_codes)
+* [ISO 3166](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes)
 * [Regional profile time zone codes](https://advertising.amazon.com/API/docs/en-us/reference/2/profiles#regional-profile-time-zone-codes)
 * [List of tz database time zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
 
