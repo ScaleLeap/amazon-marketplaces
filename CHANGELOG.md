@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v2.0.0...v3.0.0) (2020-03-09)
+
+
+### Bug Fixes
+
+* adds countryCode to AmazonMarketplaceAdvertising ([d953e3a](https://github.com/ScaleLeap/amazon-marketplaces/commit/d953e3a4140469fd7561ec0a7295d74021b22f6f))
+
+
+### Code Refactoring
+
+* renames AmazonMarketplaceAdvertisingCountryCode ([85198cd](https://github.com/ScaleLeap/amazon-marketplaces/commit/85198cd93758046a6942f3604a83054ac82a3a64))
+
+
+### BREAKING CHANGES
+
+* Adds countryCode to AmazonMarketplaceAdvertising that is different from AmazonMarketplaceCountryCode enum.
+Closes https://github.com/ScaleLeap/amazon-marketplaces/issues/122
+* Renames AmazonMarketplaceAdvertisingCountryCode enum to AmazonMarketplaceCountryCode
+
 # [2.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v1.5.0...v2.0.0) (2020-02-27)
 
 
