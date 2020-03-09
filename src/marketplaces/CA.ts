@@ -1,9 +1,11 @@
 import {
   AmazonMarketplace,
+  AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceCountryCode,
   AmazonMarketplaceAdvertisingCurrency,
+  AmazonMarketplaceAdvertisingCountryCode,
+  AmazonMarketplaceAdvertisingRegion,
 } from '../amazon-marketplace'
-import { US } from './US'
 
 /**
  * Canada
@@ -15,5 +17,20 @@ export const CA = new AmazonMarketplace({
   name: 'Canada',
   uri: 'https://www.amazon.ca',
   webServiceUri: 'https://mws.amazonservices.ca',
-  advertising: Object.assign({}, US.advertising),
+  advertising: {
+    uri: 'https://advertising-api.amazon.com',
+    countryCode: AmazonMarketplaceAdvertisingCountryCode.CA,
+    region: AmazonMarketplaceAdvertisingRegion.NORTH_AMERICA,
+    bids: {
+      sponsoredBrands: {
+        min: 10,
+        max: 4900,
+      },
+      sponsoredProducts: {
+        min: 2,
+        max: 100000,
+      },
+    },
+    timeZone: AmazonMarketplaceAdvertisingTimeZone.AMERICA_LOS_ANGELES,
+  },
 })
