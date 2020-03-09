@@ -99,6 +99,8 @@ const US = findAmazonMarketplaceOrFail('countryCode', AmazonMarketplaceCountryCo
 }
 ```
 
+You may also view the [Jest snapshot data](tests/__snapshots__/marketplaces.test.ts.snap) for the fully rendered data object examples.
+
 ### Download & Installation
 
 ```sh
