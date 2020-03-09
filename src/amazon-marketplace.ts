@@ -1,7 +1,7 @@
 /**
  * Country code enum.
  */
-export enum AmazonMarketplaceAdvertisingCountryCode {
+export enum AmazonMarketplaceCountryCode {
   AE = 'AE',
   AU = 'AU',
   BR = 'BR',
@@ -129,9 +129,9 @@ export interface AmazonMarketplace {
    *
    * @example
    *
-   * AmazonMarketplaceAdvertisingCountryCode.CA
+   * AmazonMarketplaceCountryCode.CA
    */
-  readonly countryCode: AmazonMarketplaceAdvertisingCountryCode
+  readonly countryCode: AmazonMarketplaceCountryCode
 
   /**
    * Currency code for the given marketplace.

@@ -1,12 +1,12 @@
 import {
   AmazonMarketplace,
   AmazonMarketplaceAdvertisingTimeZone,
-  AmazonMarketplaceAdvertisingCountryCode,
+  AmazonMarketplaceCountryCode,
   AmazonMarketplaceAdvertisingCurrency,
 } from '../amazon-marketplace'
 
 export const JP = new AmazonMarketplace({
-  countryCode: AmazonMarketplaceAdvertisingCountryCode.JP,
+  countryCode: AmazonMarketplaceCountryCode.JP,
   currency: AmazonMarketplaceAdvertisingCurrency.JPY,
   id: 'A1VC38T7YXB528',
   name: 'Japan',

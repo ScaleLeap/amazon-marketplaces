@@ -1,7 +1,7 @@
 import {
   AmazonMarketplace,
   AmazonMarketplaceAdvertisingTimeZone,
-  AmazonMarketplaceAdvertisingCountryCode,
+  AmazonMarketplaceCountryCode,
   AmazonMarketplaceAdvertisingCurrency,
 } from '../amazon-marketplace'
 import { DE } from './DE'
@@ -11,7 +11,7 @@ if (!DE.advertising) {
 }
 
 export const GB = new AmazonMarketplace({
-  countryCode: AmazonMarketplaceAdvertisingCountryCode.GB,
+  countryCode: AmazonMarketplaceCountryCode.GB,
   currency: AmazonMarketplaceAdvertisingCurrency.GBP,
   id: 'A1F83G8C2ARO7P',
   name: 'United Kingdom',
