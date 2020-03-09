@@ -82,6 +82,7 @@ const US = findAmazonMarketplaceOrFail('countryCode', AmazonMarketplaceAdvertisi
   "advertising": {
     "uri": "https://advertising-api.amazon.com",
     "countryCode": "CA",
+    "region": "NA",
     "bids": {
       "sponsoredBrands": {
         "min": 10,

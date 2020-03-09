@@ -4,6 +4,7 @@ import {
   AmazonMarketplaceCountryCode,
   AmazonMarketplaceAdvertisingCurrency,
   AmazonMarketplaceAdvertisingCountryCode,
+  AmazonMarketplaceAdvertisingRegion,
 } from '../amazon-marketplace'
 
 export const AE = new AmazonMarketplace({
@@ -16,6 +17,7 @@ export const AE = new AmazonMarketplace({
   advertising: {
     uri: 'https://advertising-api-eu.amazon.com',
     countryCode: AmazonMarketplaceAdvertisingCountryCode.AE,
+    region: AmazonMarketplaceAdvertisingRegion.EUROPE,
     bids: {
       sponsoredBrands: {
         min: 24,

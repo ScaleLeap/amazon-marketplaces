@@ -4,6 +4,7 @@ import {
   AmazonMarketplaceCountryCode,
   AmazonMarketplaceAdvertisingCurrency,
   AmazonMarketplaceAdvertisingCountryCode,
+  AmazonMarketplaceAdvertisingRegion,
 } from '../amazon-marketplace'
 
 export const AU = new AmazonMarketplace({
@@ -16,6 +17,7 @@ export const AU = new AmazonMarketplace({
   advertising: {
     uri: 'https://advertising-api-fe.amazon.com',
     countryCode: AmazonMarketplaceAdvertisingCountryCode.AU,
+    region: AmazonMarketplaceAdvertisingRegion.FAR_EAST,
     bids: {
       sponsoredBrands: {
         min: 10,
