@@ -58,15 +58,15 @@ const marketplaceIds = amazonMarketplacesList.map(marketplace => marketplace.id)
 import {
   findAmazonMarketplace,
   findAmazonMarketplaceOrFail,
-  AmazonMarketplaceAdvertisingCountryCode
+  AmazonMarketplaceCountryCode
 } from '@scaleleap/amazon-marketplaces'
 
 // Return value *can* be undefined
-const CA = findAmazonMarketplace('countryCode', AmazonMarketplaceAdvertisingCountryCode.CA)
+const CA = findAmazonMarketplace('countryCode', AmazonMarketplaceCountryCode.CA)
 
 // Function will throw an error if marketplace is not found
 // Thus return value is never undefined.
-const US = findAmazonMarketplaceOrFail('countryCode', AmazonMarketplaceAdvertisingCountryCode.US)
+const US = findAmazonMarketplaceOrFail('countryCode', AmazonMarketplaceCountryCode.US)
 ```
 
 ### Full Data Object Example
