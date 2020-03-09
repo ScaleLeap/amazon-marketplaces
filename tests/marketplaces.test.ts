@@ -13,12 +13,19 @@ describe('marketplace', () => {
     expect(countryCodes.length).toBe(17)
   })
 
-  it('files should match the exports', () => {
-    expect.assertions(countryCodes.length)
+  describe.each(countryCodes)('%s', countryCode => {
+    const code = (countryCode as unknown) as keyof typeof amazonMarketplaces
 
-    countryCodes.forEach(countryCode => {
-      const code = (countryCode as unknown) as keyof typeof amazonMarketplaces
+    it('should match the exports', () => {
+      expect.assertions(1)
+
       expect(amazonMarketplaces[code].countryCode).toBe(code)
+    })
+
+    it('should match snapshot', () => {
+      expect.assertions(1)
+
+      expect(amazonMarketplaces[code]).toMatchSnapshot()
     })
   })
 
