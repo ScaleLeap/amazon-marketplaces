@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.2](https://github.com/ScaleLeap/amazon-marketplaces/compare/v3.1.1...v3.1.2) (2020-03-09)
+
+
+### Bug Fixes
+
+* documentation for AmazonMarketplaceCountryCode ([147e81f](https://github.com/ScaleLeap/amazon-marketplaces/commit/147e81f7234c5dfea4bd45a155dc25974b68264f))
+
 ## [3.1.1](https://github.com/ScaleLeap/amazon-marketplaces/compare/v3.1.0...v3.1.1) (2020-03-09)
 
 
