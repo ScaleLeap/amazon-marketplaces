@@ -1,12 +1,12 @@
 import {
   AmazonMarketplace,
-  AmazonMarketplaceAdvertisingCountryCode,
+  AmazonMarketplaceCountryCode,
   AmazonMarketplaceAdvertisingCurrency,
 } from '../amazon-marketplace'
 import { DE } from './DE'
 
 export const NL = new AmazonMarketplace({
-  countryCode: AmazonMarketplaceAdvertisingCountryCode.NL,
+  countryCode: AmazonMarketplaceCountryCode.NL,
   currency: AmazonMarketplaceAdvertisingCurrency.EUR,
   id: 'A1805IZSGTT6HS',
   name: 'Netherlands',
