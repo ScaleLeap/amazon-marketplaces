@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v3.0.0...v3.1.0) (2020-03-09)
+
+
+### Features
+
+* adds Amazon Advertising region enum ([5465d6e](https://github.com/ScaleLeap/amazon-marketplaces/commit/5465d6e5c7e7993939f9892d736a0a9b7299b771))
+
 # [3.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v2.0.0...v3.0.0) (2020-03-09)
 
 
