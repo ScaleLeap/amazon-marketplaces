@@ -1,9 +1,10 @@
 import {
   AmazonMarketplace,
-  AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceCountryCode,
   AmazonMarketplaceAdvertisingCurrency,
+  AmazonMarketplaceAdvertisingCountryCode,
 } from '../amazon-marketplace'
+import { europeanAdvertisingFactory } from '../european-advertising-factory'
 
 export const DE = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.DE,
@@ -12,18 +13,5 @@ export const DE = new AmazonMarketplace({
   name: 'Germany',
   uri: 'https://www.amazon.de',
   webServiceUri: 'https://mws-eu.amazonservices.com',
-  advertising: {
-    uri: 'https://advertising-api-eu.amazon.com',
-    bids: {
-      sponsoredBrands: {
-        min: 10,
-        max: 3900,
-      },
-      sponsoredProducts: {
-        min: 2,
-        max: 100000,
-      },
-    },
-    timeZone: AmazonMarketplaceAdvertisingTimeZone.EUROPE_PARIS,
-  },
+  advertising: europeanAdvertisingFactory(AmazonMarketplaceAdvertisingCountryCode.DE),
 })

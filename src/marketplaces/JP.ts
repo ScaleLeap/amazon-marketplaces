@@ -3,6 +3,7 @@ import {
   AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceCountryCode,
   AmazonMarketplaceAdvertisingCurrency,
+  AmazonMarketplaceAdvertisingCountryCode,
 } from '../amazon-marketplace'
 
 export const JP = new AmazonMarketplace({
@@ -14,6 +15,7 @@ export const JP = new AmazonMarketplace({
   webServiceUri: 'https://mws.amazonservices.jp',
   advertising: {
     uri: 'https://advertising-api-fe.amazon.com',
+    countryCode: AmazonMarketplaceAdvertisingCountryCode.JP,
     bids: {
       sponsoredBrands: {
         min: 1000,

@@ -3,6 +3,7 @@ import {
   AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceCountryCode,
   AmazonMarketplaceAdvertisingCurrency,
+  AmazonMarketplaceAdvertisingCountryCode,
 } from '../amazon-marketplace'
 
 export const AU = new AmazonMarketplace({
@@ -14,6 +15,7 @@ export const AU = new AmazonMarketplace({
   webServiceUri: 'https://mws.amazonservices.com.au',
   advertising: {
     uri: 'https://advertising-api-fe.amazon.com',
+    countryCode: AmazonMarketplaceAdvertisingCountryCode.AU,
     bids: {
       sponsoredBrands: {
         min: 10,
