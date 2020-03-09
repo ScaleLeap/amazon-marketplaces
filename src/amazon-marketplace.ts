@@ -1,5 +1,5 @@
 /**
- * Country code enum.
+ * Amazon Marketplace country code enum.
  */
 export enum AmazonMarketplaceCountryCode {
   AE = 'AE',
