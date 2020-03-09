@@ -37,11 +37,9 @@ a structured class.
 ```ts
 import { amazonMarketplaces } from '@scaleleap/amazon-marketplaces'
 
-console.log(
-  'Amazon Marketplace %s has currency %s.',
-  amazonMarketplaces.CA.name,
-  amazonMarketplaces.CA.currency
-)
+const { CA } = amazonMarketplaces
+
+console.log('Amazon Marketplace %s uses currency %s.', CA.name, CA.currency)
 ```
 
 #### List of Amazon Marketplace Data
