@@ -1,11 +1,11 @@
 import {
   AmazonMarketplace,
-  AmazonMarketplaceAdvertisingCountryCode,
+  AmazonMarketplaceCountryCode,
   AmazonMarketplaceAdvertisingCurrency,
 } from '../amazon-marketplace'
 
 export const SG = new AmazonMarketplace({
-  countryCode: AmazonMarketplaceAdvertisingCountryCode.SG,
+  countryCode: AmazonMarketplaceCountryCode.SG,
   currency: AmazonMarketplaceAdvertisingCurrency.SGD,
   id: 'A19VAU5U5O7RUS',
   name: 'Singapore',
