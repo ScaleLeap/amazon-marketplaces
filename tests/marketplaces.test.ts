@@ -7,6 +7,12 @@ const countryCodes = readdirSync(join(__dirname, '../src/marketplaces'))
   .filter(f => f.match(/^[A-Z]{2}$/))
 
 describe('marketplace', () => {
+  it('has a known number of marketplaces', () => {
+    expect.assertions(1)
+
+    expect(countryCodes.length).toBe(17)
+  })
+
   it('files should match the exports', () => {
     expect.assertions(countryCodes.length)
 
