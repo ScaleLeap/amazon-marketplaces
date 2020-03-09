@@ -41,6 +41,24 @@ export enum AmazonMarketplaceAdvertisingCurrency {
 }
 
 /**
+ * Amazon Marketplace Advertising country code enum.
+ *
+ * The country code identifying the publisher(s) on which ads will run.
+ */
+export enum AmazonMarketplaceAdvertisingCountryCode {
+  AE = 'AE',
+  AU = 'AU',
+  CA = 'CA',
+  DE = 'DE',
+  ES = 'ES',
+  FR = 'FR',
+  IT = 'IT',
+  JP = 'JP',
+  UK = 'UK', // Not a real country code, but such is life. See https://github.com/ScaleLeap/amazon-marketplaces/issues/122
+  US = 'US',
+}
+
+/**
  * Time Zone enum.
  */
 export enum AmazonMarketplaceAdvertisingTimeZone {
@@ -66,6 +84,18 @@ export interface AmazonMarketplaceAdvertising {
    * "America/Los_Angeles"
    */
   readonly timeZone: AmazonMarketplaceAdvertisingTimeZone
+
+  /**
+   * The country code identifying the publisher(s) on which ads will run.
+   *
+   * [ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1) with the exception of UK, which uses
+   * `UK` instead of `GB`.
+   *
+   * @example
+   *
+   * AmazonMarketplaceAdvertisingCountryCode.CA
+   */
+  readonly countryCode: AmazonMarketplaceAdvertisingCountryCode
 
   /**
    * Minimum and maximum bids for each advertising type.

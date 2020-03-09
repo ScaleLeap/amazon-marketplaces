@@ -81,6 +81,7 @@ const US = findAmazonMarketplaceOrFail('countryCode', AmazonMarketplaceAdvertisi
   "webServiceUri": "https://mws.amazonservices.ca",
   "advertising": {
     "uri": "https://advertising-api.amazon.com",
+    "countryCode": "CA",
     "bids": {
       "sponsoredBrands": {
         "min": 10,

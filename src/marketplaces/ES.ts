@@ -2,8 +2,9 @@ import {
   AmazonMarketplace,
   AmazonMarketplaceCountryCode,
   AmazonMarketplaceAdvertisingCurrency,
+  AmazonMarketplaceAdvertisingCountryCode,
 } from '../amazon-marketplace'
-import { DE } from './DE'
+import { europeanAdvertisingFactory } from '../european-advertising-factory'
 
 export const ES = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.ES,
@@ -12,5 +13,5 @@ export const ES = new AmazonMarketplace({
   name: 'Spain',
   uri: 'https://www.amazon.es',
   webServiceUri: 'https://mws-eu.amazonservices.com',
-  advertising: Object.assign({}, DE.advertising),
+  advertising: europeanAdvertisingFactory(AmazonMarketplaceAdvertisingCountryCode.ES),
 })

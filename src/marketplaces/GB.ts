@@ -3,6 +3,7 @@ import {
   AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceCountryCode,
   AmazonMarketplaceAdvertisingCurrency,
+  AmazonMarketplaceAdvertisingCountryCode,
 } from '../amazon-marketplace'
 import { DE } from './DE'
 
@@ -19,6 +20,7 @@ export const GB = new AmazonMarketplace({
   webServiceUri: DE.webServiceUri,
   advertising: {
     uri: DE.advertising.uri,
+    countryCode: AmazonMarketplaceAdvertisingCountryCode.UK,
     bids: {
       sponsoredBrands: {
         min: 10,
