@@ -70,6 +70,15 @@ export enum AmazonMarketplaceAdvertisingTimeZone {
   EUROPE_PARIS = 'Europe/Paris',
 }
 
+/**
+ * Amazon Advertising API Regions
+ */
+export enum AmazonMarketplaceAdvertisingRegion {
+  NORTH_AMERICA = 'NA',
+  EUROPE = 'EU',
+  FAR_EAST = 'FE',
+}
+
 export interface AmazonMarketplaceAdvertising {
   /**
    * Amazon Advertising API endpoint URI.
@@ -96,6 +105,11 @@ export interface AmazonMarketplaceAdvertising {
    * AmazonMarketplaceAdvertisingCountryCode.CA
    */
   readonly countryCode: AmazonMarketplaceAdvertisingCountryCode
+
+  /**
+   * Amazon Advertising API Regions
+   */
+  readonly region: AmazonMarketplaceAdvertisingRegion
 
   /**
    * Minimum and maximum bids for each advertising type.
