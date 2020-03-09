@@ -46,6 +46,9 @@ console.log(
 
 #### List of Amazon Marketplace Data
 
+Sometimes it is more ergonomic to iterate over an array of marketplaces.
+And that is where `amazonMarketplacesList` may come handy.
+
 ```ts
 import { amazonMarketplacesList } from '@scaleleap/amazon-marketplaces'
 
