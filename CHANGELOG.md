@@ -1,5 +1,17 @@
 # Changelog
 
+          All notable changes to this project will be documented in this file.
+          See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [4.0.1](https://github.com/ScaleLeap/amazon-marketplaces/compare/v4.0.0...v4.0.1) (2020-03-10)
+
+
+### Bug Fixes
+
+* npm audit ([de674ab](https://github.com/ScaleLeap/amazon-marketplaces/commit/de674ab3c52a38814967a35e18594143c266ea79))
+
+# Changelog
+
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
