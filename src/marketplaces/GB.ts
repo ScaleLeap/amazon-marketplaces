@@ -4,8 +4,8 @@ import {
   AmazonMarketplaceCountryCode,
   AmazonMarketplaceAdvertisingCurrency,
   AmazonMarketplaceAdvertisingCountryCode,
-  AmazonMarketplaceAdvertisingRegion,
 } from '../amazon-marketplace'
+import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
 import { DE } from './DE'
 
 if (!DE.advertising) {
@@ -20,9 +20,8 @@ export const GB = new AmazonMarketplace({
   uri: 'https://www.amazon.co.uk',
   webServiceUri: DE.webServiceUri,
   advertising: {
-    uri: DE.advertising.uri,
     countryCode: AmazonMarketplaceAdvertisingCountryCode.UK,
-    region: AmazonMarketplaceAdvertisingRegion.EUROPE,
+    region: marketplaceAdvertisingRegions.EU,
     bids: {
       sponsoredBrands: {
         min: 10,

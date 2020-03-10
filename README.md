@@ -81,9 +81,15 @@ const US = findAmazonMarketplaceOrFail('countryCode', AmazonMarketplaceCountryCo
   "uri": "https://www.amazon.ca",
   "webServiceUri": "https://mws.amazonservices.ca",
   "advertising": {
-    "uri": "https://advertising-api.amazon.com",
     "countryCode": "CA",
-    "region": "NA",
+    "timeZone": "America/Los_Angeles",
+    "region": {
+      "accessTokenUri": "https://api.amazon.com/auth/o2/token",
+      "authorizationUri": "https://www.amazon.com/ap/oa",
+      "code": "NA",
+      "endpoint": "https://advertising-api.amazon.com",
+      "name": "North America",
+    },
     "bids": {
       "sponsoredBrands": {
         "min": 10,
@@ -94,7 +100,6 @@ const US = findAmazonMarketplaceOrFail('countryCode', AmazonMarketplaceCountryCo
         "max": 100000
       }
     },
-    "timeZone": "America/Los_Angeles"
   }
 }
 ```

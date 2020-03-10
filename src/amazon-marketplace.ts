@@ -1,3 +1,5 @@
+import { AmazonMarketplaceAdvertisingRegion } from './amazon-marketplace-advertising-region'
+
 /**
  * Amazon Marketplace country code enum.
  */
@@ -70,21 +72,7 @@ export enum AmazonMarketplaceAdvertisingTimeZone {
   EUROPE_PARIS = 'Europe/Paris',
 }
 
-/**
- * Amazon Advertising API Regions
- */
-export enum AmazonMarketplaceAdvertisingRegion {
-  NORTH_AMERICA = 'NA',
-  EUROPE = 'EU',
-  FAR_EAST = 'FE',
-}
-
 export interface AmazonMarketplaceAdvertising {
-  /**
-   * Amazon Advertising API endpoint URI.
-   */
-  readonly uri: string
-
   /**
    * Amazon Advertising account time zone.
    *

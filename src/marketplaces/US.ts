@@ -4,8 +4,8 @@ import {
   AmazonMarketplaceCountryCode,
   AmazonMarketplaceAdvertisingCurrency,
   AmazonMarketplaceAdvertisingCountryCode,
-  AmazonMarketplaceAdvertisingRegion,
 } from '../amazon-marketplace'
+import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
 
 export const US = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.US,
@@ -15,9 +15,8 @@ export const US = new AmazonMarketplace({
   uri: 'https://www.amazon.com',
   webServiceUri: 'https://mws.amazonservices.com',
   advertising: {
-    uri: 'https://advertising-api.amazon.com',
     countryCode: AmazonMarketplaceAdvertisingCountryCode.US,
-    region: AmazonMarketplaceAdvertisingRegion.NORTH_AMERICA,
+    region: marketplaceAdvertisingRegions.NA,
     bids: {
       sponsoredBrands: {
         min: 10,

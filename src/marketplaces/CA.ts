@@ -4,8 +4,8 @@ import {
   AmazonMarketplaceCountryCode,
   AmazonMarketplaceAdvertisingCurrency,
   AmazonMarketplaceAdvertisingCountryCode,
-  AmazonMarketplaceAdvertisingRegion,
 } from '../amazon-marketplace'
+import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
 
 /**
  * Canada
@@ -18,9 +18,8 @@ export const CA = new AmazonMarketplace({
   uri: 'https://www.amazon.ca',
   webServiceUri: 'https://mws.amazonservices.ca',
   advertising: {
-    uri: 'https://advertising-api.amazon.com',
     countryCode: AmazonMarketplaceAdvertisingCountryCode.CA,
-    region: AmazonMarketplaceAdvertisingRegion.NORTH_AMERICA,
+    region: marketplaceAdvertisingRegions.NA,
     bids: {
       sponsoredBrands: {
         min: 10,
