@@ -2,16 +2,15 @@ import {
   AmazonMarketplaceAdvertisingCountryCode,
   AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceAdvertising,
-  AmazonMarketplaceAdvertisingRegion,
 } from './amazon-marketplace'
+import { marketplaceAdvertisingRegions } from './marketplace-advertising-regions'
 
 export function europeanAdvertisingFactory(
   countryCode: AmazonMarketplaceAdvertisingCountryCode,
 ): AmazonMarketplaceAdvertising {
   return {
-    uri: 'https://advertising-api-eu.amazon.com',
     countryCode,
-    region: AmazonMarketplaceAdvertisingRegion.EUROPE,
+    region: marketplaceAdvertisingRegions.EU,
     bids: {
       sponsoredBrands: {
         min: 10,
