@@ -8,7 +8,7 @@ type Key = keyof Omit<AmazonMarketplace, 'uri' | 'webServiceUri' | 'advertising'
  * Finds an Amazon Marketplace based on provided search parameter.
  */
 export function findAmazonMarketplace<K extends Key>(key: K, value: AmazonMarketplace[K]) {
-  return amazonMarketplacesList.find(marketplace => marketplace[key] === value)
+  return amazonMarketplacesList.find((marketplace) => marketplace[key] === value)
 }
 
 /**
