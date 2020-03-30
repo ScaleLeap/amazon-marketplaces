@@ -44,7 +44,7 @@
     "jest": "25.2.4",
     "prettier": "1.19.1",
     "rimraf": "3.0.2",
-    "ts-jest": "25.2.1",
+    "ts-jest": "25.3.0",
     "tsconfigs": "4.0.2",
     "typedoc": "0.17.3",
     "typescript": "3.8.3"
