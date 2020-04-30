@@ -1,6 +1,6 @@
 {
   "name": "@scaleleap/amazon-marketplaces",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "publishConfig": {
     "access": "public"
   },
