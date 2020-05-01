@@ -32,7 +32,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@scaleleap/semantic-release-config": "1.1.7",
+    "@scaleleap/semantic-release-config": "1.1.8",
     "@types/jest": "25.2.1",
     "@types/node": "13.9.8",
     "@typescript-eslint/eslint-plugin": "2.26.0",
