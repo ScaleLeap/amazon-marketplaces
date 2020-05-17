@@ -3,6 +3,18 @@
           All notable changes to this project will be documented in this file.
           See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.1.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v4.0.2...v4.1.0) (2020-05-17)
+
+
+### Bug Fixes
+
+* npm audit ([51feca1](https://github.com/ScaleLeap/amazon-marketplaces/commit/51feca1a22ddb9a9230a17374e29ba6db3a6511f))
+
+
+### Features
+
+* adds assertMarketplaceHasAdvertising assertion fn ([33113b7](https://github.com/ScaleLeap/amazon-marketplaces/commit/33113b74306f0738eb1bec2108429669dda39c64))
+
 ## [4.0.2](https://github.com/ScaleLeap/amazon-marketplaces/compare/v4.0.1...v4.0.2) (2020-04-30)
 
 
