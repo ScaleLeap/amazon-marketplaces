@@ -1,8 +1,8 @@
-import { findAmazonMarketplace, findAmazonMarketplaceOrFail } from '../src/utils'
+import { findAmazonMarketplace, findAmazonMarketplaceOrFail, assertMarketplaceHasAdvertising } from '../src/utils'
 import { amazonMarketplaces } from '../src/marketplaces'
 
 describe('utils', () => {
-  const { CA } = amazonMarketplaces
+  const { CA, TR } = amazonMarketplaces
 
   describe(findAmazonMarketplace.name, () => {
     it('should find by id', () => {
@@ -33,6 +33,19 @@ describe('utils', () => {
 
     it('should throw when marketplace is not found', () => {
       expect(() => findAmazonMarketplaceOrFail('id', 'WRONG ID')).toThrowError()
+    })
+  })
+
+  describe(`${assertMarketplaceHasAdvertising.name}`, () => {
+    it('should assert that we have the advertising', () => {
+      assertMarketplaceHasAdvertising(CA)
+
+      // here we simply ensure that advertising can be accessed, and it's not undefined
+      expect(CA.advertising.countryCode).toBe('CA')
+    })
+
+    it('should throw when advertising is not available', () => {
+      expect(() => assertMarketplaceHasAdvertising(TR)).toThrow()
     })
   })
 })

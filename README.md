@@ -68,6 +68,13 @@ const CA = findAmazonMarketplace('countryCode', AmazonMarketplaceCountryCode.CA)
 // Function will throw an error if marketplace is not found
 // Thus return value is never undefined.
 const US = findAmazonMarketplaceOrFail('countryCode', AmazonMarketplaceCountryCode.US)
+
+// TypeScript assertion function that ensures that the marketplace has advertising enabled.
+// Throws if not.
+assertMarketplaceHasAdvertising(CA)
+
+// CA.advertising is now type guarded and can be safely accessed.
+console.log(CA.advertising.countryCode)
 ```
 
 ### Full Data Object Example
