@@ -47,7 +47,7 @@
     "ts-jest": "25.4.0",
     "tsconfigs": "4.0.2",
     "typedoc": "0.17.7",
-    "typescript": "3.9.3"
+    "typescript": "3.9.5"
   },
   "dependencies": {
     "@lavadrop/ensure": "1.0.0"
