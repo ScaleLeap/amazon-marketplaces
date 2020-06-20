@@ -12,6 +12,7 @@ import { IT } from './IT'
 import { JP } from './JP'
 import { MX } from './MX'
 import { NL } from './NL'
+import { SA } from './SA'
 import { SG } from './SG'
 import { TR } from './TR'
 import { US } from './US'
@@ -86,6 +87,11 @@ export const amazonMarketplaces = {
    * Netherlands
    */
   NL,
+
+  /**
+   * Singapore
+   */
+  SA,
 
   /**
    * Singapore
