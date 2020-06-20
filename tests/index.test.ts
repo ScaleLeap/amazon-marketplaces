@@ -22,6 +22,6 @@ describe('index', () => {
 
   it('should also provide a list of marketplaces', () => {
     expect(Array.isArray(amazonMarketplacesList)).toBeTruthy()
-    expect(amazonMarketplacesList.length).toBe(17)
+    expect(amazonMarketplacesList.length).toBe(18)
   })
 })
