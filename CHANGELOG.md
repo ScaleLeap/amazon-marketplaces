@@ -3,6 +3,18 @@
           All notable changes to this project will be documented in this file.
           See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v4.1.0...v5.0.0) (2020-06-20)
+
+
+### Features
+
+* adds Saudi Arabia marketplace ([dae8348](https://github.com/ScaleLeap/amazon-marketplaces/commit/dae8348895742a62e7522c86b7f0543b1b785e5a))
+
+
+### BREAKING CHANGES
+
+* adds Saudi Arabia marketplace
+
 # [4.1.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v4.0.2...v4.1.0) (2020-05-17)
 
 
