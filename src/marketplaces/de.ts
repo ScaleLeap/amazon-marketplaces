@@ -1,17 +1,17 @@
 import {
   AmazonMarketplace,
-  AmazonMarketplaceCountryCode,
-  AmazonMarketplaceAdvertisingCurrency,
   AmazonMarketplaceAdvertisingCountryCode,
+  AmazonMarketplaceAdvertisingCurrency,
+  AmazonMarketplaceCountryCode,
 } from '../amazon-marketplace'
 import { europeanAdvertisingFactory } from '../european-advertising-factory'
 
-export const IT = new AmazonMarketplace({
-  countryCode: AmazonMarketplaceCountryCode.IT,
+export const DE = new AmazonMarketplace({
+  countryCode: AmazonMarketplaceCountryCode.DE,
   currency: AmazonMarketplaceAdvertisingCurrency.EUR,
-  id: 'APJ6JRA9NG5V4',
-  name: 'Italy',
-  uri: 'https://www.amazon.it',
+  id: 'A1PA6795UKMFR9',
+  name: 'Germany',
+  uri: 'https://www.amazon.de',
   webServiceUri: 'https://mws-eu.amazonservices.com',
   advertising: europeanAdvertisingFactory(AmazonMarketplaceAdvertisingCountryCode.DE),
 })

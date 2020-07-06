@@ -1,12 +1,12 @@
 import {
   AmazonMarketplace,
+  AmazonMarketplaceAdvertisingCountryCode,
+  AmazonMarketplaceAdvertisingCurrency,
   AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceCountryCode,
-  AmazonMarketplaceAdvertisingCurrency,
-  AmazonMarketplaceAdvertisingCountryCode,
 } from '../amazon-marketplace'
 import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
-import { DE } from './DE'
+import { DE } from './de'
 
 if (!DE.advertising) {
   throw new Error('Missing DE.advertising')

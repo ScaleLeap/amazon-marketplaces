@@ -1,21 +1,24 @@
 import {
   AmazonMarketplace,
+  AmazonMarketplaceAdvertisingCountryCode,
+  AmazonMarketplaceAdvertisingCurrency,
   AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceCountryCode,
-  AmazonMarketplaceAdvertisingCurrency,
-  AmazonMarketplaceAdvertisingCountryCode,
 } from '../amazon-marketplace'
 import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
 
-export const US = new AmazonMarketplace({
-  countryCode: AmazonMarketplaceCountryCode.US,
-  currency: AmazonMarketplaceAdvertisingCurrency.USD,
-  id: 'ATVPDKIKX0DER',
-  name: 'United States',
-  uri: 'https://www.amazon.com',
-  webServiceUri: 'https://mws.amazonservices.com',
+/**
+ * Canada
+ */
+export const CA = new AmazonMarketplace({
+  countryCode: AmazonMarketplaceCountryCode.CA,
+  currency: AmazonMarketplaceAdvertisingCurrency.CAD,
+  id: 'A2EUQ1WTGCTBG2',
+  name: 'Canada',
+  uri: 'https://www.amazon.ca',
+  webServiceUri: 'https://mws.amazonservices.ca',
   advertising: {
-    countryCode: AmazonMarketplaceAdvertisingCountryCode.US,
+    countryCode: AmazonMarketplaceAdvertisingCountryCode.CA,
     region: marketplaceAdvertisingRegions.NA,
     bids: {
       sponsoredBrands: {

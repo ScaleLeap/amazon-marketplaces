@@ -1,7 +1,7 @@
 import {
+  AmazonMarketplaceAdvertising,
   AmazonMarketplaceAdvertisingCountryCode,
   AmazonMarketplaceAdvertisingTimeZone,
-  AmazonMarketplaceAdvertising,
 } from './amazon-marketplace'
 import { marketplaceAdvertisingRegions } from './marketplace-advertising-regions'
 
