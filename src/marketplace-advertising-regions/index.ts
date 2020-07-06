@@ -1,6 +1,6 @@
-import { EU } from './EU'
-import { FE } from './FE'
-import { NA } from './NA'
+import { EU } from './eu'
+import { FE } from './fe'
+import { NA } from './na'
 
 export const marketplaceAdvertisingRegions = {
   EU,

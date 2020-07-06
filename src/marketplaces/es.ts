@@ -1,8 +1,8 @@
 import {
   AmazonMarketplace,
-  AmazonMarketplaceCountryCode,
-  AmazonMarketplaceAdvertisingCurrency,
   AmazonMarketplaceAdvertisingCountryCode,
+  AmazonMarketplaceAdvertisingCurrency,
+  AmazonMarketplaceCountryCode,
 } from '../amazon-marketplace'
 import { europeanAdvertisingFactory } from '../european-advertising-factory'
 

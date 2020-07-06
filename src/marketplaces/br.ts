@@ -1,7 +1,7 @@
 import {
   AmazonMarketplace,
-  AmazonMarketplaceCountryCode,
   AmazonMarketplaceAdvertisingCurrency,
+  AmazonMarketplaceCountryCode,
 } from '../amazon-marketplace'
 
 export const BR = new AmazonMarketplace({

@@ -1,9 +1,9 @@
 import {
   AmazonMarketplace,
-  AmazonMarketplaceCountryCode,
   AmazonMarketplaceAdvertisingCurrency,
+  AmazonMarketplaceCountryCode,
 } from '../amazon-marketplace'
-import { DE } from './DE'
+import { DE } from './de'
 
 export const NL = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.NL,

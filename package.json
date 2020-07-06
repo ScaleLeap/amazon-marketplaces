@@ -1,38 +1,31 @@
 {
   "name": "@scaleleap/amazon-marketplaces",
-  "version": "5.0.0",
-  "publishConfig": {
-    "access": "public"
-  },
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
   "description": "A collection of Amazon Marketplace data objects.",
-  "homepage": "https://github.com/ScaleLeap/amazon-marketplaces#readme",
-  "scripts": {
-    "test": "jest",
-    "prebuild": "npm run clean",
-    "build": "tsc",
-    "clean": "rimraf lib",
-    "build:docs": "typedoc",
-    "semantic-release": "npx @scaleleap/semantic-release-config",
-    "lint": "eslint --ext .ts --ignore-path .gitignore ."
-  },
-  "keywords": [
-    "amazon",
-    "marketplace",
-    "amazon-marketplace",
-    "mws",
-    "amazon-advertising",
-    "amazon-advertising-api",
-    "amazon-mws"
-  ],
+  "license": "MIT",
   "author": {
     "name": "Roman Filippov",
     "email": "roman@scaleleap.com",
     "url": "https://www.scaleleap.com/"
   },
-  "license": "MIT",
+  "homepage": "https://github.com/ScaleLeap/amazon-marketplaces#readme",
+  "version": "5.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "prebuild": "npm run clean",
+    "build": "tsc",
+    "build:docs": "typedoc",
+    "clean": "rimraf lib",
+    "lint": "eslint --ext ts,js src/ test/",
+    "lint:fix": "npm run lint -- --fix",
+    "semantic-release": "npx @scaleleap/semantic-release-config",
+    "test": "jest"
+  },
+  "types": "lib/index.d.ts",
+  "dependencies": {
+    "@lavadrop/ensure": "1.0.0"
+  },
   "devDependencies": {
+    "@scaleleap/utils": "1.7.4",
     "@types/jest": "26.0.3",
     "@types/node": "13.13.4",
     "danger": "10.2.1",
@@ -44,8 +37,17 @@
     "typedoc": "0.17.8",
     "typescript": "3.9.6"
   },
-  "dependencies": {
-    "@lavadrop/ensure": "1.0.0"
+  "keywords": [
+    "amazon",
+    "amazon-advertising",
+    "amazon-advertising-api",
+    "amazon-marketplace",
+    "amazon-mws",
+    "marketplace",
+    "mws"
+  ],
+  "publishConfig": {
+    "access": "public"
   },
   "release": {
     "extends": "@scaleleap/semantic-release-config"

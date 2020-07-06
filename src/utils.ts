@@ -1,6 +1,7 @@
+import ensure from '@lavadrop/ensure'
+
 import { AmazonMarketplace, AmazonMarketplaceAdvertising } from './amazon-marketplace'
 import { amazonMarketplacesList } from './marketplaces'
-import ensure from '@lavadrop/ensure'
 
 type Key = keyof Omit<AmazonMarketplace, 'uri' | 'webServiceUri' | 'advertising'>
 

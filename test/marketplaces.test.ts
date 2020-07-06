@@ -1,16 +1,18 @@
-import { amazonMarketplaces } from '../src/marketplaces'
 import { readdirSync } from 'fs'
 import { join } from 'path'
 
+import { amazonMarketplaces } from '../src/marketplaces'
+
 const countryCodes = readdirSync(join(__dirname, '../src/marketplaces'))
   .map((f) => f.split('.')[0])
-  .filter((f) => f.match(/^[A-Z]{2}$/))
+  .filter((f) => f.match(/^[a-z]{2}$/))
+  .map((f) => f.toUpperCase())
 
 describe('marketplace', () => {
   it('has a known number of marketplaces', () => {
     expect.assertions(1)
 
-    expect(countryCodes.length).toBe(18)
+    expect(countryCodes).toHaveLength(18)
   })
 
   describe.each(countryCodes)('%s', (countryCode) => {
@@ -30,6 +32,10 @@ describe('marketplace', () => {
   })
 
   it('object is read only', () => {
-    expect(() => Object.assign(amazonMarketplaces.CA, { id: 'a' })).toThrowError(/Cannot assign to read only property/)
+    expect.assertions(1)
+
+    expect(() => Object.assign(amazonMarketplaces.CA, { id: 'a' })).toThrow(
+      /Cannot assign to read only property/,
+    )
   })
 })
