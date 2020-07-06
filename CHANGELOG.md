@@ -3,6 +3,13 @@
           All notable changes to this project will be documented in this file.
           See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.0.1](https://github.com/ScaleLeap/amazon-marketplaces/compare/v5.0.0...v5.0.1) (2020-07-06)
+
+
+### Bug Fixes
+
+* to target ES2019 ([30c618a](https://github.com/ScaleLeap/amazon-marketplaces/commit/30c618aacec5d8ed60f71ebd647f24435bf17e2b))
+
 # [5.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v4.1.0...v5.0.0) (2020-06-20)
 
 
