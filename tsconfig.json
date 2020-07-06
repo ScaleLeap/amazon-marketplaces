@@ -1,7 +1,11 @@
 {
   "extends": "tsconfigs/nodejs-module",
   "compilerOptions": {
-    "outDir": "lib"
+    "outDir": "lib",
+    "lib": [
+      "ES2019",
+    ],
+    "target": "ES2019"
   },
   "include": [
     "src/**/*"
