@@ -35,7 +35,7 @@
     "ts-jest": "26.1.1",
     "tsconfigs": "4.0.2",
     "typedoc": "0.17.8",
-    "typescript": "3.9.6"
+    "typescript": "3.9.7"
   },
   "keywords": [
     "amazon",
