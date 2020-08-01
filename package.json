@@ -29,7 +29,7 @@
     "@types/jest": "26.0.3",
     "@types/node": "13.13.4",
     "danger": "10.3.0",
-    "jest": "26.1.0",
+    "jest": "26.2.2",
     "prettier": "2.0.5",
     "rimraf": "3.0.2",
     "ts-jest": "26.1.1",
