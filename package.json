@@ -34,7 +34,7 @@
     "rimraf": "3.0.2",
     "ts-jest": "26.1.4",
     "tsconfigs": "4.0.2",
-    "typedoc": "0.17.8",
+    "typedoc": "0.18.0",
     "typescript": "3.9.7"
   },
   "keywords": [
