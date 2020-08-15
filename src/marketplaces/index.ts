@@ -4,6 +4,7 @@ import { BR } from './br'
 import { CA } from './ca'
 import { CN } from './cn'
 import { DE } from './de'
+import { EG } from './eg'
 import { ES } from './es'
 import { FR } from './fr'
 import { GB } from './gb'
@@ -47,6 +48,11 @@ export const amazonMarketplaces = {
    * Germany
    */
   DE,
+
+  /**
+   * Egypt
+   */
+  EG,
 
   /**
    * Spain

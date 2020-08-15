@@ -150,6 +150,17 @@ AmazonMarketplace {
 }
 `;
 
+exports[`marketplace EG should match snapshot 1`] = `
+AmazonMarketplace {
+  "countryCode": "EG",
+  "currency": "EGP",
+  "id": "ARBP9OOSHTCHU",
+  "name": "Egypt",
+  "uri": "https://www.amazon.eg",
+  "webServiceUri": "https://mws-eu.amazonservices.com",
+}
+`;
+
 exports[`marketplace ES should match snapshot 1`] = `
 AmazonMarketplace {
   "advertising": Object {
