@@ -3,6 +3,18 @@
           All notable changes to this project will be documented in this file.
           See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v5.0.1...v6.0.0) (2020-08-15)
+
+
+### Features
+
+* adds Egypt marketplace ([48242a2](https://github.com/ScaleLeap/amazon-marketplaces/commit/48242a2973c2b54900f5447446708891e7192069))
+
+
+### BREAKING CHANGES
+
+* adds Egypt marketplace
+
 ## [5.0.1](https://github.com/ScaleLeap/amazon-marketplaces/compare/v5.0.0...v5.0.1) (2020-07-06)
 
 
