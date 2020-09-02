@@ -3,6 +3,13 @@
           All notable changes to this project will be documented in this file.
           See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.1.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v6.0.0...v6.1.0) (2020-09-02)
+
+
+### Features
+
+* adds advertising fox Mexico marketplace ([5cb3bbe](https://github.com/ScaleLeap/amazon-marketplaces/commit/5cb3bbe5e62f07dc81a250476caf937ca5d734b9))
+
 # [6.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v5.0.1...v6.0.0) (2020-08-15)
 
 
