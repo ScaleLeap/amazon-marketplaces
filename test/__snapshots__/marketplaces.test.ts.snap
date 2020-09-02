@@ -334,6 +334,27 @@ AmazonMarketplace {
 
 exports[`marketplace MX should match snapshot 1`] = `
 AmazonMarketplace {
+  "advertising": Object {
+    "bids": Object {
+      "sponsoredBrands": Object {
+        "max": 4900,
+        "min": 10,
+      },
+      "sponsoredProducts": Object {
+        "max": 100000,
+        "min": 2,
+      },
+    },
+    "countryCode": "MX",
+    "region": AmazonMarketplaceAdvertisingRegion {
+      "accessTokenUri": "https://api.amazon.com/auth/o2/token",
+      "authorizationUri": "https://www.amazon.com/ap/oa",
+      "code": "NA",
+      "endpoint": "https://advertising-api.amazon.com",
+      "name": "North America",
+    },
+    "timeZone": "America/Los_Angeles",
+  },
   "countryCode": "MX",
   "currency": "MXN",
   "id": "A1AM78C64UM0Y8",
