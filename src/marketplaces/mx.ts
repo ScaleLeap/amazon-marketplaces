@@ -1,8 +1,11 @@
 import {
   AmazonMarketplace,
+  AmazonMarketplaceAdvertisingCountryCode,
   AmazonMarketplaceAdvertisingCurrency,
+  AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceCountryCode,
 } from '../amazon-marketplace'
+import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
 
 export const MX = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.MX,
@@ -11,4 +14,20 @@ export const MX = new AmazonMarketplace({
   name: 'Mexico',
   uri: 'https://www.amazon.com.mx',
   webServiceUri: 'https://mws.amazonservices.com.mx',
+  advertising: {
+    countryCode: AmazonMarketplaceAdvertisingCountryCode.MX,
+    region: marketplaceAdvertisingRegions.NA,
+    // TODO: don't know for sure about the bids as there is no official documentation for that
+    bids: {
+      sponsoredBrands: {
+        min: 10,
+        max: 4900,
+      },
+      sponsoredProducts: {
+        min: 2,
+        max: 100000,
+      },
+    },
+    timeZone: AmazonMarketplaceAdvertisingTimeZone.AMERICA_LOS_ANGELES,
+  },
 })
