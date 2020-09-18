@@ -3,6 +3,18 @@
           All notable changes to this project will be documented in this file.
           See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v6.1.0...v7.0.0) (2020-09-18)
+
+
+### Features
+
+* adds Sweden marketplace ([85969e9](https://github.com/ScaleLeap/amazon-marketplaces/commit/85969e95f97401f086d49658548778d690128fe4))
+
+
+### BREAKING CHANGES
+
+* adds Sweden marketplace
+
 # [6.1.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v6.0.0...v6.1.0) (2020-09-02)
 
 
