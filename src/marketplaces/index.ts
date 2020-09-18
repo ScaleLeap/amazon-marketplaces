@@ -14,6 +14,7 @@ import { JP } from './jp'
 import { MX } from './mx'
 import { NL } from './nl'
 import { SA } from './sa'
+import { SE } from './se'
 import { SG } from './sg'
 import { TR } from './tr'
 import { US } from './us'
@@ -98,6 +99,11 @@ export const amazonMarketplaces = {
    * Singapore
    */
   SA,
+
+  /**
+   * Sweden
+   */
+  SE,
 
   /**
    * Singapore

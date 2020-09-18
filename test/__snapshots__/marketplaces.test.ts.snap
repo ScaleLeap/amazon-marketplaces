@@ -386,6 +386,17 @@ AmazonMarketplace {
 }
 `;
 
+exports[`marketplace SE should match snapshot 1`] = `
+AmazonMarketplace {
+  "countryCode": "SE",
+  "currency": "SEK",
+  "id": "A2NODRKZP88ZB9",
+  "name": "Sweden",
+  "uri": "https://www.amazon.se",
+  "webServiceUri": "https://mws-eu.amazonservices.com",
+}
+`;
+
 exports[`marketplace SG should match snapshot 1`] = `
 AmazonMarketplace {
   "countryCode": "SG",
