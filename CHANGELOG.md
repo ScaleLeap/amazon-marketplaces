@@ -3,6 +3,18 @@
           All notable changes to this project will be documented in this file.
           See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [8.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v7.0.0...v8.0.0) (2020-12-18)
+
+
+### Features
+
+* adds Poland marketplace ([6e8377c](https://github.com/ScaleLeap/amazon-marketplaces/commit/6e8377ced1cbce39487e5579e4547df9d56a067e))
+
+
+### BREAKING CHANGES
+
+* adds Poland marketplace
+
 # [7.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v6.1.0...v7.0.0) (2020-09-18)
 
 
