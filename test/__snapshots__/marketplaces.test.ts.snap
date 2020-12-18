@@ -375,6 +375,17 @@ AmazonMarketplace {
 }
 `;
 
+exports[`marketplace PL should match snapshot 1`] = `
+AmazonMarketplace {
+  "countryCode": "PL",
+  "currency": "PLN",
+  "id": "A1C3SOZRARQ6R3",
+  "name": "Poland",
+  "uri": "https://www.amazon.pl",
+  "webServiceUri": "https://mws-eu.amazonservices.com",
+}
+`;
+
 exports[`marketplace SA should match snapshot 1`] = `
 AmazonMarketplace {
   "countryCode": "SA",
