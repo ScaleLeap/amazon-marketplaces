@@ -1,8 +1,11 @@
 import {
   AmazonMarketplace,
+  AmazonMarketplaceAdvertisingCountryCode,
   AmazonMarketplaceAdvertisingCurrency,
+  AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceCountryCode,
 } from '../amazon-marketplace'
+import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
 
 export const BR = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.BR,
@@ -11,4 +14,19 @@ export const BR = new AmazonMarketplace({
   name: 'Brazil',
   uri: 'https://www.amazon.com.br',
   webServiceUri: 'https://mws.amazonservices.com',
+  advertising: {
+    countryCode: AmazonMarketplaceAdvertisingCountryCode.BR,
+    region: marketplaceAdvertisingRegions.NA,
+    bids: {
+      sponsoredBrands: {
+        min: 7,
+        max: 370000,
+      },
+      sponsoredProducts: {
+        min: 7,
+        max: 370000,
+      },
+    },
+    timeZone: AmazonMarketplaceAdvertisingTimeZone.AMERICA_SAO_PAULO,
+  },
 })
