@@ -17,7 +17,6 @@ export const MX = new AmazonMarketplace({
   advertising: {
     countryCode: AmazonMarketplaceAdvertisingCountryCode.MX,
     region: marketplaceAdvertisingRegions.NA,
-    // TODO: don't know for sure about the bids as there is no official documentation for that
     bids: {
       sponsoredBrands: {
         min: 10,
