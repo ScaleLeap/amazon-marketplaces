@@ -3,6 +3,18 @@
           All notable changes to this project will be documented in this file.
           See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [9.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v8.0.0...v9.0.0) (2020-12-19)
+
+
+### Features
+
+* adds Brazil support for advertising ([a338bdb](https://github.com/ScaleLeap/amazon-marketplaces/commit/a338bdb894d5f8f3d34618fc4278f0adaba5a8af))
+
+
+### BREAKING CHANGES
+
+* adds Brazil support for advertising
+
 # [8.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v7.0.0...v8.0.0) (2020-12-18)
 
 
