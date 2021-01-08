@@ -1,9 +1,9 @@
 import { readdirSync } from 'fs'
-import { join } from 'path'
+import path from 'path'
 
 import { amazonMarketplaces } from '../src/marketplaces'
 
-const countryCodes = readdirSync(join(__dirname, '../src/marketplaces'))
+const countryCodes = readdirSync(path.join(__dirname, '../src/marketplaces'))
   .map((f) => f.split('.')[0])
   .filter((f) => f.match(/^[a-z]{2}$/))
   .map((f) => f.toUpperCase())
