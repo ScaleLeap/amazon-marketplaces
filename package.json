@@ -8,6 +8,13 @@
     "url": "https://www.scaleleap.com/"
   },
   "homepage": "https://github.com/ScaleLeap/amazon-marketplaces#readme",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ScaleLeap/amazon-marketplaces.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ScaleLeap/amazon-marketplaces/issues"
+  },
   "version": "9.0.0",
   "main": "lib/index.js",
   "scripts": {
