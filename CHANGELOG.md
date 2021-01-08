@@ -3,6 +3,18 @@
           All notable changes to this project will be documented in this file.
           See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [10.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v9.0.0...v10.0.0) (2021-01-08)
+
+
+### Features
+
+* adds advertising to Netherlands marketplace ([4548726](https://github.com/ScaleLeap/amazon-marketplaces/commit/4548726406c83692359f32049aba42ba92cdc02a))
+
+
+### BREAKING CHANGES
+
+* adds advertising to Netherlands marketplace
+
 # [9.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v8.0.0...v9.0.0) (2020-12-19)
 
 
