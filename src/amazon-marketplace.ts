@@ -58,14 +58,15 @@ export enum AmazonMarketplaceAdvertisingCurrency {
 export enum AmazonMarketplaceAdvertisingCountryCode {
   AE = 'AE',
   AU = 'AU',
-  CA = 'CA',
   BR = 'BR',
+  CA = 'CA',
   DE = 'DE',
   ES = 'ES',
   FR = 'FR',
   IT = 'IT',
   JP = 'JP',
   MX = 'MX',
+  NL = 'NL',
   UK = 'UK', // Not a real country code, but such is life. See https://github.com/ScaleLeap/amazon-marketplaces/issues/122
   US = 'US',
 }

@@ -387,6 +387,27 @@ AmazonMarketplace {
 
 exports[`marketplace NL should match snapshot 1`] = `
 AmazonMarketplace {
+  "advertising": Object {
+    "bids": Object {
+      "sponsoredBrands": Object {
+        "max": 3900,
+        "min": 10,
+      },
+      "sponsoredProducts": Object {
+        "max": 100000,
+        "min": 2,
+      },
+    },
+    "countryCode": "NL",
+    "region": AmazonMarketplaceAdvertisingRegion {
+      "accessTokenUri": "https://api.amazon.co.uk/auth/o2/token",
+      "authorizationUri": "https://eu.account.amazon.com/ap/oa",
+      "code": "EU",
+      "endpoint": "https://advertising-api-eu.amazon.com",
+      "name": "Europe",
+    },
+    "timeZone": "Europe/Paris",
+  },
   "countryCode": "NL",
   "currency": "EUR",
   "id": "A1805IZSGTT6HS",
