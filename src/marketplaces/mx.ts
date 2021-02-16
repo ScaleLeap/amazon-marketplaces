@@ -6,6 +6,7 @@ import {
   AmazonMarketplaceCountryCode,
 } from '../amazon-marketplace'
 import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
+import { sellingPartnerRegions } from '../selling-partner-api-regions/index'
 
 export const MX = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.MX,
@@ -28,5 +29,8 @@ export const MX = new AmazonMarketplace({
       },
     },
     timeZone: AmazonMarketplaceAdvertisingTimeZone.AMERICA_LOS_ANGELES,
+  },
+  sellingPartner: {
+    region: sellingPartnerRegions.NA,
   },
 })
