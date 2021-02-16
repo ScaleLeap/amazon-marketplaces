@@ -29,6 +29,9 @@ a structured class.
     * Minimum bid
     * Maximum bid
   * Account time zone
+* Amazon Selling Partner API
+  * Selling Partner Region
+  * API endpoint URI
 
 ### Code Demo
 
@@ -69,9 +72,10 @@ const CA = findAmazonMarketplace('countryCode', AmazonMarketplaceCountryCode.CA)
 // Thus return value is never undefined.
 const US = findAmazonMarketplaceOrFail('countryCode', AmazonMarketplaceCountryCode.US)
 
-// TypeScript assertion function that ensures that the marketplace has advertising enabled.
+// TypeScript assertion functions that ensure that the marketplace has advertising / selling partner enabled.
 // Throws if not.
 assertMarketplaceHasAdvertising(CA)
+assertMarketplaceHasSellingPartner(CA)
 
 // CA.advertising is now type guarded and can be safely accessed.
 console.log(CA.advertising.countryCode)
@@ -107,6 +111,14 @@ console.log(CA.advertising.countryCode)
         "max": 100000
       }
     },
+  },
+  "sellingPartner": {
+    "region": {
+      "awsRegion": "us-east-1",
+      "code": "NA",
+      "endpoint": "https://sellingpartnerapi-na.amazon.com",
+      "name": "North America",
+    },
   }
 }
 ```
@@ -137,6 +149,7 @@ version, because others may rely on iterating over the available marketplaces.
 * [ISO 3166](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes)
 * [Regional profile time zone codes](https://advertising.amazon.com/API/docs/en-us/reference/2/profiles#regional-profile-time-zone-codes)
 * [List of tz database time zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
+* [Selling Partner API endpoints](https://github.com/amzn/selling-partner-api-docs/blob/main/guides/developer-guide/SellingPartnerApiDeveloperGuide.md#selling-partner-api-endpoints)
 
 ### Authors or Acknowledgments
 
