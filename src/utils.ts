@@ -1,6 +1,10 @@
 import ensure from '@lavadrop/ensure'
 
-import { AmazonMarketplace, AmazonMarketplaceAdvertising } from './amazon-marketplace'
+import {
+  AmazonMarketplace,
+  AmazonMarketplaceAdvertising,
+  AmazonSellingPartner,
+} from './amazon-marketplace'
 import { amazonMarketplacesList } from './marketplaces'
 
 type Key = keyof Omit<AmazonMarketplace, 'uri' | 'webServiceUri' | 'advertising'>
@@ -40,5 +44,18 @@ export function assertMarketplaceHasAdvertising(
 ): asserts marketplace is AmazonMarketplace & { advertising: AmazonMarketplaceAdvertising } {
   if (!marketplace.advertising) {
     throw new Error(`Marketplace ${marketplace.id} does not have advertising.`)
+  }
+}
+
+/**
+ * Assert function that guards the marketplace and asserts that it has the selling partner api capability.
+ *
+ * See [Assertion Functions](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html#assertion-functions) docs.
+ */
+export function assertMarketplaceHasSellingPartner(
+  marketplace: AmazonMarketplace,
+): asserts marketplace is AmazonMarketplace & { sellingPartner: AmazonSellingPartner } {
+  if (!marketplace.sellingPartner) {
+    throw new Error(`Marketplace ${marketplace.id} does not have Selling Partner API.`)
   }
 }

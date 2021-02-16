@@ -6,6 +6,7 @@ import {
   AmazonMarketplaceCountryCode,
 } from '../amazon-marketplace'
 import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
+import { sellingPartnerRegions } from '../selling-partner-api-regions/index'
 import { DE } from './de'
 
 if (!DE.advertising) {
@@ -33,5 +34,8 @@ export const GB = new AmazonMarketplace({
       },
     },
     timeZone: AmazonMarketplaceAdvertisingTimeZone.EUROPE_LONDON,
+  },
+  sellingPartner: {
+    region: sellingPartnerRegions.EU,
   },
 })

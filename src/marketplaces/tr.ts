@@ -3,6 +3,7 @@ import {
   AmazonMarketplaceAdvertisingCurrency,
   AmazonMarketplaceCountryCode,
 } from '../amazon-marketplace'
+import { sellingPartnerRegions } from '../selling-partner-api-regions/index'
 
 export const TR = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.TR,
@@ -11,4 +12,7 @@ export const TR = new AmazonMarketplace({
   name: 'Turkey',
   uri: 'https://www.amazon.com.tr',
   webServiceUri: 'https://mws-eu.amazonservices.com',
+  sellingPartner: {
+    region: sellingPartnerRegions.EU,
+  },
 })

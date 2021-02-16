@@ -1,4 +1,5 @@
 import { AmazonMarketplaceAdvertisingRegion } from './amazon-marketplace-advertising-region'
+import { AmazonSellingPartnerApiRegion } from './amazon-selling-partner-api-region'
 
 /**
  * Amazon Marketplace country code enum.
@@ -147,6 +148,13 @@ export interface AmazonAdvertisingBidLimits {
   readonly max: number
 }
 
+export interface AmazonSellingPartner {
+  /**
+   * Amazon Selling Partner API Region
+   */
+  readonly region: AmazonSellingPartnerApiRegion
+}
+
 export interface AmazonMarketplace {
   /**
    * Amazon Marketplace ID.
@@ -210,6 +218,11 @@ export interface AmazonMarketplace {
    * [Amazon Advertising](https://advertising.amazon.com/API/docs/v2/guides/supported_features).
    */
   readonly advertising?: AmazonMarketplaceAdvertising
+
+  /**
+   * [Amazon Selling Partner API](https://developer.amazonservices.com/).
+   */
+  readonly sellingPartner?: AmazonSellingPartner
 }
 
 export class AmazonMarketplace implements AmazonMarketplace {

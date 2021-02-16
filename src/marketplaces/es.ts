@@ -5,6 +5,7 @@ import {
   AmazonMarketplaceCountryCode,
 } from '../amazon-marketplace'
 import { europeanAdvertisingFactory } from '../european-advertising-factory'
+import { sellingPartnerRegions } from '../selling-partner-api-regions/index'
 
 export const ES = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.ES,
@@ -14,4 +15,7 @@ export const ES = new AmazonMarketplace({
   uri: 'https://www.amazon.es',
   webServiceUri: 'https://mws-eu.amazonservices.com',
   advertising: europeanAdvertisingFactory(AmazonMarketplaceAdvertisingCountryCode.ES),
+  sellingPartner: {
+    region: sellingPartnerRegions.EU,
+  },
 })

@@ -3,6 +3,7 @@ import {
   AmazonMarketplaceAdvertisingCurrency,
   AmazonMarketplaceCountryCode,
 } from '../amazon-marketplace'
+import { sellingPartnerRegions } from '../selling-partner-api-regions/index'
 
 export const SG = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.SG,
@@ -11,4 +12,7 @@ export const SG = new AmazonMarketplace({
   name: 'Singapore',
   uri: 'https://www.amazon.sg',
   webServiceUri: 'https://mws-fe.amazonservices.com',
+  sellingPartner: {
+    region: sellingPartnerRegions.FE,
+  },
 })

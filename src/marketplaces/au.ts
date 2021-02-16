@@ -6,6 +6,7 @@ import {
   AmazonMarketplaceCountryCode,
 } from '../amazon-marketplace'
 import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
+import { sellingPartnerRegions } from '../selling-partner-api-regions/index'
 
 export const AU = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.AU,
@@ -28,5 +29,8 @@ export const AU = new AmazonMarketplace({
       },
     },
     timeZone: AmazonMarketplaceAdvertisingTimeZone.AUSTRALIA_SYDNEY,
+  },
+  sellingPartner: {
+    region: sellingPartnerRegions.FE,
   },
 })
