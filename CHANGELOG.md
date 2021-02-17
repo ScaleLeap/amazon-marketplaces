@@ -3,6 +3,13 @@
           All notable changes to this project will be documented in this file.
           See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [10.1.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v10.0.0...v10.1.0) (2021-02-17)
+
+
+### Features
+
+* add Selling Partner API regions ([19b88dd](https://github.com/ScaleLeap/amazon-marketplaces/commit/19b88dd47aeaa34856c63c002e4d6772d73afea9))
+
 # [10.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v9.0.0...v10.0.0) (2021-01-08)
 
 
