@@ -32,6 +32,7 @@ a structured class.
 * Amazon Selling Partner API
   * Selling Partner Region
   * API endpoint URI
+  * Seller Central endpoint URI (used for SP Auth)
 
 ### Code Demo
 
@@ -119,6 +120,7 @@ console.log(CA.advertising.countryCode)
       "endpoint": "https://sellingpartnerapi-na.amazon.com",
       "name": "North America",
     },
+    "sellerCentralUrl": "https://sellercentral.amazon.com"
   }
 }
 ```
