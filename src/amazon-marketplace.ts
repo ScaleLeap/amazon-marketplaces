@@ -153,6 +153,13 @@ export interface AmazonSellingPartner {
    * Amazon Selling Partner API Region
    */
   readonly region: AmazonSellingPartnerApiRegion
+
+  /**
+   * Amazon Selling Partner API Auth URL
+   *
+   * @see [OAuth authorization URIs](https://github.com/amzn/selling-partner-api-docs/blob/main/guides/developer-guide/SellingPartnerApiDeveloperGuide.md#oauth-authorization-uris)
+   */
+  readonly sellerCentralAuthUri: string
 }
 
 export interface AmazonMarketplace {

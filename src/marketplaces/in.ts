@@ -3,7 +3,7 @@ import {
   AmazonMarketplaceAdvertisingCurrency,
   AmazonMarketplaceCountryCode,
 } from '../amazon-marketplace'
-import { sellingPartnerRegions } from '../selling-partner-api-regions/index'
+import { sellerCentralAuthUris, sellingPartnerRegions } from '../selling-partner-api-regions'
 
 export const IN = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.IN,
@@ -14,5 +14,6 @@ export const IN = new AmazonMarketplace({
   webServiceUri: 'https://mws.amazonservices.in',
   sellingPartner: {
     region: sellingPartnerRegions.EU,
+    sellerCentralAuthUri: sellerCentralAuthUris.NA,
   },
 })

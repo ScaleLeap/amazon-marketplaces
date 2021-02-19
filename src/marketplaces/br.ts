@@ -6,7 +6,7 @@ import {
   AmazonMarketplaceCountryCode,
 } from '../amazon-marketplace'
 import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
-import { sellingPartnerRegions } from '../selling-partner-api-regions/index'
+import { sellerCentralAuthUris, sellingPartnerRegions } from '../selling-partner-api-regions'
 
 export const BR = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.BR,
@@ -32,5 +32,6 @@ export const BR = new AmazonMarketplace({
   },
   sellingPartner: {
     region: sellingPartnerRegions.NA,
+    sellerCentralAuthUri: sellerCentralAuthUris.NA,
   },
 })
