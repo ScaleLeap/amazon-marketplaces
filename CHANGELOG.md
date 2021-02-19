@@ -3,6 +3,13 @@
           All notable changes to this project will be documented in this file.
           See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [10.2.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v10.1.0...v10.2.0) (2021-02-19)
+
+
+### Features
+
+* adds Seller Central URLs ([#338](https://github.com/ScaleLeap/amazon-marketplaces/issues/338)) ([067772e](https://github.com/ScaleLeap/amazon-marketplaces/commit/067772e8a1d49fab6c8133972c595afb8e1a6ac1))
+
 # [10.1.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v10.0.0...v10.1.0) (2021-02-17)
 
 
