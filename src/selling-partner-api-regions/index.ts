@@ -7,3 +7,8 @@ export const sellingPartnerRegions = {
   FE,
   NA,
 } as const
+
+export const sellerCentralUrls = {
+  NA: `https://sellercentral.amazon.com`,
+  EU: `https://sellercentral-europe.amazon.com`,
+}
