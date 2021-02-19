@@ -159,7 +159,7 @@ export interface AmazonSellingPartner {
    *
    * @see [OAuth authorization URIs](https://github.com/amzn/selling-partner-api-docs/blob/main/guides/developer-guide/SellingPartnerApiDeveloperGuide.md#oauth-authorization-uris)
    */
-  readonly sellerCentralUrl: string
+  readonly sellerCentralAuthUri: string
 }
 
 export interface AmazonMarketplace {

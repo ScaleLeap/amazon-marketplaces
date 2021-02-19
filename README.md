@@ -120,7 +120,7 @@ console.log(CA.advertising.countryCode)
       "endpoint": "https://sellingpartnerapi-na.amazon.com",
       "name": "North America",
     },
-    "sellerCentralUrl": "https://sellercentral.amazon.com"
+    "sellerCentralAuthUri": "https://sellercentral.amazon.com"
   }
 }
 ```

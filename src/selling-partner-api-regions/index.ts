@@ -8,7 +8,7 @@ export const sellingPartnerRegions = {
   NA,
 } as const
 
-export const sellerCentralUrls = {
+export const sellerCentralAuthUris = {
   NA: `https://sellercentral.amazon.com`,
   EU: `https://sellercentral-europe.amazon.com`,
 }
