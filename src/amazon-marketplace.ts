@@ -244,6 +244,19 @@ export interface AmazonMarketplace {
 export class AmazonMarketplace implements AmazonMarketplace {
   public constructor(amazonMarketplace: AmazonMarketplace) {
     Object.assign(this, amazonMarketplace)
+
+    /**
+     * https://github.com/amzn/selling-partner-api-docs/blob/main/guides/developer-guide/SellingPartnerApiDeveloperGuide.md#oauth-authorization-uris
+     */
+    if (
+      amazonMarketplace.sellerCentralUri &&
+      amazonMarketplace.sellingPartner?.sellerCentralAuthUri
+    ) {
+      Object.assign(amazonMarketplace.sellingPartner, {
+        sellerCentralAuthUri: `${amazonMarketplace.sellerCentralUri}/apps/authorize/consent`,
+      })
+    }
+
     Object.freeze(this)
   }
 }
