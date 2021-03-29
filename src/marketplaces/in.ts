@@ -11,6 +11,7 @@ export const IN = new AmazonMarketplace({
   id: 'A21TJRUUN4KGV',
   name: 'India',
   uri: 'https://www.amazon.in',
+  sellerCentralUri: 'https://sellercentral.amazon.in',
   webServiceUri: 'https://mws.amazonservices.in',
   sellingPartner: {
     region: sellingPartnerRegions.EU,

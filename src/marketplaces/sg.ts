@@ -11,6 +11,7 @@ export const SG = new AmazonMarketplace({
   id: 'A19VAU5U5O7RUS',
   name: 'Singapore',
   uri: 'https://www.amazon.sg',
+  sellerCentralUri: 'https://sellercentral.amazon.sg',
   webServiceUri: 'https://mws-fe.amazonservices.com',
   sellingPartner: {
     region: sellingPartnerRegions.FE,

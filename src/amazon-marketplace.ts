@@ -208,9 +208,18 @@ export interface AmazonMarketplace {
    *
    * @example
    *
-   * 'https://www.amazon.ca/'
+   * 'https://www.amazon.ca'
    */
   readonly uri: string
+
+  /**
+   * Amazon Seller Central URI.
+   *
+   * @example
+   *
+   * 'https://sellercentral.amazon.ca'
+   */
+  readonly sellerCentralUri?: string
 
   /**
    * [Amazon Marketplace Web Service](https://developer.amazonservices.com/gp/mws/docs.html) (Amazon MWS) Endpoint URI.
@@ -235,6 +244,19 @@ export interface AmazonMarketplace {
 export class AmazonMarketplace implements AmazonMarketplace {
   public constructor(amazonMarketplace: AmazonMarketplace) {
     Object.assign(this, amazonMarketplace)
+
+    /**
+     * https://github.com/amzn/selling-partner-api-docs/blob/main/guides/developer-guide/SellingPartnerApiDeveloperGuide.md#oauth-authorization-uris
+     */
+    if (
+      amazonMarketplace.sellerCentralUri &&
+      amazonMarketplace.sellingPartner?.sellerCentralAuthUri
+    ) {
+      Object.assign(amazonMarketplace.sellingPartner, {
+        sellerCentralAuthUri: `${amazonMarketplace.sellerCentralUri}/apps/authorize/consent`,
+      })
+    }
+
     Object.freeze(this)
   }
 }

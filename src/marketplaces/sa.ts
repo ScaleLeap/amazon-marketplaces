@@ -10,5 +10,6 @@ export const SA = new AmazonMarketplace({
   id: 'A17E79C6D8DWNP',
   name: 'Saudi Arabia',
   uri: 'https://www.amazon.sa',
+  sellerCentralUri: 'https://sellercentral.amazon.sa',
   webServiceUri: 'https://mws-eu.amazonservices.com',
 })

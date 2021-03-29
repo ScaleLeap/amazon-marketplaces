@@ -11,6 +11,7 @@ export const TR = new AmazonMarketplace({
   id: 'A33AVAJ2PDY3EV',
   name: 'Turkey',
   uri: 'https://www.amazon.com.tr',
+  sellerCentralUri: 'https://sellercentral.amazon.com.tr',
   webServiceUri: 'https://mws-eu.amazonservices.com',
   sellingPartner: {
     region: sellingPartnerRegions.EU,

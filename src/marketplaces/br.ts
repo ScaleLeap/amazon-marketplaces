@@ -14,6 +14,7 @@ export const BR = new AmazonMarketplace({
   id: 'A2Q3Y263D00KWC',
   name: 'Brazil',
   uri: 'https://www.amazon.com.br',
+  sellerCentralUri: 'https://sellercentral.amazon.com.br',
   webServiceUri: 'https://mws.amazonservices.com',
   advertising: {
     countryCode: AmazonMarketplaceAdvertisingCountryCode.BR,

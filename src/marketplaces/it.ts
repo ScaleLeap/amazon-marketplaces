@@ -13,6 +13,7 @@ export const IT = new AmazonMarketplace({
   id: 'APJ6JRA9NG5V4',
   name: 'Italy',
   uri: 'https://www.amazon.it',
+  sellerCentralUri: 'https://sellercentral.amazon.it',
   webServiceUri: 'https://mws-eu.amazonservices.com',
   advertising: europeanAdvertisingFactory(AmazonMarketplaceAdvertisingCountryCode.DE),
   sellingPartner: {

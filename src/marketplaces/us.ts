@@ -14,6 +14,7 @@ export const US = new AmazonMarketplace({
   id: 'ATVPDKIKX0DER',
   name: 'United States',
   uri: 'https://www.amazon.com',
+  sellerCentralUri: 'https://sellercentral.amazon.com',
   webServiceUri: 'https://mws.amazonservices.com',
   advertising: {
     countryCode: AmazonMarketplaceAdvertisingCountryCode.US,
