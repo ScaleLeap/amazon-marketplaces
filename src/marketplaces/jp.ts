@@ -14,6 +14,7 @@ export const JP = new AmazonMarketplace({
   id: 'A1VC38T7YXB528',
   name: 'Japan',
   uri: 'https://www.amazon.co.jp',
+  sellerCentralUri: 'https://sellercentral.amazon.co.jp',
   webServiceUri: 'https://mws.amazonservices.jp',
   advertising: {
     countryCode: AmazonMarketplaceAdvertisingCountryCode.JP,

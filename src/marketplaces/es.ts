@@ -14,6 +14,7 @@ export const ES = new AmazonMarketplace({
   name: 'Spain',
   uri: 'https://www.amazon.es',
   webServiceUri: 'https://mws-eu.amazonservices.com',
+  sellerCentralUri: 'https://sellercentral.amazon.es',
   advertising: europeanAdvertisingFactory(AmazonMarketplaceAdvertisingCountryCode.ES),
   sellingPartner: {
     region: sellingPartnerRegions.EU,

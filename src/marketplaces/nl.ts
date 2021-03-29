@@ -14,6 +14,7 @@ export const NL = new AmazonMarketplace({
   id: 'A1805IZSGTT6HS',
   name: 'Netherlands',
   uri: 'https://www.amazon.nl',
+  sellerCentralUri: 'https://sellercentral.amazon.nl',
   webServiceUri: DE.webServiceUri,
   advertising: europeanAdvertisingFactory(AmazonMarketplaceAdvertisingCountryCode.NL),
   sellingPartner: {

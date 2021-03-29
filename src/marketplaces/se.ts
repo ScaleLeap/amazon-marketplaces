@@ -11,6 +11,7 @@ export const SE = new AmazonMarketplace({
   id: 'A2NODRKZP88ZB9',
   name: 'Sweden',
   uri: 'https://www.amazon.se',
+  sellerCentralUri: 'https://sellercentral.amazon.se',
   webServiceUri: 'https://mws-eu.amazonservices.com',
   sellingPartner: {
     region: sellingPartnerRegions.EU,

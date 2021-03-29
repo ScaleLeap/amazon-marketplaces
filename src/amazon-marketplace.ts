@@ -208,9 +208,18 @@ export interface AmazonMarketplace {
    *
    * @example
    *
-   * 'https://www.amazon.ca/'
+   * 'https://www.amazon.ca'
    */
   readonly uri: string
+
+  /**
+   * Amazon Seller Central URI.
+   *
+   * @example
+   *
+   * 'https://sellercentral.amazon.ca'
+   */
+  readonly sellerCentralUri?: string
 
   /**
    * [Amazon Marketplace Web Service](https://developer.amazonservices.com/gp/mws/docs.html) (Amazon MWS) Endpoint URI.

@@ -19,6 +19,7 @@ export const GB = new AmazonMarketplace({
   id: 'A1F83G8C2ARO7P',
   name: 'United Kingdom',
   uri: 'https://www.amazon.co.uk',
+  sellerCentralUri: 'https://sellercentral.amazon.co.uk',
   webServiceUri: DE.webServiceUri,
   advertising: {
     countryCode: AmazonMarketplaceAdvertisingCountryCode.UK,

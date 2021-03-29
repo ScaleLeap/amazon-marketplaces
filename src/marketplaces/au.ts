@@ -14,6 +14,7 @@ export const AU = new AmazonMarketplace({
   id: 'A39IBJ37TRP1C6',
   name: 'Australia',
   uri: 'https://www.amazon.com.au',
+  sellerCentralUri: 'https://sellercentral.amazon.com.au',
   webServiceUri: 'https://mws.amazonservices.com.au',
   advertising: {
     countryCode: AmazonMarketplaceAdvertisingCountryCode.AU,
