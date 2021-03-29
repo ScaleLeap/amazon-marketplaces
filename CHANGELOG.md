@@ -3,6 +3,23 @@
           All notable changes to this project will be documented in this file.
           See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [11.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v10.3.0...v11.0.0) (2021-03-29)
+
+
+### Bug Fixes
+
+* uses marketplace specific Seller Central URI ([d9b701f](https://github.com/ScaleLeap/amazon-marketplaces/commit/d9b701fed8ecb00ab40817c6e96d931577fdebc3))
+
+
+### Features
+
+* adds sellerCentralUri property ([f0c765e](https://github.com/ScaleLeap/amazon-marketplaces/commit/f0c765e8ee1f57fb02bd36b02f82dd10442b3802))
+
+
+### BREAKING CHANGES
+
+* `sellingPartner.sellerCentralAuthUri`.
+
 # [10.3.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v10.2.0...v10.3.0) (2021-03-19)
 
 
