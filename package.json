@@ -32,7 +32,7 @@
     "@lavadrop/ensure": "1.0.0"
   },
   "devDependencies": {
-    "@scaleleap/utils": "1.9.10",
+    "@scaleleap/utils": "1.9.19",
     "@types/jest": "26.0.20",
     "@types/node": "13.13.45",
     "danger": "10.6.4",
