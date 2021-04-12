@@ -161,8 +161,12 @@ version, because others may rely on iterating over the available marketplaces.
 
 This project is licensed under the MIT License.
 
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FScaleLeap%2Famazon-marketplaces.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FScaleLeap%2Famazon-marketplaces?ref=badge_large)
+
 ### Badges
 
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ScaleLeap/amazon-marketplaces/CI)](https://github.com/ScaleLeap/amazon-marketplaces/actions)
 [![NPM](https://img.shields.io/npm/v/@scaleleap/amazon-marketplaces)](https://npm.im/@scaleleap/amazon-marketplaces)
 [![License](https://img.shields.io/npm/l/@scaleleap/amazon-marketplaces)](./LICENSE)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FScaleLeap%2Famazon-marketplaces.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FScaleLeap%2Famazon-marketplaces?ref=badge_shield)
