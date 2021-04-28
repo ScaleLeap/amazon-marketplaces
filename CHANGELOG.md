@@ -3,6 +3,13 @@
           All notable changes to this project will be documented in this file.
           See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [11.0.1](https://github.com/ScaleLeap/amazon-marketplaces/compare/v11.0.0...v11.0.1) (2021-04-28)
+
+
+### Bug Fixes
+
+* changes time zone for NL to Europe/Amsterdam ([72bd0b4](https://github.com/ScaleLeap/amazon-marketplaces/commit/72bd0b4dff82d628b78670626563fbe19cba6128)), closes [#365](https://github.com/ScaleLeap/amazon-marketplaces/issues/365)
+
 # [11.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v10.3.0...v11.0.0) (2021-03-29)
 
 
