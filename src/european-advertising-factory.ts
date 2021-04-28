@@ -7,6 +7,7 @@ import { marketplaceAdvertisingRegions } from './marketplace-advertising-regions
 
 export function europeanAdvertisingFactory(
   countryCode: AmazonMarketplaceAdvertisingCountryCode,
+  tz?: AmazonMarketplaceAdvertisingTimeZone,
 ): AmazonMarketplaceAdvertising {
   return {
     countryCode,
@@ -21,6 +22,6 @@ export function europeanAdvertisingFactory(
         max: 100000,
       },
     },
-    timeZone: AmazonMarketplaceAdvertisingTimeZone.EUROPE_PARIS,
+    timeZone: tz || AmazonMarketplaceAdvertisingTimeZone.EUROPE_PARIS,
   }
 }
