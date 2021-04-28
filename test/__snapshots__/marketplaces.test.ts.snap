@@ -526,7 +526,7 @@ AmazonMarketplace {
       "endpoint": "https://advertising-api-eu.amazon.com",
       "name": "Europe",
     },
-    "timeZone": "Europe/Paris",
+    "timeZone": "Europe/Amsterdam",
   },
   "countryCode": "NL",
   "currency": "EUR",

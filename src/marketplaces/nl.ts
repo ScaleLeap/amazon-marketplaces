@@ -2,6 +2,7 @@ import {
   AmazonMarketplace,
   AmazonMarketplaceAdvertisingCountryCode,
   AmazonMarketplaceAdvertisingCurrency,
+  AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceCountryCode,
 } from '../amazon-marketplace'
 import { europeanAdvertisingFactory } from '../european-advertising-factory'
@@ -16,7 +17,10 @@ export const NL = new AmazonMarketplace({
   uri: 'https://www.amazon.nl',
   sellerCentralUri: 'https://sellercentral.amazon.nl',
   webServiceUri: DE.webServiceUri,
-  advertising: europeanAdvertisingFactory(AmazonMarketplaceAdvertisingCountryCode.NL),
+  advertising: europeanAdvertisingFactory(
+    AmazonMarketplaceAdvertisingCountryCode.NL,
+    AmazonMarketplaceAdvertisingTimeZone.EUROPE_AMSTERDAM,
+  ),
   sellingPartner: {
     region: sellingPartnerRegions.EU,
     sellerCentralAuthUri: sellerCentralAuthUris.NA,

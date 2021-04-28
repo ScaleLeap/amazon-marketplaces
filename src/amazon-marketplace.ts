@@ -81,6 +81,7 @@ export enum AmazonMarketplaceAdvertisingTimeZone {
   ASIA_DUBAI = 'Asia/Dubai',
   ASIA_TOKYO = 'Asia/Tokyo',
   AUSTRALIA_SYDNEY = 'Australia/Sydney',
+  EUROPE_AMSTERDAM = 'Europe/Amsterdam',
   EUROPE_LONDON = 'Europe/London',
   EUROPE_PARIS = 'Europe/Paris',
 }
