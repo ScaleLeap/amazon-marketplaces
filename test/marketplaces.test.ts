@@ -16,7 +16,7 @@ describe('marketplace', () => {
   })
 
   describe.each(countryCodes)('%s', (countryCode) => {
-    const code = (countryCode as unknown) as keyof typeof amazonMarketplaces
+    const code = countryCode as unknown as keyof typeof amazonMarketplaces
 
     it('should match the exports', () => {
       expect.assertions(1)
