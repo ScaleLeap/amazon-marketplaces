@@ -1,5 +1,23 @@
 # Changelog
 
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [11.1.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v11.0.1...v11.1.0) (2021-07-20)
+
+
+### Bug Fixes
+
+* change EU Seller Central URIs ([e9284e3](https://github.com/ScaleLeap/amazon-marketplaces/commit/e9284e3009e63ddf7d44ac4dad40a868ba9dabc5))
+
+
+### Features
+
+* ad sg to advertising ([0a980d4](https://github.com/ScaleLeap/amazon-marketplaces/commit/0a980d41ce305e10b07960bc1e0b1315ba64b68f))
+* add vendor central and vendor central auth uri ([be88ae9](https://github.com/ScaleLeap/amazon-marketplaces/commit/be88ae944349590710bbb7d8333fea2798ed6264))
+
+# Changelog
+
           All notable changes to this project will be documented in this file.
           See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
