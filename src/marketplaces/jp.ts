@@ -6,7 +6,11 @@ import {
   AmazonMarketplaceCountryCode,
 } from '../amazon-marketplace'
 import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
-import { sellerCentralAuthUris, sellingPartnerRegions } from '../selling-partner-api-regions'
+import {
+  sellerCentralAuthUris,
+  sellingPartnerRegions,
+  vendorCentralAuthUriTemporary,
+} from '../selling-partner-api-regions'
 
 export const JP = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.JP,
@@ -15,6 +19,7 @@ export const JP = new AmazonMarketplace({
   name: 'Japan',
   uri: 'https://www.amazon.co.jp',
   sellerCentralUri: 'https://sellercentral.amazon.co.jp',
+  vendorCentralUri: 'https://vendorcentral.amazon.co.jp',
   webServiceUri: 'https://mws.amazonservices.jp',
   advertising: {
     countryCode: AmazonMarketplaceAdvertisingCountryCode.JP,
@@ -34,5 +39,6 @@ export const JP = new AmazonMarketplace({
   sellingPartner: {
     region: sellingPartnerRegions.FE,
     sellerCentralAuthUri: sellerCentralAuthUris.NA,
+    vendorCentralAuthUri: vendorCentralAuthUriTemporary, // This will be generated from Vendor Central URI
   },
 })

@@ -36,8 +36,10 @@ AmazonMarketplace {
       "name": "Europe",
     },
     "sellerCentralAuthUri": "https://sellercentral.amazon.ae/apps/authorize/consent",
+    "vendorCentralAuthUri": "https://vendorcentral.amazon.me/apps/authorize/consent",
   },
   "uri": "https://www.amazon.ae",
+  "vendorCentralUri": "https://vendorcentral.amazon.me",
   "webServiceUri": "https://mws.amazonservices.ae",
 }
 `;
@@ -78,8 +80,10 @@ AmazonMarketplace {
       "name": "Far East",
     },
     "sellerCentralAuthUri": "https://sellercentral.amazon.com.au/apps/authorize/consent",
+    "vendorCentralAuthUri": "https://vendorcentral.amazon.com.au/apps/authorize/consent",
   },
   "uri": "https://www.amazon.com.au",
+  "vendorCentralUri": "https://vendorcentral.amazon.com.au",
   "webServiceUri": "https://mws.amazonservices.com.au",
 }
 `;
@@ -120,8 +124,10 @@ AmazonMarketplace {
       "name": "North America",
     },
     "sellerCentralAuthUri": "https://sellercentral.amazon.com.br/apps/authorize/consent",
+    "vendorCentralAuthUri": "https://vendorcentral.amazon.com.br/apps/authorize/consent",
   },
   "uri": "https://www.amazon.com.br",
+  "vendorCentralUri": "https://vendorcentral.amazon.com.br",
   "webServiceUri": "https://mws.amazonservices.com",
 }
 `;
@@ -162,8 +168,10 @@ AmazonMarketplace {
       "name": "North America",
     },
     "sellerCentralAuthUri": "https://sellercentral.amazon.ca/apps/authorize/consent",
+    "vendorCentralAuthUri": "https://vendorcentral.amazon.ca/apps/authorize/consent",
   },
   "uri": "https://www.amazon.ca",
+  "vendorCentralUri": "https://vendorcentral.amazon.ca",
   "webServiceUri": "https://mws.amazonservices.ca",
 }
 `;
@@ -215,8 +223,10 @@ AmazonMarketplace {
       "name": "Europe",
     },
     "sellerCentralAuthUri": "https://sellercentral-europe.amazon.com/apps/authorize/consent",
+    "vendorCentralAuthUri": "https://vendorcentral.amazon.de/apps/authorize/consent",
   },
   "uri": "https://www.amazon.de",
+  "vendorCentralUri": "https://vendorcentral.amazon.de",
   "webServiceUri": "https://mws-eu.amazonservices.com",
 }
 `;
@@ -227,7 +237,18 @@ AmazonMarketplace {
   "currency": "EGP",
   "id": "ARBP9OOSHTCHU",
   "name": "Egypt",
+  "sellingPartner": Object {
+    "region": AmazonSellingPartnerApiRegion {
+      "awsRegion": "eu-west-1",
+      "code": "EU",
+      "endpoint": "https://sellingpartnerapi-eu.amazon.com",
+      "name": "Europe",
+    },
+    "sellerCentralAuthUri": "",
+    "vendorCentralAuthUri": "https://vendorcentral.amazon.me/apps/authorize/consent",
+  },
   "uri": "https://www.amazon.eg",
+  "vendorCentralUri": "https://vendorcentral.amazon.me",
   "webServiceUri": "https://mws-eu.amazonservices.com",
 }
 `;
@@ -268,8 +289,10 @@ AmazonMarketplace {
       "name": "Europe",
     },
     "sellerCentralAuthUri": "https://sellercentral-europe.amazon.com/apps/authorize/consent",
+    "vendorCentralAuthUri": "https://vendorcentral.amazon.es/apps/authorize/consent",
   },
   "uri": "https://www.amazon.es",
+  "vendorCentralUri": "https://vendorcentral.amazon.es",
   "webServiceUri": "https://mws-eu.amazonservices.com",
 }
 `;
@@ -310,8 +333,10 @@ AmazonMarketplace {
       "name": "Europe",
     },
     "sellerCentralAuthUri": "https://sellercentral-europe.amazon.com/apps/authorize/consent",
+    "vendorCentralAuthUri": "https://vendorcentral.amazon.fr/apps/authorize/consent",
   },
   "uri": "https://www.amazon.fr",
+  "vendorCentralUri": "https://vendorcentral.amazon.fr",
   "webServiceUri": "https://mws-eu.amazonservices.com",
 }
 `;
@@ -352,8 +377,10 @@ AmazonMarketplace {
       "name": "Europe",
     },
     "sellerCentralAuthUri": "https://sellercentral-europe.amazon.com/apps/authorize/consent",
+    "vendorCentralAuthUri": "https://vendorcentral.amazon.co.uk/apps/authorize/consent",
   },
   "uri": "https://www.amazon.co.uk",
+  "vendorCentralUri": "https://vendorcentral.amazon.co.uk",
   "webServiceUri": "https://mws-eu.amazonservices.com",
 }
 `;
@@ -373,8 +400,10 @@ AmazonMarketplace {
       "name": "Europe",
     },
     "sellerCentralAuthUri": "https://sellercentral.amazon.in/apps/authorize/consent",
+    "vendorCentralAuthUri": "https://www.vendorcentral.in/apps/authorize/consent",
   },
   "uri": "https://www.amazon.in",
+  "vendorCentralUri": "https://www.vendorcentral.in",
   "webServiceUri": "https://mws.amazonservices.in",
 }
 `;
@@ -415,8 +444,10 @@ AmazonMarketplace {
       "name": "Europe",
     },
     "sellerCentralAuthUri": "https://sellercentral-europe.amazon.com/apps/authorize/consent",
+    "vendorCentralAuthUri": "https://vendorcentral.amazon.it/apps/authorize/consent",
   },
   "uri": "https://www.amazon.it",
+  "vendorCentralUri": "https://vendorcentral.amazon.it",
   "webServiceUri": "https://mws-eu.amazonservices.com",
 }
 `;
@@ -457,8 +488,10 @@ AmazonMarketplace {
       "name": "Far East",
     },
     "sellerCentralAuthUri": "https://sellercentral.amazon.co.jp/apps/authorize/consent",
+    "vendorCentralAuthUri": "https://vendorcentral.amazon.co.jp/apps/authorize/consent",
   },
   "uri": "https://www.amazon.co.jp",
+  "vendorCentralUri": "https://vendorcentral.amazon.co.jp",
   "webServiceUri": "https://mws.amazonservices.jp",
 }
 `;
@@ -499,8 +532,10 @@ AmazonMarketplace {
       "name": "North America",
     },
     "sellerCentralAuthUri": "https://sellercentral.amazon.com.mx/apps/authorize/consent",
+    "vendorCentralAuthUri": "https://vendorcentral.amazon.com.mx/apps/authorize/consent",
   },
   "uri": "https://www.amazon.com.mx",
+  "vendorCentralUri": "https://vendorcentral.amazon.com.mx",
   "webServiceUri": "https://mws.amazonservices.com.mx",
 }
 `;
@@ -541,8 +576,10 @@ AmazonMarketplace {
       "name": "Europe",
     },
     "sellerCentralAuthUri": "https://sellercentral.amazon.nl/apps/authorize/consent",
+    "vendorCentralAuthUri": "https://vendorcentral.amazon.nl/apps/authorize/consent",
   },
   "uri": "https://www.amazon.nl",
+  "vendorCentralUri": "https://vendorcentral.amazon.nl",
   "webServiceUri": "https://mws-eu.amazonservices.com",
 }
 `;
@@ -562,8 +599,10 @@ AmazonMarketplace {
       "name": "Europe",
     },
     "sellerCentralAuthUri": "https://sellercentral.amazon.pl/apps/authorize/consent",
+    "vendorCentralAuthUri": "https://vendorcentral.amazon.pl/apps/authorize/consent",
   },
   "uri": "https://www.amazon.pl",
+  "vendorCentralUri": "https://vendorcentral.amazon.pl",
   "webServiceUri": "https://mws-eu.amazonservices.com",
 }
 `;
@@ -595,8 +634,10 @@ AmazonMarketplace {
       "name": "Europe",
     },
     "sellerCentralAuthUri": "https://sellercentral.amazon.se/apps/authorize/consent",
+    "vendorCentralAuthUri": "https://vendorcentral.amazon.se/apps/authorize/consent",
   },
   "uri": "https://www.amazon.se",
+  "vendorCentralUri": "https://vendorcentral.amazon.se",
   "webServiceUri": "https://mws-eu.amazonservices.com",
 }
 `;
@@ -637,8 +678,10 @@ AmazonMarketplace {
       "name": "Far East",
     },
     "sellerCentralAuthUri": "https://sellercentral.amazon.sg/apps/authorize/consent",
+    "vendorCentralAuthUri": "https://vendorcentral.amazon.com.sg/apps/authorize/consent",
   },
   "uri": "https://www.amazon.sg",
+  "vendorCentralUri": "https://vendorcentral.amazon.com.sg",
   "webServiceUri": "https://mws-fe.amazonservices.com",
 }
 `;
@@ -658,8 +701,10 @@ AmazonMarketplace {
       "name": "Europe",
     },
     "sellerCentralAuthUri": "https://sellercentral.amazon.com.tr/apps/authorize/consent",
+    "vendorCentralAuthUri": "https://vendorcentral.amazon.com.tr/apps/authorize/consent",
   },
   "uri": "https://www.amazon.com.tr",
+  "vendorCentralUri": "https://vendorcentral.amazon.com.tr",
   "webServiceUri": "https://mws-eu.amazonservices.com",
 }
 `;
@@ -700,8 +745,10 @@ AmazonMarketplace {
       "name": "North America",
     },
     "sellerCentralAuthUri": "https://sellercentral.amazon.com/apps/authorize/consent",
+    "vendorCentralAuthUri": "https://vendorcentral.amazon.com/apps/authorize/consent",
   },
   "uri": "https://www.amazon.com",
+  "vendorCentralUri": "https://vendorcentral.amazon.com",
   "webServiceUri": "https://mws.amazonservices.com",
 }
 `;

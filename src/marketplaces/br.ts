@@ -6,7 +6,11 @@ import {
   AmazonMarketplaceCountryCode,
 } from '../amazon-marketplace'
 import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
-import { sellerCentralAuthUris, sellingPartnerRegions } from '../selling-partner-api-regions'
+import {
+  sellerCentralAuthUris,
+  sellingPartnerRegions,
+  vendorCentralAuthUriTemporary,
+} from '../selling-partner-api-regions'
 
 export const BR = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.BR,
@@ -15,6 +19,7 @@ export const BR = new AmazonMarketplace({
   name: 'Brazil',
   uri: 'https://www.amazon.com.br',
   sellerCentralUri: 'https://sellercentral.amazon.com.br',
+  vendorCentralUri: 'https://vendorcentral.amazon.com.br',
   webServiceUri: 'https://mws.amazonservices.com',
   advertising: {
     countryCode: AmazonMarketplaceAdvertisingCountryCode.BR,
@@ -34,5 +39,6 @@ export const BR = new AmazonMarketplace({
   sellingPartner: {
     region: sellingPartnerRegions.NA,
     sellerCentralAuthUri: sellerCentralAuthUris.NA,
+    vendorCentralAuthUri: vendorCentralAuthUriTemporary, // This will be generated from Vendor Central URI
   },
 })

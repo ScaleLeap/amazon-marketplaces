@@ -6,7 +6,11 @@ import {
   AmazonMarketplaceCountryCode,
 } from '../amazon-marketplace'
 import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
-import { sellerCentralAuthUris, sellingPartnerRegions } from '../selling-partner-api-regions'
+import {
+  sellerCentralAuthUris,
+  sellingPartnerRegions,
+  vendorCentralAuthUriTemporary,
+} from '../selling-partner-api-regions'
 
 export const AE = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.AE,
@@ -15,6 +19,7 @@ export const AE = new AmazonMarketplace({
   name: 'United Arab Emirates',
   uri: 'https://www.amazon.ae',
   sellerCentralUri: 'https://sellercentral.amazon.ae',
+  vendorCentralUri: 'https://vendorcentral.amazon.me',
   webServiceUri: 'https://mws.amazonservices.ae',
   advertising: {
     countryCode: AmazonMarketplaceAdvertisingCountryCode.AE,
@@ -34,5 +39,6 @@ export const AE = new AmazonMarketplace({
   sellingPartner: {
     region: sellingPartnerRegions.EU,
     sellerCentralAuthUri: sellerCentralAuthUris.NA,
+    vendorCentralAuthUri: vendorCentralAuthUriTemporary, // This will be generated from Vendor Central URI
   },
 })

@@ -4,9 +4,14 @@ import {
   AmazonMarketplaceAdvertisingCurrency,
   AmazonMarketplaceCountryCode,
 } from '../amazon-marketplace'
+import { amazonVendorCentralUriFactory } from '../amazon-vendor-central-uri-factory'
 import { europeanAdvertisingFactory } from '../european-advertising-factory'
 import { europeanSellerCentralUriFactory } from '../european-seller-central-uri-factory'
-import { sellerCentralAuthUris, sellingPartnerRegions } from '../selling-partner-api-regions'
+import {
+  sellerCentralAuthUris,
+  sellingPartnerRegions,
+  vendorCentralAuthUriTemporary,
+} from '../selling-partner-api-regions'
 
 export const FR = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.FR,
@@ -16,9 +21,11 @@ export const FR = new AmazonMarketplace({
   uri: 'https://www.amazon.fr',
   webServiceUri: 'https://mws-eu.amazonservices.com',
   sellerCentralUri: europeanSellerCentralUriFactory(),
+  vendorCentralUri: amazonVendorCentralUriFactory(AmazonMarketplaceCountryCode.FR),
   advertising: europeanAdvertisingFactory(AmazonMarketplaceAdvertisingCountryCode.FR),
   sellingPartner: {
     region: sellingPartnerRegions.EU,
     sellerCentralAuthUri: sellerCentralAuthUris.EU,
+    vendorCentralAuthUri: vendorCentralAuthUriTemporary, // This will be generated from Vendor Central URI
   },
 })
