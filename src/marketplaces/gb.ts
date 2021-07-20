@@ -5,6 +5,7 @@ import {
   AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceCountryCode,
 } from '../amazon-marketplace'
+import { europeanSellerCentralUriFactory } from '../european-seller-central-uri-factory'
 import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
 import { sellerCentralAuthUris, sellingPartnerRegions } from '../selling-partner-api-regions'
 import { DE } from './de'
@@ -19,7 +20,7 @@ export const GB = new AmazonMarketplace({
   id: 'A1F83G8C2ARO7P',
   name: 'United Kingdom',
   uri: 'https://www.amazon.co.uk',
-  sellerCentralUri: 'https://sellercentral.amazon.co.uk',
+  sellerCentralUri: europeanSellerCentralUriFactory(),
   webServiceUri: DE.webServiceUri,
   advertising: {
     countryCode: AmazonMarketplaceAdvertisingCountryCode.UK,

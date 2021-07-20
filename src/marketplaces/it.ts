@@ -5,6 +5,7 @@ import {
   AmazonMarketplaceCountryCode,
 } from '../amazon-marketplace'
 import { europeanAdvertisingFactory } from '../european-advertising-factory'
+import { europeanSellerCentralUriFactory } from '../european-seller-central-uri-factory'
 import { sellerCentralAuthUris, sellingPartnerRegions } from '../selling-partner-api-regions'
 
 export const IT = new AmazonMarketplace({
@@ -13,7 +14,7 @@ export const IT = new AmazonMarketplace({
   id: 'APJ6JRA9NG5V4',
   name: 'Italy',
   uri: 'https://www.amazon.it',
-  sellerCentralUri: 'https://sellercentral.amazon.it',
+  sellerCentralUri: europeanSellerCentralUriFactory(),
   webServiceUri: 'https://mws-eu.amazonservices.com',
   advertising: europeanAdvertisingFactory(AmazonMarketplaceAdvertisingCountryCode.DE),
   sellingPartner: {

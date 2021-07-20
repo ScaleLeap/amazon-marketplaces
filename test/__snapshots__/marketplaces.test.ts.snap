@@ -206,7 +206,7 @@ AmazonMarketplace {
   "currency": "EUR",
   "id": "A1PA6795UKMFR9",
   "name": "Germany",
-  "sellerCentralUri": "https://sellercentral.amazon.de",
+  "sellerCentralUri": "https://sellercentral-europe.amazon.com",
   "sellingPartner": Object {
     "region": AmazonSellingPartnerApiRegion {
       "awsRegion": "eu-west-1",
@@ -214,7 +214,7 @@ AmazonMarketplace {
       "endpoint": "https://sellingpartnerapi-eu.amazon.com",
       "name": "Europe",
     },
-    "sellerCentralAuthUri": "https://sellercentral.amazon.de/apps/authorize/consent",
+    "sellerCentralAuthUri": "https://sellercentral-europe.amazon.com/apps/authorize/consent",
   },
   "uri": "https://www.amazon.de",
   "webServiceUri": "https://mws-eu.amazonservices.com",
@@ -259,7 +259,7 @@ AmazonMarketplace {
   "currency": "EUR",
   "id": "A1RKKUPIHCS9HS",
   "name": "Spain",
-  "sellerCentralUri": "https://sellercentral.amazon.es",
+  "sellerCentralUri": "https://sellercentral-europe.amazon.com",
   "sellingPartner": Object {
     "region": AmazonSellingPartnerApiRegion {
       "awsRegion": "eu-west-1",
@@ -267,7 +267,7 @@ AmazonMarketplace {
       "endpoint": "https://sellingpartnerapi-eu.amazon.com",
       "name": "Europe",
     },
-    "sellerCentralAuthUri": "https://sellercentral.amazon.es/apps/authorize/consent",
+    "sellerCentralAuthUri": "https://sellercentral-europe.amazon.com/apps/authorize/consent",
   },
   "uri": "https://www.amazon.es",
   "webServiceUri": "https://mws-eu.amazonservices.com",
@@ -301,7 +301,7 @@ AmazonMarketplace {
   "currency": "EUR",
   "id": "A13V1IB3VIYZZH",
   "name": "France",
-  "sellerCentralUri": "https://sellercentral.amazon.fr",
+  "sellerCentralUri": "https://sellercentral-europe.amazon.com",
   "sellingPartner": Object {
     "region": AmazonSellingPartnerApiRegion {
       "awsRegion": "eu-west-1",
@@ -309,7 +309,7 @@ AmazonMarketplace {
       "endpoint": "https://sellingpartnerapi-eu.amazon.com",
       "name": "Europe",
     },
-    "sellerCentralAuthUri": "https://sellercentral.amazon.fr/apps/authorize/consent",
+    "sellerCentralAuthUri": "https://sellercentral-europe.amazon.com/apps/authorize/consent",
   },
   "uri": "https://www.amazon.fr",
   "webServiceUri": "https://mws-eu.amazonservices.com",
@@ -343,7 +343,7 @@ AmazonMarketplace {
   "currency": "GBP",
   "id": "A1F83G8C2ARO7P",
   "name": "United Kingdom",
-  "sellerCentralUri": "https://sellercentral.amazon.co.uk",
+  "sellerCentralUri": "https://sellercentral-europe.amazon.com",
   "sellingPartner": Object {
     "region": AmazonSellingPartnerApiRegion {
       "awsRegion": "eu-west-1",
@@ -351,7 +351,7 @@ AmazonMarketplace {
       "endpoint": "https://sellingpartnerapi-eu.amazon.com",
       "name": "Europe",
     },
-    "sellerCentralAuthUri": "https://sellercentral.amazon.co.uk/apps/authorize/consent",
+    "sellerCentralAuthUri": "https://sellercentral-europe.amazon.com/apps/authorize/consent",
   },
   "uri": "https://www.amazon.co.uk",
   "webServiceUri": "https://mws-eu.amazonservices.com",
@@ -406,7 +406,7 @@ AmazonMarketplace {
   "currency": "EUR",
   "id": "APJ6JRA9NG5V4",
   "name": "Italy",
-  "sellerCentralUri": "https://sellercentral.amazon.it",
+  "sellerCentralUri": "https://sellercentral-europe.amazon.com",
   "sellingPartner": Object {
     "region": AmazonSellingPartnerApiRegion {
       "awsRegion": "eu-west-1",
@@ -414,7 +414,7 @@ AmazonMarketplace {
       "endpoint": "https://sellingpartnerapi-eu.amazon.com",
       "name": "Europe",
     },
-    "sellerCentralAuthUri": "https://sellercentral.amazon.it/apps/authorize/consent",
+    "sellerCentralAuthUri": "https://sellercentral-europe.amazon.com/apps/authorize/consent",
   },
   "uri": "https://www.amazon.it",
   "webServiceUri": "https://mws-eu.amazonservices.com",
