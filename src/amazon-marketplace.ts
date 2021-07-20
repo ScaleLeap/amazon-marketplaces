@@ -160,9 +160,16 @@ export interface AmazonSellingPartner {
   /**
    * Amazon Selling Partner API Auth URL
    *
-   * @see [OAuth authorization URIs](https://github.com/amzn/selling-partner-api-docs/blob/main/guides/developer-guide/SellingPartnerApiDeveloperGuide.md#oauth-authorization-uris)
+   * @see [OAuth authorization URIs](https://github.com/amzn/selling-partner-api-docs/blob/main/guides/en-US/developer-guide/SellingPartnerApiDeveloperGuide.md#constructing-an-oauth-authorization-uri)
    */
   readonly sellerCentralAuthUri: string
+
+  /**
+   * Amazon Selling Partner API Auth URL
+   *
+   * @see [OAuth authorization URIs](https://github.com/amzn/selling-partner-api-docs/blob/main/guides/en-US/developer-guide/SellingPartnerApiDeveloperGuide.md#constructing-an-oauth-authorization-uri)
+   */
+  readonly vendorCentralAuthUri: string
 }
 
 export interface AmazonMarketplace {
@@ -225,6 +232,15 @@ export interface AmazonMarketplace {
   readonly sellerCentralUri?: string
 
   /**
+   * Amazon Vendor Central URI.
+   *
+   * @example
+   *
+   * 'https://vendorcentral.amazon.ca'
+   */
+  readonly vendorCentralUri?: string
+
+  /**
    * [Amazon Marketplace Web Service](https://developer.amazonservices.com/gp/mws/docs.html) (Amazon MWS) Endpoint URI.
    *
    * @example
@@ -249,7 +265,7 @@ export class AmazonMarketplace implements AmazonMarketplace {
     Object.assign(this, amazonMarketplace)
 
     /**
-     * https://github.com/amzn/selling-partner-api-docs/blob/main/guides/developer-guide/SellingPartnerApiDeveloperGuide.md#oauth-authorization-uris
+     * https://github.com/amzn/selling-partner-api-docs/blob/main/guides/en-US/developer-guide/SellingPartnerApiDeveloperGuide.md#constructing-an-oauth-authorization-uri
      */
     if (
       amazonMarketplace.sellerCentralUri &&
@@ -257,6 +273,18 @@ export class AmazonMarketplace implements AmazonMarketplace {
     ) {
       Object.assign(amazonMarketplace.sellingPartner, {
         sellerCentralAuthUri: `${amazonMarketplace.sellerCentralUri}/apps/authorize/consent`,
+      })
+    }
+
+    /**
+     * https://github.com/amzn/selling-partner-api-docs/blob/main/guides/en-US/developer-guide/SellingPartnerApiDeveloperGuide.md#constructing-an-oauth-authorization-uri
+     */
+    if (
+      amazonMarketplace.vendorCentralUri &&
+      amazonMarketplace.sellingPartner?.vendorCentralAuthUri
+    ) {
+      Object.assign(amazonMarketplace.sellingPartner, {
+        vendorCentralAuthUri: `${amazonMarketplace.vendorCentralUri}/apps/authorize/consent`,
       })
     }
 

@@ -6,7 +6,11 @@ import {
   AmazonMarketplaceCountryCode,
 } from '../amazon-marketplace'
 import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
-import { sellerCentralAuthUris, sellingPartnerRegions } from '../selling-partner-api-regions'
+import {
+  sellerCentralAuthUris,
+  sellingPartnerRegions,
+  vendorCentralAuthUriTemporary,
+} from '../selling-partner-api-regions'
 
 export const AU = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.AU,
@@ -15,6 +19,7 @@ export const AU = new AmazonMarketplace({
   name: 'Australia',
   uri: 'https://www.amazon.com.au',
   sellerCentralUri: 'https://sellercentral.amazon.com.au',
+  vendorCentralUri: 'https://vendorcentral.amazon.com.au',
   webServiceUri: 'https://mws.amazonservices.com.au',
   advertising: {
     countryCode: AmazonMarketplaceAdvertisingCountryCode.AU,
@@ -34,5 +39,6 @@ export const AU = new AmazonMarketplace({
   sellingPartner: {
     region: sellingPartnerRegions.FE,
     sellerCentralAuthUri: sellerCentralAuthUris.NA,
+    vendorCentralAuthUri: vendorCentralAuthUriTemporary, // This will be generated from Vendor Central URI
   },
 })
