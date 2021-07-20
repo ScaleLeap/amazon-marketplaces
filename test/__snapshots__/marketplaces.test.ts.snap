@@ -603,6 +603,27 @@ AmazonMarketplace {
 
 exports[`marketplace SG should match snapshot 1`] = `
 AmazonMarketplace {
+  "advertising": Object {
+    "bids": Object {
+      "sponsoredBrands": Object {
+        "max": 10000,
+        "min": 10,
+      },
+      "sponsoredProducts": Object {
+        "max": 110000,
+        "min": 2,
+      },
+    },
+    "countryCode": "SG",
+    "region": AmazonMarketplaceAdvertisingRegion {
+      "accessTokenUri": "https://api.amazon.co.jp/auth/o2/token",
+      "authorizationUri": "https://apac.account.amazon.com/ap/oa",
+      "code": "FE",
+      "endpoint": "https://advertising-api-fe.amazon.com",
+      "name": "Far East",
+    },
+    "timeZone": "Asia/Singapore",
+  },
   "countryCode": "SG",
   "currency": "SGD",
   "id": "A19VAU5U5O7RUS",
