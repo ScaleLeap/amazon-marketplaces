@@ -4,11 +4,7 @@ import {
   AmazonMarketplaceCountryCode,
 } from '../amazon-marketplace'
 import { amazonVendorCentralUriFactory } from '../amazon-vendor-central-uri-factory'
-import {
-  sellerCentralAuthUris,
-  sellingPartnerRegions,
-  vendorCentralAuthUriTemporary,
-} from '../selling-partner-api-regions'
+import { sellingPartnerRegions } from '../selling-partner-api-regions'
 
 export const SE = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.SE,
@@ -21,7 +17,5 @@ export const SE = new AmazonMarketplace({
   webServiceUri: 'https://mws-eu.amazonservices.com',
   sellingPartner: {
     region: sellingPartnerRegions.EU,
-    sellerCentralAuthUri: sellerCentralAuthUris.NA,
-    vendorCentralAuthUri: vendorCentralAuthUriTemporary, // This will be generated from Vendor Central URI
   },
 })

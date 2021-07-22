@@ -7,11 +7,7 @@ import {
 } from '../amazon-marketplace'
 import { amazonVendorCentralUriFactory } from '../amazon-vendor-central-uri-factory'
 import { europeanAdvertisingFactory } from '../european-advertising-factory'
-import {
-  sellerCentralAuthUris,
-  sellingPartnerRegions,
-  vendorCentralAuthUriTemporary,
-} from '../selling-partner-api-regions'
+import { sellingPartnerRegions } from '../selling-partner-api-regions'
 import { DE } from './de'
 
 export const NL = new AmazonMarketplace({
@@ -29,7 +25,5 @@ export const NL = new AmazonMarketplace({
   ),
   sellingPartner: {
     region: sellingPartnerRegions.EU,
-    sellerCentralAuthUri: sellerCentralAuthUris.NA,
-    vendorCentralAuthUri: vendorCentralAuthUriTemporary, // This will be generated from Vendor Central URI
   },
 })

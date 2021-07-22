@@ -6,11 +6,7 @@ import {
   AmazonMarketplaceCountryCode,
 } from '../amazon-marketplace'
 import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
-import {
-  sellerCentralAuthUris,
-  sellingPartnerRegions,
-  vendorCentralAuthUriTemporary,
-} from '../selling-partner-api-regions'
+import { sellingPartnerRegions } from '../selling-partner-api-regions'
 
 export const AE = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.AE,
@@ -38,7 +34,5 @@ export const AE = new AmazonMarketplace({
   },
   sellingPartner: {
     region: sellingPartnerRegions.EU,
-    sellerCentralAuthUri: sellerCentralAuthUris.NA,
-    vendorCentralAuthUri: vendorCentralAuthUriTemporary, // This will be generated from Vendor Central URI
   },
 })
