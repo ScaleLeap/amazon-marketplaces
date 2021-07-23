@@ -7,11 +7,7 @@ import {
 } from '../amazon-marketplace'
 import { amazonVendorCentralUriFactory } from '../amazon-vendor-central-uri-factory'
 import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
-import {
-  sellerCentralAuthUris,
-  sellingPartnerRegions,
-  vendorCentralAuthUriTemporary,
-} from '../selling-partner-api-regions'
+import { sellingPartnerRegions } from '../selling-partner-api-regions'
 
 /**
  * Canada
@@ -42,7 +38,5 @@ export const CA = new AmazonMarketplace({
   },
   sellingPartner: {
     region: sellingPartnerRegions.NA,
-    sellerCentralAuthUri: sellerCentralAuthUris.NA,
-    vendorCentralAuthUri: vendorCentralAuthUriTemporary, // This will be generated from Vendor Central URI
   },
 })

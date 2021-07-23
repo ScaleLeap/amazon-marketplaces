@@ -7,11 +7,7 @@ import {
 } from '../amazon-marketplace'
 import { europeanSellerCentralUriFactory } from '../european-seller-central-uri-factory'
 import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
-import {
-  sellerCentralAuthUris,
-  sellingPartnerRegions,
-  vendorCentralAuthUriTemporary,
-} from '../selling-partner-api-regions'
+import { sellingPartnerRegions } from '../selling-partner-api-regions'
 import { DE } from './de'
 
 if (!DE.advertising) {
@@ -44,7 +40,5 @@ export const GB = new AmazonMarketplace({
   },
   sellingPartner: {
     region: sellingPartnerRegions.EU,
-    sellerCentralAuthUri: sellerCentralAuthUris.EU,
-    vendorCentralAuthUri: vendorCentralAuthUriTemporary, // This will be generated from Vendor Central URI
   },
 })

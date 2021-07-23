@@ -172,6 +172,11 @@ export interface AmazonSellingPartner {
   readonly vendorCentralAuthUri: string
 }
 
+type AmazonSellingPartnerParameters = Omit<
+  AmazonSellingPartner,
+  'sellerCentralAuthUri' | 'vendorCentralAuthUri'
+>
+
 export interface AmazonMarketplace {
   /**
    * Amazon Marketplace ID.
@@ -260,32 +265,29 @@ export interface AmazonMarketplace {
   readonly sellingPartner?: AmazonSellingPartner
 }
 
+interface AmazonMarketplaceParameters extends Omit<AmazonMarketplace, 'sellingPartner'> {
+  sellingPartner?: AmazonSellingPartnerParameters
+}
+
 export class AmazonMarketplace implements AmazonMarketplace {
-  public constructor(amazonMarketplace: AmazonMarketplace) {
+  public constructor(amazonMarketplace: AmazonMarketplaceParameters) {
     Object.assign(this, amazonMarketplace)
 
-    /**
-     * https://github.com/amzn/selling-partner-api-docs/blob/main/guides/en-US/developer-guide/SellingPartnerApiDeveloperGuide.md#constructing-an-oauth-authorization-uri
-     */
-    if (
-      amazonMarketplace.sellerCentralUri &&
-      amazonMarketplace.sellingPartner?.sellerCentralAuthUri
-    ) {
-      Object.assign(amazonMarketplace.sellingPartner, {
-        sellerCentralAuthUri: `${amazonMarketplace.sellerCentralUri}/apps/authorize/consent`,
-      })
-    }
+    if (this.sellingPartner) {
+      /**
+       * https://github.com/amzn/selling-partner-api-docs/blob/main/guides/en-US/developer-guide/SellingPartnerApiDeveloperGuide.md#constructing-an-oauth-authorization-uri
+       */
+      if (amazonMarketplace.sellerCentralUri) {
+        Object.assign(this.sellingPartner, {
+          sellerCentralAuthUri: `${amazonMarketplace.sellerCentralUri}/apps/authorize/consent`,
+        })
+      }
 
-    /**
-     * https://github.com/amzn/selling-partner-api-docs/blob/main/guides/en-US/developer-guide/SellingPartnerApiDeveloperGuide.md#constructing-an-oauth-authorization-uri
-     */
-    if (
-      amazonMarketplace.vendorCentralUri &&
-      amazonMarketplace.sellingPartner?.vendorCentralAuthUri
-    ) {
-      Object.assign(amazonMarketplace.sellingPartner, {
-        vendorCentralAuthUri: `${amazonMarketplace.vendorCentralUri}/apps/authorize/consent`,
-      })
+      if (amazonMarketplace.vendorCentralUri) {
+        Object.assign(this.sellingPartner, {
+          vendorCentralAuthUri: `${amazonMarketplace.vendorCentralUri}/apps/authorize/consent`,
+        })
+      }
     }
 
     Object.freeze(this)

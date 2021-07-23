@@ -7,10 +7,3 @@ export const sellingPartnerRegions = {
   FE,
   NA,
 } as const
-
-export const sellerCentralAuthUris = {
-  NA: `https://sellercentral.amazon.com`,
-  EU: `https://sellercentral-europe.amazon.com`,
-}
-
-export const vendorCentralAuthUriTemporary = 'https://vendorcentral.amazon.com'
