@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [12.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v11.1.0...v12.0.0) (2021-09-07)
+
+
+### Bug Fixes
+
+* adds advertising to India marketplace ([#422](https://github.com/ScaleLeap/amazon-marketplaces/issues/422)) ([91d9f30](https://github.com/ScaleLeap/amazon-marketplaces/commit/91d9f30f28f8b0579618351919eb617b2c483639))
+
+
+### BREAKING CHANGES
+
+* adds advertising to India marketplace
+
 # [11.1.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v11.0.1...v11.1.0) (2021-07-20)
 
 
