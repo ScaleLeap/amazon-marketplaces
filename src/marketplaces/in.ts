@@ -1,8 +1,11 @@
 import {
   AmazonMarketplace,
+  AmazonMarketplaceAdvertisingCountryCode,
   AmazonMarketplaceAdvertisingCurrency,
+  AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceCountryCode,
 } from '../amazon-marketplace'
+import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
 import { sellingPartnerRegions } from '../selling-partner-api-regions'
 
 export const IN = new AmazonMarketplace({
@@ -14,6 +17,21 @@ export const IN = new AmazonMarketplace({
   sellerCentralUri: 'https://sellercentral.amazon.in',
   vendorCentralUri: 'https://www.vendorcentral.in',
   webServiceUri: 'https://mws.amazonservices.in',
+  advertising: {
+    countryCode: AmazonMarketplaceAdvertisingCountryCode.IN,
+    region: marketplaceAdvertisingRegions.EU,
+    bids: {
+      sponsoredBrands: {
+        min: 1,
+        max: 2000,
+      },
+      sponsoredProducts: {
+        min: 1,
+        max: 5000,
+      },
+    },
+    timeZone: AmazonMarketplaceAdvertisingTimeZone.ASIA_INDIA,
+  },
   sellingPartner: {
     region: sellingPartnerRegions.EU,
   },

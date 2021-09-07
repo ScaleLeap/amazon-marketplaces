@@ -386,6 +386,27 @@ AmazonMarketplace {
 
 exports[`marketplace IN should match snapshot 1`] = `
 AmazonMarketplace {
+  "advertising": Object {
+    "bids": Object {
+      "sponsoredBrands": Object {
+        "max": 2000,
+        "min": 1,
+      },
+      "sponsoredProducts": Object {
+        "max": 5000,
+        "min": 1,
+      },
+    },
+    "countryCode": "IN",
+    "region": AmazonMarketplaceAdvertisingRegion {
+      "accessTokenUri": "https://api.amazon.co.uk/auth/o2/token",
+      "authorizationUri": "https://eu.account.amazon.com/ap/oa",
+      "code": "EU",
+      "endpoint": "https://advertising-api-eu.amazon.com",
+      "name": "Europe",
+    },
+    "timeZone": "Asia/Kolkata",
+  },
   "countryCode": "IN",
   "currency": "INR",
   "id": "A21TJRUUN4KGV",
