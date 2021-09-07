@@ -27,7 +27,7 @@ export const IN = new AmazonMarketplace({
       },
       sponsoredProducts: {
         min: 1,
-        max: 50000,
+        max: 5000,
       },
     },
     timeZone: AmazonMarketplaceAdvertisingTimeZone.ASIA_INDIA,
