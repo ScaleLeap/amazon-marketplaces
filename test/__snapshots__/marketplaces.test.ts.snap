@@ -389,12 +389,12 @@ AmazonMarketplace {
   "advertising": Object {
     "bids": Object {
       "sponsoredBrands": Object {
-        "max": 18400,
-        "min": 24,
+        "max": 2000,
+        "min": 1,
       },
       "sponsoredProducts": Object {
-        "max": 18400,
-        "min": 24,
+        "max": 50000,
+        "min": 1,
       },
     },
     "countryCode": "IN",
