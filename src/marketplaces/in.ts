@@ -15,7 +15,7 @@ export const IN = new AmazonMarketplace({
   name: 'India',
   uri: 'https://www.amazon.in',
   sellerCentralUri: 'https://sellercentral.amazon.in',
-  vendorCentralUri: 'https://www.vendorcentral.in',
+  vendorCentralUri: 'https://vendorcentral.amazon.in',
   webServiceUri: 'https://mws.amazonservices.in',
   advertising: {
     countryCode: AmazonMarketplaceAdvertisingCountryCode.IN,
