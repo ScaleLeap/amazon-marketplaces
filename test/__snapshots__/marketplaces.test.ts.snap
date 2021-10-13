@@ -420,10 +420,10 @@ AmazonMarketplace {
       "name": "Europe",
     },
     "sellerCentralAuthUri": "https://sellercentral.amazon.in/apps/authorize/consent",
-    "vendorCentralAuthUri": "https://www.vendorcentral.in/apps/authorize/consent",
+    "vendorCentralAuthUri": "https://vendorcentral.amazon.in/apps/authorize/consent",
   },
   "uri": "https://www.amazon.in",
-  "vendorCentralUri": "https://www.vendorcentral.in",
+  "vendorCentralUri": "https://vendorcentral.amazon.in",
   "webServiceUri": "https://mws.amazonservices.in",
 }
 `;
