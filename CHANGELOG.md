@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [12.0.1](https://github.com/ScaleLeap/amazon-marketplaces/compare/v12.0.0...v12.0.1) (2021-10-13)
+
+
+### Bug Fixes
+
+* india vendor central link ([#441](https://github.com/ScaleLeap/amazon-marketplaces/issues/441)) ([1cb3019](https://github.com/ScaleLeap/amazon-marketplaces/commit/1cb30191e610a012d80a83c547b7208690da35b8))
+
 # [12.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v11.1.0...v12.0.0) (2021-09-07)
 
 
