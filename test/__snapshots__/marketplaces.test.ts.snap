@@ -6,7 +6,7 @@ AmazonMarketplace {
     "bids": Object {
       "sponsoredBrands": Object {
         "max": 18400,
-        "min": 24,
+        "min": 40,
       },
       "sponsoredProducts": Object {
         "max": 18400,
@@ -93,8 +93,8 @@ AmazonMarketplace {
   "advertising": Object {
     "bids": Object {
       "sponsoredBrands": Object {
-        "max": 370000,
-        "min": 7,
+        "max": 20000,
+        "min": 53,
       },
       "sponsoredProducts": Object {
         "max": 370000,
@@ -521,12 +521,12 @@ AmazonMarketplace {
   "advertising": Object {
     "bids": Object {
       "sponsoredBrands": Object {
-        "max": 4900,
+        "max": 50000,
         "min": 10,
       },
       "sponsoredProducts": Object {
-        "max": 100000,
-        "min": 2,
+        "max": 2000000,
+        "min": 10,
       },
     },
     "countryCode": "MX",
@@ -641,6 +641,27 @@ AmazonMarketplace {
 
 exports[`marketplace SE should match snapshot 1`] = `
 AmazonMarketplace {
+  "advertising": Object {
+    "bids": Object {
+      "sponsoredBrands": Object {
+        "max": 940000000,
+        "min": 900,
+      },
+      "sponsoredProducts": Object {
+        "max": 930000,
+        "min": 18,
+      },
+    },
+    "countryCode": "SE",
+    "region": AmazonMarketplaceAdvertisingRegion {
+      "accessTokenUri": "https://api.amazon.co.uk/auth/o2/token",
+      "authorizationUri": "https://eu.account.amazon.com/ap/oa",
+      "code": "EU",
+      "endpoint": "https://advertising-api-eu.amazon.com",
+      "name": "Europe",
+    },
+    "timeZone": "Europe/Stockholm",
+  },
   "countryCode": "SE",
   "currency": "SEK",
   "id": "A2NODRKZP88ZB9",
@@ -668,7 +689,7 @@ AmazonMarketplace {
     "bids": Object {
       "sponsoredBrands": Object {
         "max": 10000,
-        "min": 10,
+        "min": 14,
       },
       "sponsoredProducts": Object {
         "max": 110000,

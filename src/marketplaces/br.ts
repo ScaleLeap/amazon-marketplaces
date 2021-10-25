@@ -22,8 +22,8 @@ export const BR = new AmazonMarketplace({
     region: marketplaceAdvertisingRegions.NA,
     bids: {
       sponsoredBrands: {
-        min: 7,
-        max: 370000,
+        min: 53,
+        max: 20000,
       },
       sponsoredProducts: {
         min: 7,

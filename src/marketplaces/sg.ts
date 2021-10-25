@@ -22,7 +22,7 @@ export const SG = new AmazonMarketplace({
     region: marketplaceAdvertisingRegions.FE,
     bids: {
       sponsoredBrands: {
-        min: 10,
+        min: 14,
         max: 10000,
       },
       sponsoredProducts: {

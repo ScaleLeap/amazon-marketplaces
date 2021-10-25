@@ -1,9 +1,12 @@
 import {
   AmazonMarketplace,
+  AmazonMarketplaceAdvertisingCountryCode,
   AmazonMarketplaceAdvertisingCurrency,
+  AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceCountryCode,
 } from '../amazon-marketplace'
 import { amazonVendorCentralUriFactory } from '../amazon-vendor-central-uri-factory'
+import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
 import { sellingPartnerRegions } from '../selling-partner-api-regions'
 
 export const SE = new AmazonMarketplace({
@@ -15,6 +18,21 @@ export const SE = new AmazonMarketplace({
   sellerCentralUri: 'https://sellercentral.amazon.se',
   vendorCentralUri: amazonVendorCentralUriFactory(AmazonMarketplaceCountryCode.SE),
   webServiceUri: 'https://mws-eu.amazonservices.com',
+  advertising: {
+    countryCode: AmazonMarketplaceAdvertisingCountryCode.SE,
+    region: marketplaceAdvertisingRegions.EU,
+    bids: {
+      sponsoredBrands: {
+        min: 900,
+        max: 940000000,
+      },
+      sponsoredProducts: {
+        min: 18,
+        max: 930000,
+      },
+    },
+    timeZone: AmazonMarketplaceAdvertisingTimeZone.EUROPE_STOCKHOLM,
+  },
   sellingPartner: {
     region: sellingPartnerRegions.EU,
   },
