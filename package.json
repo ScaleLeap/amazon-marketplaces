@@ -38,7 +38,7 @@
     "danger": "10.7.1",
     "jest": "27.4.3",
     "rimraf": "3.0.2",
-    "ts-jest": "27.0.7",
+    "ts-jest": "27.1.2",
     "tsconfigs": "4.0.2",
     "typedoc": "0.22.10",
     "typescript": "4.5.4"
