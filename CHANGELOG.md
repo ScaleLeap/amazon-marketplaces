@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [14.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v13.0.0...v14.0.0) (2022-01-11)
+
+
+### Features
+
+* adds advertising to Poland ([#467](https://github.com/ScaleLeap/amazon-marketplaces/issues/467)) ([0786796](https://github.com/ScaleLeap/amazon-marketplaces/commit/0786796d605ac95cd47528854d1462d7ea55019a))
+
+
+### BREAKING CHANGES
+
+* Adds advertising to Poland
+
 # [13.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v12.0.1...v13.0.0) (2021-10-25)
 
 
