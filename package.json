@@ -35,7 +35,7 @@
     "@scaleleap/utils": "1.9.58",
     "@types/jest": "27.4.0",
     "@types/node": "16.11.21",
-    "danger": "10.9.0",
+    "danger": "11.0.2",
     "jest": "27.4.7",
     "rimraf": "3.0.2",
     "ts-jest": "27.1.3",
