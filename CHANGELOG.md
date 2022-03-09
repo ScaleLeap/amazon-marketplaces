@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [15.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v14.0.0...v15.0.0) (2022-03-09)
+
+
+### Features
+
+* add Turkey to advertising ([#492](https://github.com/ScaleLeap/amazon-marketplaces/issues/492)) ([92a4d8c](https://github.com/ScaleLeap/amazon-marketplaces/commit/92a4d8c3239fc7af3da7494fb5244fce7983ab9b))
+
+
+### BREAKING CHANGES
+
+* - add Turkey to advertising
+- update bid constraints by marketplace: IN, PL, SE
+
 # [14.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v13.0.0...v14.0.0) (2022-01-11)
 
 

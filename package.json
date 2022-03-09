@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/ScaleLeap/amazon-marketplaces/issues"
   },
-  "version": "14.0.0",
+  "version": "15.0.0",
   "main": "lib/index.js",
   "scripts": {
     "prebuild": "npm run clean",
