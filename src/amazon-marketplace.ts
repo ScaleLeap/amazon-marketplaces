@@ -72,6 +72,7 @@ export enum AmazonMarketplaceAdvertisingCountryCode {
   PL = 'PL',
   SE = 'SE',
   SG = 'SG',
+  TR = 'TR',
   UK = 'UK', // Not a real country code, but such is life. See https://github.com/ScaleLeap/amazon-marketplaces/issues/122
   US = 'US',
 }
@@ -88,6 +89,7 @@ export enum AmazonMarketplaceAdvertisingTimeZone {
   ASIA_TOKYO = 'Asia/Tokyo',
   AUSTRALIA_SYDNEY = 'Australia/Sydney',
   EUROPE_AMSTERDAM = 'Europe/Amsterdam',
+  EUROPE_ISTANBUL = 'Europe/Istanbul',
   EUROPE_LONDON = 'Europe/London',
   EUROPE_PARIS = 'Europe/Paris',
   EUROPE_STOCKHOLM = 'Europe/Stockholm',

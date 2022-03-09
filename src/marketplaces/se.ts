@@ -23,8 +23,8 @@ export const SE = new AmazonMarketplace({
     region: marketplaceAdvertisingRegions.EU,
     bids: {
       sponsoredBrands: {
-        min: 900,
-        max: 940000000,
+        min: 90,
+        max: 50000,
       },
       sponsoredProducts: {
         min: 18,
