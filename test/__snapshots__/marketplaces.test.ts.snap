@@ -389,12 +389,12 @@ AmazonMarketplace {
   "advertising": Object {
     "bids": Object {
       "sponsoredBrands": Object {
-        "max": 2000,
-        "min": 1,
+        "max": 200000,
+        "min": 100,
       },
       "sponsoredProducts": Object {
-        "max": 5000,
-        "min": 1,
+        "max": 500000,
+        "min": 100,
       },
     },
     "countryCode": "IN",
@@ -610,7 +610,7 @@ AmazonMarketplace {
     "bids": Object {
       "sponsoredBrands": Object {
         "max": 20000,
-        "min": 2,
+        "min": 20,
       },
       "sponsoredProducts": Object {
         "max": 200000000,
@@ -665,8 +665,8 @@ AmazonMarketplace {
   "advertising": Object {
     "bids": Object {
       "sponsoredBrands": Object {
-        "max": 940000000,
-        "min": 900,
+        "max": 50000,
+        "min": 90,
       },
       "sponsoredProducts": Object {
         "max": 930000,
@@ -750,6 +750,27 @@ AmazonMarketplace {
 
 exports[`marketplace TR should match snapshot 1`] = `
 AmazonMarketplace {
+  "advertising": Object {
+    "bids": Object {
+      "sponsoredBrands": Object {
+        "max": 20000,
+        "min": 20,
+      },
+      "sponsoredProducts": Object {
+        "max": 250000,
+        "min": 5,
+      },
+    },
+    "countryCode": "TR",
+    "region": AmazonMarketplaceAdvertisingRegion {
+      "accessTokenUri": "https://api.amazon.co.uk/auth/o2/token",
+      "authorizationUri": "https://eu.account.amazon.com/ap/oa",
+      "code": "EU",
+      "endpoint": "https://advertising-api-eu.amazon.com",
+      "name": "Europe",
+    },
+    "timeZone": "Europe/Istanbul",
+  },
   "countryCode": "TR",
   "currency": "TRY",
   "id": "A33AVAJ2PDY3EV",

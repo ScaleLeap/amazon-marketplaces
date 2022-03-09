@@ -23,7 +23,7 @@ export const PL = new AmazonMarketplace({
     region: marketplaceAdvertisingRegions.EU,
     bids: {
       sponsoredBrands: {
-        min: 2,
+        min: 20,
         max: 20000,
       },
       sponsoredProducts: {

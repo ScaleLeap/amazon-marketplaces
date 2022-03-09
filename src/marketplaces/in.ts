@@ -22,12 +22,12 @@ export const IN = new AmazonMarketplace({
     region: marketplaceAdvertisingRegions.EU,
     bids: {
       sponsoredBrands: {
-        min: 1,
-        max: 2000,
+        min: 100,
+        max: 200000,
       },
       sponsoredProducts: {
-        min: 1,
-        max: 5000,
+        min: 100,
+        max: 500000,
       },
     },
     timeZone: AmazonMarketplaceAdvertisingTimeZone.ASIA_INDIA,
