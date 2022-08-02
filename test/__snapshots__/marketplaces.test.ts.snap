@@ -233,6 +233,27 @@ AmazonMarketplace {
 
 exports[`marketplace EG should match snapshot 1`] = `
 AmazonMarketplace {
+  "advertising": Object {
+    "bids": Object {
+      "sponsoredBrands": Object {
+        "max": 40000,
+        "min": 70,
+      },
+      "sponsoredProducts": Object {
+        "max": 550,
+        "min": 15,
+      },
+    },
+    "countryCode": "EG",
+    "region": AmazonMarketplaceAdvertisingRegion {
+      "accessTokenUri": "https://api.amazon.co.uk/auth/o2/token",
+      "authorizationUri": "https://eu.account.amazon.com/ap/oa",
+      "code": "EU",
+      "endpoint": "https://advertising-api-eu.amazon.com",
+      "name": "Europe",
+    },
+    "timeZone": "Africa/Cairo",
+  },
   "countryCode": "EG",
   "currency": "EGP",
   "id": "ARBP9OOSHTCHU",
@@ -521,7 +542,7 @@ AmazonMarketplace {
   "advertising": Object {
     "bids": Object {
       "sponsoredBrands": Object {
-        "max": 50000,
+        "max": 2000000,
         "min": 10,
       },
       "sponsoredProducts": Object {
@@ -613,8 +634,8 @@ AmazonMarketplace {
         "min": 20,
       },
       "sponsoredProducts": Object {
-        "max": 200000000,
-        "min": 200,
+        "max": 200000,
+        "min": 4,
       },
     },
     "countryCode": "PL",
