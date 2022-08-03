@@ -27,8 +27,8 @@ export const PL = new AmazonMarketplace({
         max: 20000,
       },
       sponsoredProducts: {
-        min: 200,
-        max: 200000000,
+        min: 4,
+        max: 200000,
       },
     },
     timeZone: AmazonMarketplaceAdvertisingTimeZone.EUROPE_WARSAW,

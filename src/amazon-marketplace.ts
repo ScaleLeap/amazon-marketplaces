@@ -62,6 +62,7 @@ export enum AmazonMarketplaceAdvertisingCountryCode {
   BR = 'BR',
   CA = 'CA',
   DE = 'DE',
+  EG = 'EG',
   ES = 'ES',
   FR = 'FR',
   IN = 'IN',
@@ -81,6 +82,7 @@ export enum AmazonMarketplaceAdvertisingCountryCode {
  * Time Zone enum.
  */
 export enum AmazonMarketplaceAdvertisingTimeZone {
+  AFRICA_CAIRO = 'Africa/Cairo',
   AMERICA_LOS_ANGELES = 'America/Los_Angeles',
   AMERICA_SAO_PAULO = 'America/Sao_Paulo',
   ASIA_DUBAI = 'Asia/Dubai',

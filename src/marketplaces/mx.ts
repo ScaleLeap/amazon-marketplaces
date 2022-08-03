@@ -23,7 +23,7 @@ export const MX = new AmazonMarketplace({
     bids: {
       sponsoredBrands: {
         min: 10,
-        max: 50000,
+        max: 2000000,
       },
       sponsoredProducts: {
         min: 10,

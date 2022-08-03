@@ -6,7 +6,7 @@ import {
 } from '../src/utils'
 
 describe('utils', () => {
-  const { CA, EG } = amazonMarketplaces
+  const { CA, CN } = amazonMarketplaces
 
   describe(`${findAmazonMarketplace.name}`, () => {
     it('should find by id', () => {
@@ -69,7 +69,7 @@ describe('utils', () => {
     it('should throw when advertising is not available', () => {
       expect.assertions(1)
 
-      expect(() => assertMarketplaceHasAdvertising(EG)).toThrow(/does not have advertising/)
+      expect(() => assertMarketplaceHasAdvertising(CN)).toThrow(/does not have advertising/)
     })
   })
 })
