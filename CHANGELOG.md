@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [15.1.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v15.0.0...v15.1.0) (2022-08-03)
+
+
+### Features
+
+* add Egypt to advertising ([#518](https://github.com/ScaleLeap/amazon-marketplaces/issues/518)) ([ed6f528](https://github.com/ScaleLeap/amazon-marketplaces/commit/ed6f528e45e0c8fa2cdce70caadac9e67875470f))
+
 # [15.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v14.0.0...v15.0.0) (2022-03-09)
 
 
