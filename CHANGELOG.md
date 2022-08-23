@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [16.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v15.1.0...v16.0.0) (2022-08-23)
+
+
+### Features
+
+* add marketplace support ([#523](https://github.com/ScaleLeap/amazon-marketplaces/issues/523)) ([345ce7b](https://github.com/ScaleLeap/amazon-marketplaces/commit/345ce7b02054068049ac564b83b6fee2a5281457))
+
+
+### BREAKING CHANGES
+
+* Adds Belgium
+
 # [15.1.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v15.0.0...v15.1.0) (2022-08-03)
 
 
