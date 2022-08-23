@@ -7,6 +7,7 @@ import { AmazonSellingPartnerApiRegion } from './amazon-selling-partner-api-regi
 export enum AmazonMarketplaceCountryCode {
   AE = 'AE',
   AU = 'AU',
+  BE = 'BE',
   BR = 'BR',
   CA = 'CA',
   CN = 'CN',
