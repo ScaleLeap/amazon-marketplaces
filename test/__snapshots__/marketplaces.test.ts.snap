@@ -88,6 +88,29 @@ AmazonMarketplace {
 }
 `;
 
+exports[`marketplace BE should match snapshot 1`] = `
+AmazonMarketplace {
+  "countryCode": "BE",
+  "currency": "EUR",
+  "id": "AMEN7PMS3EDWL",
+  "name": "Belgium",
+  "sellerCentralUri": "https://sellercentral.amazon.com.be",
+  "sellingPartner": Object {
+    "region": AmazonSellingPartnerApiRegion {
+      "awsRegion": "eu-west-1",
+      "code": "EU",
+      "endpoint": "https://sellingpartnerapi-eu.amazon.com",
+      "name": "Europe",
+    },
+    "sellerCentralAuthUri": "https://sellercentral.amazon.com.be/apps/authorize/consent",
+    "vendorCentralAuthUri": "https://vendorcentral.amazon.com.be/apps/authorize/consent",
+  },
+  "uri": "https://www.amazon.com.be",
+  "vendorCentralUri": "https://vendorcentral.amazon.com.be",
+  "webServiceUri": "https://mws-eu.amazonservices.com",
+}
+`;
+
 exports[`marketplace BR should match snapshot 1`] = `
 AmazonMarketplace {
   "advertising": Object {

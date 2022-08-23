@@ -1,5 +1,6 @@
 import { AE } from './ae'
 import { AU } from './au'
+import { BE } from './be'
 import { BR } from './br'
 import { CA } from './ca'
 import { CN } from './cn'
@@ -30,6 +31,11 @@ export const amazonMarketplaces = {
    * Australia
    */
   AU,
+
+  /**
+   * Belgium
+   */
+  BE,
 
   /**
    * Brazil
