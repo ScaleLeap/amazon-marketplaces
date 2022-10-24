@@ -5,6 +5,7 @@
     "lib": [
       "ES2019",
     ],
+    "types": ["node", "jest"],
     "target": "ES2019"
   },
   "include": [
