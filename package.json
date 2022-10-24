@@ -32,13 +32,13 @@
     "@lavadrop/ensure": "1.0.0"
   },
   "devDependencies": {
-    "@scaleleap/utils": "1.9.58",
-    "@types/jest": "27.4.1",
+    "@scaleleap/utils": "1.9.98",
+    "@types/jest": "27.5.2",
     "@types/node": "16.18.0",
     "danger": "11.1.4",
-    "jest": "28.0.3",
+    "jest": "28.1.3",
     "rimraf": "3.0.2",
-    "ts-jest": "28.0.3",
+    "ts-jest": "28.0.8",
     "tsconfigs": "4.0.2",
     "typedoc": "0.23.18",
     "typescript": "4.8.4"

@@ -19,7 +19,7 @@ export function europeanAdvertisingFactory(
       },
       sponsoredProducts: {
         min: 2,
-        max: 100000,
+        max: 100_000,
       },
     },
     timeZone: tz || AmazonMarketplaceAdvertisingTimeZone.EUROPE_PARIS,

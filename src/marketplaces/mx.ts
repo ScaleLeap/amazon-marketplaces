@@ -25,11 +25,11 @@ export const MX = new AmazonMarketplace({
     bids: {
       sponsoredBrands: {
         min: 10,
-        max: 2000000,
+        max: 2_000_000,
       },
       sponsoredProducts: {
         min: 10,
-        max: 2000000,
+        max: 2_000_000,
       },
     },
     timeZone: AmazonMarketplaceAdvertisingTimeZone.AMERICA_LOS_ANGELES,

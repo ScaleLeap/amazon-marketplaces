@@ -25,11 +25,11 @@ export const TR = new AmazonMarketplace({
     bids: {
       sponsoredBrands: {
         min: 20,
-        max: 20000,
+        max: 20_000,
       },
       sponsoredProducts: {
         min: 5,
-        max: 250000,
+        max: 250_000,
       },
     },
     timeZone: AmazonMarketplaceAdvertisingTimeZone.EUROPE_ISTANBUL,

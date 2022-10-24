@@ -33,7 +33,7 @@ export const CA = new AmazonMarketplace({
       },
       sponsoredProducts: {
         min: 2,
-        max: 100000,
+        max: 100_000,
       },
     },
     timeZone: AmazonMarketplaceAdvertisingTimeZone.AMERICA_LOS_ANGELES,
