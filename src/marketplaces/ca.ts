@@ -4,6 +4,7 @@ import {
   AmazonMarketplaceAdvertisingCurrency,
   AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceCountryCode,
+  AmazonMarketplaceTimeZone,
 } from '../amazon-marketplace'
 import { amazonVendorCentralUriFactory } from '../amazon-vendor-central-uri-factory'
 import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
@@ -14,6 +15,7 @@ import { sellingPartnerRegions } from '../selling-partner-api-regions'
  */
 export const CA = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.CA,
+  timeZone: AmazonMarketplaceTimeZone.AMERICA_LOS_ANGELES,
   currency: AmazonMarketplaceAdvertisingCurrency.CAD,
   id: 'A2EUQ1WTGCTBG2',
   name: 'Canada',

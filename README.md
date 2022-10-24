@@ -16,6 +16,7 @@ a structured class.
 
 * ID (e.g. `A2EUQ1WTGCTBG2`)
 * Country code (ISO 3166-1) (e.g. `CA`)
+* Amazon marketplace time zone (e.g. `America/Los_Angeles`)
 * Currency code (ISO 4217) (e.g. `CAD`)
 * Name (country name) (e.g. `Canada`)
 * URI (e.g. `https://www.amazon.ca/`)
@@ -87,6 +88,7 @@ console.log(CA.advertising.countryCode)
 ```json
 {
   "countryCode": "CA",
+  "timeZone": "America/Los_Angeles",
   "currency": "CAD",
   "id": "A2EUQ1WTGCTBG2",
   "name": "Canada",

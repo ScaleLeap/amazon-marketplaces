@@ -4,12 +4,14 @@ import {
   AmazonMarketplaceAdvertisingCurrency,
   AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceCountryCode,
+  AmazonMarketplaceTimeZone,
 } from '../amazon-marketplace'
 import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
 import { sellingPartnerRegions } from '../selling-partner-api-regions'
 
 export const TR = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.TR,
+  timeZone: AmazonMarketplaceTimeZone.EUROPE_ISTANBUL,
   currency: AmazonMarketplaceAdvertisingCurrency.TRY,
   id: 'A33AVAJ2PDY3EV',
   name: 'Turkey',

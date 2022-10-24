@@ -4,12 +4,14 @@ import {
   AmazonMarketplaceAdvertisingCurrency,
   AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceCountryCode,
+  AmazonMarketplaceTimeZone,
 } from '../amazon-marketplace'
 import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
 import { sellingPartnerRegions } from '../selling-partner-api-regions'
 
 export const EG = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.EG,
+  timeZone: AmazonMarketplaceTimeZone.AFRICA_CAIRO,
   currency: AmazonMarketplaceAdvertisingCurrency.EGP,
   id: 'ARBP9OOSHTCHU',
   name: 'Egypt',

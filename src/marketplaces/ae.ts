@@ -4,12 +4,14 @@ import {
   AmazonMarketplaceAdvertisingCurrency,
   AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceCountryCode,
+  AmazonMarketplaceTimeZone,
 } from '../amazon-marketplace'
 import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
 import { sellingPartnerRegions } from '../selling-partner-api-regions'
 
 export const AE = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.AE,
+  timeZone: AmazonMarketplaceTimeZone.ASIA_DUBAI,
   currency: AmazonMarketplaceAdvertisingCurrency.AED,
   id: 'A2VIGQ35RCS4UG',
   name: 'United Arab Emirates',

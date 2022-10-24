@@ -4,6 +4,7 @@ import {
   AmazonMarketplaceAdvertisingCurrency,
   AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceCountryCode,
+  AmazonMarketplaceTimeZone,
 } from '../amazon-marketplace'
 import { amazonVendorCentralUriFactory } from '../amazon-vendor-central-uri-factory'
 import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
@@ -11,6 +12,7 @@ import { sellingPartnerRegions } from '../selling-partner-api-regions'
 
 export const PL = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.PL,
+  timeZone: AmazonMarketplaceTimeZone.EUROPE_WARSAW,
   currency: AmazonMarketplaceAdvertisingCurrency.PLN,
   id: 'A1C3SOZRARQ6R3',
   name: 'Poland',

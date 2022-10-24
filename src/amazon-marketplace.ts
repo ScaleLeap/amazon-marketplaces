@@ -99,6 +99,26 @@ export enum AmazonMarketplaceAdvertisingTimeZone {
   EUROPE_WARSAW = 'Europe/Warsaw',
 }
 
+export enum AmazonMarketplaceTimeZone {
+  AFRICA_CAIRO = 'Africa/Cairo',
+  AMERICA_LOS_ANGELES = 'America/Los_Angeles',
+  AMERICA_SAO_PAULO = 'America/Sao_Paulo',
+  ASIA_DUBAI = 'Asia/Dubai',
+  ASIA_INDIA = 'Asia/Kolkata',
+  ASIA_RIYADH = 'Asia/Riyadh',
+  ASIA_SHANGHAI = 'Asia/Shanghai',
+  ASIA_SINGAPORE = 'Asia/Singapore',
+  ASIA_TOKYO = 'Asia/Tokyo',
+  AUSTRALIA_SYDNEY = 'Australia/Sydney',
+  EUROPE_AMSTERDAM = 'Europe/Amsterdam',
+  EUROPE_BRUSSELS = 'Europe/Brussels',
+  EUROPE_ISTANBUL = 'Europe/Istanbul',
+  EUROPE_LONDON = 'Europe/London',
+  EUROPE_PARIS = 'Europe/Paris',
+  EUROPE_STOCKHOLM = 'Europe/Stockholm',
+  EUROPE_WARSAW = 'Europe/Warsaw',
+}
+
 export interface AmazonMarketplaceAdvertising {
   /**
    * Amazon Advertising account time zone.
@@ -217,6 +237,15 @@ export interface AmazonMarketplace {
    * AmazonMarketplaceCountryCode.CA
    */
   readonly countryCode: AmazonMarketplaceCountryCode
+
+  /**
+   * Time zone for the given marketplace.
+   *
+   * @example
+   *
+   * "America/Los_Angeles"
+   */
+  readonly timeZone: AmazonMarketplaceTimeZone
 
   /**
    * Currency code for the given marketplace.
