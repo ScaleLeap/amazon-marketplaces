@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [16.1.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v16.0.0...v16.1.0) (2022-10-24)
+
+
+### Features
+
+* add Amazon marketplace time zones ([#534](https://github.com/ScaleLeap/amazon-marketplaces/issues/534)) ([9212e54](https://github.com/ScaleLeap/amazon-marketplaces/commit/9212e54689d924dc25669804959268f0e4513202))
+
 # [16.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v15.1.0...v16.0.0) (2022-08-23)
 
 
