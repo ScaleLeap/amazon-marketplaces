@@ -4,12 +4,14 @@ import {
   AmazonMarketplaceAdvertisingCurrency,
   AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceCountryCode,
+  AmazonMarketplaceTimeZone,
 } from '../amazon-marketplace'
 import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
 import { sellingPartnerRegions } from '../selling-partner-api-regions'
 
 export const SG = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.SG,
+  timeZone: AmazonMarketplaceTimeZone.ASIA_SINGAPORE,
   currency: AmazonMarketplaceAdvertisingCurrency.SGD,
   id: 'A19VAU5U5O7RUS',
   name: 'Singapore',

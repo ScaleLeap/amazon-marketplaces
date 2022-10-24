@@ -4,12 +4,14 @@ import {
   AmazonMarketplaceAdvertisingCurrency,
   AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceCountryCode,
+  AmazonMarketplaceTimeZone,
 } from '../amazon-marketplace'
 import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
 import { sellingPartnerRegions } from '../selling-partner-api-regions'
 
 export const US = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.US,
+  timeZone: AmazonMarketplaceTimeZone.AMERICA_LOS_ANGELES,
   currency: AmazonMarketplaceAdvertisingCurrency.USD,
   id: 'ATVPDKIKX0DER',
   name: 'United States',

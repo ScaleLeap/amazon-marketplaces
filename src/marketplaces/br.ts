@@ -4,12 +4,14 @@ import {
   AmazonMarketplaceAdvertisingCurrency,
   AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceCountryCode,
+  AmazonMarketplaceTimeZone,
 } from '../amazon-marketplace'
 import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
 import { sellingPartnerRegions } from '../selling-partner-api-regions'
 
 export const BR = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.BR,
+  timeZone: AmazonMarketplaceTimeZone.AMERICA_SAO_PAULO,
   currency: AmazonMarketplaceAdvertisingCurrency.BRL,
   id: 'A2Q3Y263D00KWC',
   name: 'Brazil',

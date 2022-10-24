@@ -4,6 +4,7 @@ import {
   AmazonMarketplaceAdvertisingCurrency,
   AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceCountryCode,
+  AmazonMarketplaceTimeZone,
 } from '../amazon-marketplace'
 import { amazonVendorCentralUriFactory } from '../amazon-vendor-central-uri-factory'
 import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
@@ -11,6 +12,7 @@ import { sellingPartnerRegions } from '../selling-partner-api-regions'
 
 export const SE = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.SE,
+  timeZone: AmazonMarketplaceTimeZone.EUROPE_STOCKHOLM,
   currency: AmazonMarketplaceAdvertisingCurrency.SEK,
   id: 'A2NODRKZP88ZB9',
   name: 'Sweden',

@@ -4,12 +4,14 @@ import {
   AmazonMarketplaceAdvertisingCurrency,
   AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceCountryCode,
+  AmazonMarketplaceTimeZone,
 } from '../amazon-marketplace'
 import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
 import { sellingPartnerRegions } from '../selling-partner-api-regions'
 
 export const IN = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.IN,
+  timeZone: AmazonMarketplaceTimeZone.ASIA_INDIA,
   currency: AmazonMarketplaceAdvertisingCurrency.INR,
   id: 'A21TJRUUN4KGV',
   name: 'India',

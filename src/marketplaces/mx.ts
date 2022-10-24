@@ -4,12 +4,14 @@ import {
   AmazonMarketplaceAdvertisingCurrency,
   AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceCountryCode,
+  AmazonMarketplaceTimeZone,
 } from '../amazon-marketplace'
 import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
 import { sellingPartnerRegions } from '../selling-partner-api-regions'
 
 export const MX = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.MX,
+  timeZone: AmazonMarketplaceTimeZone.AMERICA_LOS_ANGELES,
   currency: AmazonMarketplaceAdvertisingCurrency.MXN,
   id: 'A1AM78C64UM0Y8',
   name: 'Mexico',

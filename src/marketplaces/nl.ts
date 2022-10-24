@@ -4,6 +4,7 @@ import {
   AmazonMarketplaceAdvertisingCurrency,
   AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceCountryCode,
+  AmazonMarketplaceTimeZone,
 } from '../amazon-marketplace'
 import { amazonVendorCentralUriFactory } from '../amazon-vendor-central-uri-factory'
 import { europeanAdvertisingFactory } from '../european-advertising-factory'
@@ -12,6 +13,7 @@ import { DE } from './de'
 
 export const NL = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.NL,
+  timeZone: AmazonMarketplaceTimeZone.EUROPE_AMSTERDAM,
   currency: AmazonMarketplaceAdvertisingCurrency.EUR,
   id: 'A1805IZSGTT6HS',
   name: 'Netherlands',

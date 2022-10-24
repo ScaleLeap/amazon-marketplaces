@@ -4,12 +4,14 @@ import {
   AmazonMarketplaceAdvertisingCurrency,
   AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceCountryCode,
+  AmazonMarketplaceTimeZone,
 } from '../amazon-marketplace'
 import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
 import { sellingPartnerRegions } from '../selling-partner-api-regions'
 
 export const JP = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.JP,
+  timeZone: AmazonMarketplaceTimeZone.ASIA_TOKYO,
   currency: AmazonMarketplaceAdvertisingCurrency.JPY,
   id: 'A1VC38T7YXB528',
   name: 'Japan',

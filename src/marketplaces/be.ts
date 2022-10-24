@@ -2,11 +2,13 @@ import {
   AmazonMarketplace,
   AmazonMarketplaceAdvertisingCurrency,
   AmazonMarketplaceCountryCode,
+  AmazonMarketplaceTimeZone,
 } from '../amazon-marketplace'
 import { sellingPartnerRegions } from '../selling-partner-api-regions'
 
 export const BE = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.BE,
+  timeZone: AmazonMarketplaceTimeZone.EUROPE_BRUSSELS,
   currency: AmazonMarketplaceAdvertisingCurrency.EUR,
   id: 'AMEN7PMS3EDWL',
   name: 'Belgium',

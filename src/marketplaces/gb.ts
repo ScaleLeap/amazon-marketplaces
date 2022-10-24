@@ -4,6 +4,7 @@ import {
   AmazonMarketplaceAdvertisingCurrency,
   AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceCountryCode,
+  AmazonMarketplaceTimeZone,
 } from '../amazon-marketplace'
 import { europeanSellerCentralUriFactory } from '../european-seller-central-uri-factory'
 import { marketplaceAdvertisingRegions } from '../marketplace-advertising-regions'
@@ -16,6 +17,7 @@ if (!DE.advertising) {
 
 export const GB = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.GB,
+  timeZone: AmazonMarketplaceTimeZone.EUROPE_LONDON,
   currency: AmazonMarketplaceAdvertisingCurrency.GBP,
   id: 'A1F83G8C2ARO7P',
   name: 'United Kingdom',
