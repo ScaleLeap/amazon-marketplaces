@@ -2,13 +2,13 @@
 
 exports[`marketplace AE should match snapshot 1`] = `
 AmazonMarketplace {
-  "advertising": Object {
-    "bids": Object {
-      "sponsoredBrands": Object {
+  "advertising": {
+    "bids": {
+      "sponsoredBrands": {
         "max": 18400,
         "min": 40,
       },
-      "sponsoredProducts": Object {
+      "sponsoredProducts": {
         "max": 18400,
         "min": 24,
       },
@@ -28,7 +28,7 @@ AmazonMarketplace {
   "id": "A2VIGQ35RCS4UG",
   "name": "United Arab Emirates",
   "sellerCentralUri": "https://sellercentral.amazon.ae",
-  "sellingPartner": Object {
+  "sellingPartner": {
     "region": AmazonSellingPartnerApiRegion {
       "awsRegion": "eu-west-1",
       "code": "EU",
@@ -47,13 +47,13 @@ AmazonMarketplace {
 
 exports[`marketplace AU should match snapshot 1`] = `
 AmazonMarketplace {
-  "advertising": Object {
-    "bids": Object {
-      "sponsoredBrands": Object {
+  "advertising": {
+    "bids": {
+      "sponsoredBrands": {
         "max": 7000,
         "min": 10,
       },
-      "sponsoredProducts": Object {
+      "sponsoredProducts": {
         "max": 141000,
         "min": 10,
       },
@@ -73,7 +73,7 @@ AmazonMarketplace {
   "id": "A39IBJ37TRP1C6",
   "name": "Australia",
   "sellerCentralUri": "https://sellercentral.amazon.com.au",
-  "sellingPartner": Object {
+  "sellingPartner": {
     "region": AmazonSellingPartnerApiRegion {
       "awsRegion": "us-west-2",
       "code": "FE",
@@ -97,7 +97,7 @@ AmazonMarketplace {
   "id": "AMEN7PMS3EDWL",
   "name": "Belgium",
   "sellerCentralUri": "https://sellercentral.amazon.com.be",
-  "sellingPartner": Object {
+  "sellingPartner": {
     "region": AmazonSellingPartnerApiRegion {
       "awsRegion": "eu-west-1",
       "code": "EU",
@@ -116,13 +116,13 @@ AmazonMarketplace {
 
 exports[`marketplace BR should match snapshot 1`] = `
 AmazonMarketplace {
-  "advertising": Object {
-    "bids": Object {
-      "sponsoredBrands": Object {
+  "advertising": {
+    "bids": {
+      "sponsoredBrands": {
         "max": 20000,
         "min": 53,
       },
-      "sponsoredProducts": Object {
+      "sponsoredProducts": {
         "max": 370000,
         "min": 7,
       },
@@ -142,7 +142,7 @@ AmazonMarketplace {
   "id": "A2Q3Y263D00KWC",
   "name": "Brazil",
   "sellerCentralUri": "https://sellercentral.amazon.com.br",
-  "sellingPartner": Object {
+  "sellingPartner": {
     "region": AmazonSellingPartnerApiRegion {
       "awsRegion": "us-east-1",
       "code": "NA",
@@ -161,13 +161,13 @@ AmazonMarketplace {
 
 exports[`marketplace CA should match snapshot 1`] = `
 AmazonMarketplace {
-  "advertising": Object {
-    "bids": Object {
-      "sponsoredBrands": Object {
+  "advertising": {
+    "bids": {
+      "sponsoredBrands": {
         "max": 4900,
         "min": 10,
       },
-      "sponsoredProducts": Object {
+      "sponsoredProducts": {
         "max": 100000,
         "min": 2,
       },
@@ -187,7 +187,7 @@ AmazonMarketplace {
   "id": "A2EUQ1WTGCTBG2",
   "name": "Canada",
   "sellerCentralUri": "https://sellercentral.amazon.ca",
-  "sellingPartner": Object {
+  "sellingPartner": {
     "region": AmazonSellingPartnerApiRegion {
       "awsRegion": "us-east-1",
       "code": "NA",
@@ -218,13 +218,13 @@ AmazonMarketplace {
 
 exports[`marketplace DE should match snapshot 1`] = `
 AmazonMarketplace {
-  "advertising": Object {
-    "bids": Object {
-      "sponsoredBrands": Object {
+  "advertising": {
+    "bids": {
+      "sponsoredBrands": {
         "max": 3900,
         "min": 10,
       },
-      "sponsoredProducts": Object {
+      "sponsoredProducts": {
         "max": 100000,
         "min": 2,
       },
@@ -244,7 +244,7 @@ AmazonMarketplace {
   "id": "A1PA6795UKMFR9",
   "name": "Germany",
   "sellerCentralUri": "https://sellercentral-europe.amazon.com",
-  "sellingPartner": Object {
+  "sellingPartner": {
     "region": AmazonSellingPartnerApiRegion {
       "awsRegion": "eu-west-1",
       "code": "EU",
@@ -263,13 +263,13 @@ AmazonMarketplace {
 
 exports[`marketplace EG should match snapshot 1`] = `
 AmazonMarketplace {
-  "advertising": Object {
-    "bids": Object {
-      "sponsoredBrands": Object {
+  "advertising": {
+    "bids": {
+      "sponsoredBrands": {
         "max": 40000,
         "min": 70,
       },
-      "sponsoredProducts": Object {
+      "sponsoredProducts": {
         "max": 550,
         "min": 15,
       },
@@ -288,7 +288,7 @@ AmazonMarketplace {
   "currency": "EGP",
   "id": "ARBP9OOSHTCHU",
   "name": "Egypt",
-  "sellingPartner": Object {
+  "sellingPartner": {
     "region": AmazonSellingPartnerApiRegion {
       "awsRegion": "eu-west-1",
       "code": "EU",
@@ -306,13 +306,13 @@ AmazonMarketplace {
 
 exports[`marketplace ES should match snapshot 1`] = `
 AmazonMarketplace {
-  "advertising": Object {
-    "bids": Object {
-      "sponsoredBrands": Object {
+  "advertising": {
+    "bids": {
+      "sponsoredBrands": {
         "max": 3900,
         "min": 10,
       },
-      "sponsoredProducts": Object {
+      "sponsoredProducts": {
         "max": 100000,
         "min": 2,
       },
@@ -332,7 +332,7 @@ AmazonMarketplace {
   "id": "A1RKKUPIHCS9HS",
   "name": "Spain",
   "sellerCentralUri": "https://sellercentral-europe.amazon.com",
-  "sellingPartner": Object {
+  "sellingPartner": {
     "region": AmazonSellingPartnerApiRegion {
       "awsRegion": "eu-west-1",
       "code": "EU",
@@ -351,13 +351,13 @@ AmazonMarketplace {
 
 exports[`marketplace FR should match snapshot 1`] = `
 AmazonMarketplace {
-  "advertising": Object {
-    "bids": Object {
-      "sponsoredBrands": Object {
+  "advertising": {
+    "bids": {
+      "sponsoredBrands": {
         "max": 3900,
         "min": 10,
       },
-      "sponsoredProducts": Object {
+      "sponsoredProducts": {
         "max": 100000,
         "min": 2,
       },
@@ -377,7 +377,7 @@ AmazonMarketplace {
   "id": "A13V1IB3VIYZZH",
   "name": "France",
   "sellerCentralUri": "https://sellercentral-europe.amazon.com",
-  "sellingPartner": Object {
+  "sellingPartner": {
     "region": AmazonSellingPartnerApiRegion {
       "awsRegion": "eu-west-1",
       "code": "EU",
@@ -396,13 +396,13 @@ AmazonMarketplace {
 
 exports[`marketplace GB should match snapshot 1`] = `
 AmazonMarketplace {
-  "advertising": Object {
-    "bids": Object {
-      "sponsoredBrands": Object {
+  "advertising": {
+    "bids": {
+      "sponsoredBrands": {
         "max": 3100,
         "min": 10,
       },
-      "sponsoredProducts": Object {
+      "sponsoredProducts": {
         "max": 100000,
         "min": 2,
       },
@@ -422,7 +422,7 @@ AmazonMarketplace {
   "id": "A1F83G8C2ARO7P",
   "name": "United Kingdom",
   "sellerCentralUri": "https://sellercentral-europe.amazon.com",
-  "sellingPartner": Object {
+  "sellingPartner": {
     "region": AmazonSellingPartnerApiRegion {
       "awsRegion": "eu-west-1",
       "code": "EU",
@@ -441,13 +441,13 @@ AmazonMarketplace {
 
 exports[`marketplace IN should match snapshot 1`] = `
 AmazonMarketplace {
-  "advertising": Object {
-    "bids": Object {
-      "sponsoredBrands": Object {
+  "advertising": {
+    "bids": {
+      "sponsoredBrands": {
         "max": 200000,
         "min": 100,
       },
-      "sponsoredProducts": Object {
+      "sponsoredProducts": {
         "max": 500000,
         "min": 100,
       },
@@ -467,7 +467,7 @@ AmazonMarketplace {
   "id": "A21TJRUUN4KGV",
   "name": "India",
   "sellerCentralUri": "https://sellercentral.amazon.in",
-  "sellingPartner": Object {
+  "sellingPartner": {
     "region": AmazonSellingPartnerApiRegion {
       "awsRegion": "eu-west-1",
       "code": "EU",
@@ -486,13 +486,13 @@ AmazonMarketplace {
 
 exports[`marketplace IT should match snapshot 1`] = `
 AmazonMarketplace {
-  "advertising": Object {
-    "bids": Object {
-      "sponsoredBrands": Object {
+  "advertising": {
+    "bids": {
+      "sponsoredBrands": {
         "max": 3900,
         "min": 10,
       },
-      "sponsoredProducts": Object {
+      "sponsoredProducts": {
         "max": 100000,
         "min": 2,
       },
@@ -512,7 +512,7 @@ AmazonMarketplace {
   "id": "APJ6JRA9NG5V4",
   "name": "Italy",
   "sellerCentralUri": "https://sellercentral-europe.amazon.com",
-  "sellingPartner": Object {
+  "sellingPartner": {
     "region": AmazonSellingPartnerApiRegion {
       "awsRegion": "eu-west-1",
       "code": "EU",
@@ -531,13 +531,13 @@ AmazonMarketplace {
 
 exports[`marketplace JP should match snapshot 1`] = `
 AmazonMarketplace {
-  "advertising": Object {
-    "bids": Object {
-      "sponsoredBrands": Object {
+  "advertising": {
+    "bids": {
+      "sponsoredBrands": {
         "max": 776000,
         "min": 1000,
       },
-      "sponsoredProducts": Object {
+      "sponsoredProducts": {
         "max": 10000000,
         "min": 200,
       },
@@ -557,7 +557,7 @@ AmazonMarketplace {
   "id": "A1VC38T7YXB528",
   "name": "Japan",
   "sellerCentralUri": "https://sellercentral.amazon.co.jp",
-  "sellingPartner": Object {
+  "sellingPartner": {
     "region": AmazonSellingPartnerApiRegion {
       "awsRegion": "us-west-2",
       "code": "FE",
@@ -576,13 +576,13 @@ AmazonMarketplace {
 
 exports[`marketplace MX should match snapshot 1`] = `
 AmazonMarketplace {
-  "advertising": Object {
-    "bids": Object {
-      "sponsoredBrands": Object {
+  "advertising": {
+    "bids": {
+      "sponsoredBrands": {
         "max": 2000000,
         "min": 10,
       },
-      "sponsoredProducts": Object {
+      "sponsoredProducts": {
         "max": 2000000,
         "min": 10,
       },
@@ -602,7 +602,7 @@ AmazonMarketplace {
   "id": "A1AM78C64UM0Y8",
   "name": "Mexico",
   "sellerCentralUri": "https://sellercentral.amazon.com.mx",
-  "sellingPartner": Object {
+  "sellingPartner": {
     "region": AmazonSellingPartnerApiRegion {
       "awsRegion": "us-east-1",
       "code": "NA",
@@ -621,13 +621,13 @@ AmazonMarketplace {
 
 exports[`marketplace NL should match snapshot 1`] = `
 AmazonMarketplace {
-  "advertising": Object {
-    "bids": Object {
-      "sponsoredBrands": Object {
+  "advertising": {
+    "bids": {
+      "sponsoredBrands": {
         "max": 3900,
         "min": 10,
       },
-      "sponsoredProducts": Object {
+      "sponsoredProducts": {
         "max": 100000,
         "min": 2,
       },
@@ -647,7 +647,7 @@ AmazonMarketplace {
   "id": "A1805IZSGTT6HS",
   "name": "Netherlands",
   "sellerCentralUri": "https://sellercentral.amazon.nl",
-  "sellingPartner": Object {
+  "sellingPartner": {
     "region": AmazonSellingPartnerApiRegion {
       "awsRegion": "eu-west-1",
       "code": "EU",
@@ -666,13 +666,13 @@ AmazonMarketplace {
 
 exports[`marketplace PL should match snapshot 1`] = `
 AmazonMarketplace {
-  "advertising": Object {
-    "bids": Object {
-      "sponsoredBrands": Object {
+  "advertising": {
+    "bids": {
+      "sponsoredBrands": {
         "max": 20000,
         "min": 20,
       },
-      "sponsoredProducts": Object {
+      "sponsoredProducts": {
         "max": 200000,
         "min": 4,
       },
@@ -692,7 +692,7 @@ AmazonMarketplace {
   "id": "A1C3SOZRARQ6R3",
   "name": "Poland",
   "sellerCentralUri": "https://sellercentral.amazon.pl",
-  "sellingPartner": Object {
+  "sellingPartner": {
     "region": AmazonSellingPartnerApiRegion {
       "awsRegion": "eu-west-1",
       "code": "EU",
@@ -724,13 +724,13 @@ AmazonMarketplace {
 
 exports[`marketplace SE should match snapshot 1`] = `
 AmazonMarketplace {
-  "advertising": Object {
-    "bids": Object {
-      "sponsoredBrands": Object {
+  "advertising": {
+    "bids": {
+      "sponsoredBrands": {
         "max": 50000,
         "min": 90,
       },
-      "sponsoredProducts": Object {
+      "sponsoredProducts": {
         "max": 930000,
         "min": 18,
       },
@@ -750,7 +750,7 @@ AmazonMarketplace {
   "id": "A2NODRKZP88ZB9",
   "name": "Sweden",
   "sellerCentralUri": "https://sellercentral.amazon.se",
-  "sellingPartner": Object {
+  "sellingPartner": {
     "region": AmazonSellingPartnerApiRegion {
       "awsRegion": "eu-west-1",
       "code": "EU",
@@ -769,13 +769,13 @@ AmazonMarketplace {
 
 exports[`marketplace SG should match snapshot 1`] = `
 AmazonMarketplace {
-  "advertising": Object {
-    "bids": Object {
-      "sponsoredBrands": Object {
+  "advertising": {
+    "bids": {
+      "sponsoredBrands": {
         "max": 10000,
         "min": 14,
       },
-      "sponsoredProducts": Object {
+      "sponsoredProducts": {
         "max": 110000,
         "min": 2,
       },
@@ -795,7 +795,7 @@ AmazonMarketplace {
   "id": "A19VAU5U5O7RUS",
   "name": "Singapore",
   "sellerCentralUri": "https://sellercentral.amazon.sg",
-  "sellingPartner": Object {
+  "sellingPartner": {
     "region": AmazonSellingPartnerApiRegion {
       "awsRegion": "us-west-2",
       "code": "FE",
@@ -814,13 +814,13 @@ AmazonMarketplace {
 
 exports[`marketplace TR should match snapshot 1`] = `
 AmazonMarketplace {
-  "advertising": Object {
-    "bids": Object {
-      "sponsoredBrands": Object {
+  "advertising": {
+    "bids": {
+      "sponsoredBrands": {
         "max": 20000,
         "min": 20,
       },
-      "sponsoredProducts": Object {
+      "sponsoredProducts": {
         "max": 250000,
         "min": 5,
       },
@@ -840,7 +840,7 @@ AmazonMarketplace {
   "id": "A33AVAJ2PDY3EV",
   "name": "Turkey",
   "sellerCentralUri": "https://sellercentral.amazon.com.tr",
-  "sellingPartner": Object {
+  "sellingPartner": {
     "region": AmazonSellingPartnerApiRegion {
       "awsRegion": "eu-west-1",
       "code": "EU",
@@ -859,13 +859,13 @@ AmazonMarketplace {
 
 exports[`marketplace US should match snapshot 1`] = `
 AmazonMarketplace {
-  "advertising": Object {
-    "bids": Object {
-      "sponsoredBrands": Object {
+  "advertising": {
+    "bids": {
+      "sponsoredBrands": {
         "max": 4900,
         "min": 10,
       },
-      "sponsoredProducts": Object {
+      "sponsoredProducts": {
         "max": 100000,
         "min": 2,
       },
@@ -885,7 +885,7 @@ AmazonMarketplace {
   "id": "ATVPDKIKX0DER",
   "name": "United States",
   "sellerCentralUri": "https://sellercentral.amazon.com",
-  "sellingPartner": Object {
+  "sellingPartner": {
     "region": AmazonSellingPartnerApiRegion {
       "awsRegion": "us-east-1",
       "code": "NA",
