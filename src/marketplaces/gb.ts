@@ -35,7 +35,7 @@ export const GB = new AmazonMarketplace({
       },
       sponsoredProducts: {
         min: 2,
-        max: 100000,
+        max: 100_000,
       },
     },
     timeZone: AmazonMarketplaceAdvertisingTimeZone.EUROPE_LONDON,

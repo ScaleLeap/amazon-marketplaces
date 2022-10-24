@@ -29,7 +29,7 @@ export const AU = new AmazonMarketplace({
       },
       sponsoredProducts: {
         min: 10,
-        max: 141000,
+        max: 141_000,
       },
     },
     timeZone: AmazonMarketplaceAdvertisingTimeZone.AUSTRALIA_SYDNEY,

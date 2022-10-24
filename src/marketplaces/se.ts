@@ -26,11 +26,11 @@ export const SE = new AmazonMarketplace({
     bids: {
       sponsoredBrands: {
         min: 90,
-        max: 50000,
+        max: 50_000,
       },
       sponsoredProducts: {
         min: 18,
-        max: 930000,
+        max: 930_000,
       },
     },
     timeZone: AmazonMarketplaceAdvertisingTimeZone.EUROPE_STOCKHOLM,

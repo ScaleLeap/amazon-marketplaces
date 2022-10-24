@@ -24,7 +24,7 @@ export const EG = new AmazonMarketplace({
     bids: {
       sponsoredBrands: {
         min: 70,
-        max: 40000,
+        max: 40_000,
       },
       sponsoredProducts: {
         min: 15,

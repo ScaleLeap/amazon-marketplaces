@@ -25,11 +25,11 @@ export const SG = new AmazonMarketplace({
     bids: {
       sponsoredBrands: {
         min: 14,
-        max: 10000,
+        max: 10_000,
       },
       sponsoredProducts: {
         min: 2,
-        max: 110000,
+        max: 110_000,
       },
     },
     timeZone: AmazonMarketplaceAdvertisingTimeZone.ASIA_SINGAPORE,

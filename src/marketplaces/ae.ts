@@ -25,11 +25,11 @@ export const AE = new AmazonMarketplace({
     bids: {
       sponsoredBrands: {
         min: 40,
-        max: 18400,
+        max: 18_400,
       },
       sponsoredProducts: {
         min: 24,
-        max: 18400,
+        max: 18_400,
       },
     },
     timeZone: AmazonMarketplaceAdvertisingTimeZone.ASIA_DUBAI,
