@@ -4,6 +4,7 @@ import {
   AmazonMarketplaceCountryCode,
   AmazonMarketplaceTimeZone,
 } from '../amazon-marketplace'
+import { sellingPartnerRegions } from '../selling-partner-api-regions'
 
 export const SA = new AmazonMarketplace({
   countryCode: AmazonMarketplaceCountryCode.SA,
@@ -14,4 +15,7 @@ export const SA = new AmazonMarketplace({
   uri: 'https://www.amazon.sa',
   sellerCentralUri: 'https://sellercentral.amazon.sa',
   webServiceUri: 'https://mws-eu.amazonservices.com',
+  sellingPartner: {
+    region: sellingPartnerRegions.EU,
+  },
 })
