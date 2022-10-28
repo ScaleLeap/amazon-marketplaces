@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [17.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v16.1.0...v17.0.0) (2022-10-28)
+
+
+### Continuous Integration
+
+* trigger release ([#541](https://github.com/ScaleLeap/amazon-marketplaces/issues/541)) ([c06dab1](https://github.com/ScaleLeap/amazon-marketplaces/commit/c06dab14e9222ae909c41ae12eb70ab1a71a52e4))
+
+
+### BREAKING CHANGES
+
+* add Saudi Arabia to Selling Partner (#540)
+
 # [16.1.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v16.0.0...v16.1.0) (2022-10-24)
 
 
