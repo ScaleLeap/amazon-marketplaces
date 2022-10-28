@@ -716,6 +716,15 @@ AmazonMarketplace {
   "id": "A17E79C6D8DWNP",
   "name": "Saudi Arabia",
   "sellerCentralUri": "https://sellercentral.amazon.sa",
+  "sellingPartner": {
+    "region": AmazonSellingPartnerApiRegion {
+      "awsRegion": "eu-west-1",
+      "code": "EU",
+      "endpoint": "https://sellingpartnerapi-eu.amazon.com",
+      "name": "Europe",
+    },
+    "sellerCentralAuthUri": "https://sellercentral.amazon.sa/apps/authorize/consent",
+  },
   "timeZone": "Asia/Riyadh",
   "uri": "https://www.amazon.sa",
   "webServiceUri": "https://mws-eu.amazonservices.com",
