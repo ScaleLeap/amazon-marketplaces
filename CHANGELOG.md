@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [17.1.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v17.0.2...v17.1.0) (2022-12-01)
+
+
+### Features
+
+* adds advertising to Saudi Arabia ([3a0a84f](https://github.com/ScaleLeap/amazon-marketplaces/commit/3a0a84f2cb33da5932039420ff7ac221709e8b0e))
+
 ## [17.0.2](https://github.com/ScaleLeap/amazon-marketplaces/compare/v17.0.1...v17.0.2) (2022-12-01)
 
 
