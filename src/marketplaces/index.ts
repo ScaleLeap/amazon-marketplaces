@@ -108,7 +108,7 @@ export const amazonMarketplaces = {
   PL,
 
   /**
-   * Singapore
+   * Saudi Arabia
    */
   SA,
 
