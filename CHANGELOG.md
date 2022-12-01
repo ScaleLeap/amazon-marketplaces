@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [17.0.2](https://github.com/ScaleLeap/amazon-marketplaces/compare/v17.0.1...v17.0.2) (2022-12-01)
+
+
+### Bug Fixes
+
+* comment for Saudi Arabia ([5d32577](https://github.com/ScaleLeap/amazon-marketplaces/commit/5d32577b3732f1c8c29852d5bbf810ab7d1a6e10))
+
 ## [17.0.1](https://github.com/ScaleLeap/amazon-marketplaces/compare/v17.0.0...v17.0.1) (2022-12-01)
 
 
