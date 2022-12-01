@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [17.0.1](https://github.com/ScaleLeap/amazon-marketplaces/compare/v17.0.0...v17.0.1) (2022-12-01)
+
+
+### Bug Fixes
+
+* npm audit ([fa5df36](https://github.com/ScaleLeap/amazon-marketplaces/commit/fa5df36859288807ff27104e83fb3ccea6f5b579))
+
 # [17.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v16.1.0...v17.0.0) (2022-10-28)
 
 
