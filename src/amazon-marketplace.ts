@@ -60,6 +60,7 @@ export enum AmazonMarketplaceAdvertisingCurrency {
 export enum AmazonMarketplaceAdvertisingCountryCode {
   AE = 'AE',
   AU = 'AU',
+  BE = 'BE',
   BR = 'BR',
   CA = 'CA',
   DE = 'DE',
@@ -94,6 +95,7 @@ export enum AmazonMarketplaceAdvertisingTimeZone {
   ASIA_TOKYO = 'Asia/Tokyo',
   AUSTRALIA_SYDNEY = 'Australia/Sydney',
   EUROPE_AMSTERDAM = 'Europe/Amsterdam',
+  EUROPE_BRUSSELS = 'Europe/Brussels',
   EUROPE_ISTANBUL = 'Europe/Istanbul',
   EUROPE_LONDON = 'Europe/London',
   EUROPE_PARIS = 'Europe/Paris',

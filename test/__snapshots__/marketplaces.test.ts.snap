@@ -92,6 +92,27 @@ AmazonMarketplace {
 
 exports[`marketplace BE should match snapshot 1`] = `
 AmazonMarketplace {
+  "advertising": {
+    "bids": {
+      "sponsoredBrands": {
+        "max": 3900,
+        "min": 10,
+      },
+      "sponsoredProducts": {
+        "max": 100000,
+        "min": 2,
+      },
+    },
+    "countryCode": "BE",
+    "region": AmazonMarketplaceAdvertisingRegion {
+      "accessTokenUri": "https://api.amazon.co.uk/auth/o2/token",
+      "authorizationUri": "https://eu.account.amazon.com/ap/oa",
+      "code": "EU",
+      "endpoint": "https://advertising-api-eu.amazon.com",
+      "name": "Europe",
+    },
+    "timeZone": "Europe/Brussels",
+  },
   "countryCode": "BE",
   "currency": "EUR",
   "id": "AMEN7PMS3EDWL",

@@ -1,9 +1,12 @@
 import {
   AmazonMarketplace,
+  AmazonMarketplaceAdvertisingCountryCode,
   AmazonMarketplaceAdvertisingCurrency,
+  AmazonMarketplaceAdvertisingTimeZone,
   AmazonMarketplaceCountryCode,
   AmazonMarketplaceTimeZone,
 } from '../amazon-marketplace'
+import { europeanAdvertisingFactory } from '../european-advertising-factory'
 import { sellingPartnerRegions } from '../selling-partner-api-regions'
 
 export const BE = new AmazonMarketplace({
@@ -21,6 +24,10 @@ export const BE = new AmazonMarketplace({
   sellerCentralUri: 'https://sellercentral.amazon.com.be',
   vendorCentralUri: 'https://vendorcentral.amazon.com.be',
   webServiceUri: 'https://mws-eu.amazonservices.com',
+  advertising: europeanAdvertisingFactory(
+    AmazonMarketplaceAdvertisingCountryCode.BE,
+    AmazonMarketplaceAdvertisingTimeZone.EUROPE_BRUSSELS,
+  ),
   sellingPartner: {
     region: sellingPartnerRegions.EU,
   },
