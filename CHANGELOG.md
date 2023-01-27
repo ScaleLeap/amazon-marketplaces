@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [17.2.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v17.1.0...v17.2.0) (2023-01-27)
+
+
+### Features
+
+* adds advertising to Belgium ([fc5a3e5](https://github.com/ScaleLeap/amazon-marketplaces/commit/fc5a3e50742b260855ed6251c888a69777f99526))
+
 # [17.1.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v17.0.2...v17.1.0) (2022-12-01)
 
 
