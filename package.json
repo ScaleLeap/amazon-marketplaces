@@ -37,7 +37,7 @@
     "@types/node": "16.18.0",
     "danger": "11.1.4",
     "jest": "29.2.1",
-    "rimraf": "3.0.2",
+    "rimraf": "4.4.1",
     "ts-jest": "29.0.3",
     "tsconfigs": "4.0.2",
     "typedoc": "0.23.18",
