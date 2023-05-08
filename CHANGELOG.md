@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [17.3.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v17.2.0...v17.3.0) (2023-05-08)
+
+
+### Features
+
+* adds marketplace launch date ([#557](https://github.com/ScaleLeap/amazon-marketplaces/issues/557)) ([4e037d8](https://github.com/ScaleLeap/amazon-marketplaces/commit/4e037d848c4cd8cc242a026ae8eb6872aa0b18b9))
+
 # [17.2.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v17.1.0...v17.2.0) (2023-01-27)
 
 
