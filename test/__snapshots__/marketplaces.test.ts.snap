@@ -26,6 +26,7 @@ AmazonMarketplace {
   "countryCode": "AE",
   "currency": "AED",
   "id": "A2VIGQ35RCS4UG",
+  "launchDate": "2019-05-01",
   "name": "United Arab Emirates",
   "sellerCentralUri": "https://sellercentral.amazon.ae",
   "sellingPartner": {
@@ -71,6 +72,7 @@ AmazonMarketplace {
   "countryCode": "AU",
   "currency": "AUD",
   "id": "A39IBJ37TRP1C6",
+  "launchDate": "2017-11-01",
   "name": "Australia",
   "sellerCentralUri": "https://sellercentral.amazon.com.au",
   "sellingPartner": {
@@ -116,6 +118,7 @@ AmazonMarketplace {
   "countryCode": "BE",
   "currency": "EUR",
   "id": "AMEN7PMS3EDWL",
+  "launchDate": "2022-10-01",
   "name": "Belgium",
   "sellerCentralUri": "https://sellercentral.amazon.com.be",
   "sellingPartner": {
@@ -161,6 +164,7 @@ AmazonMarketplace {
   "countryCode": "BR",
   "currency": "BRL",
   "id": "A2Q3Y263D00KWC",
+  "launchDate": "2012-12-01",
   "name": "Brazil",
   "sellerCentralUri": "https://sellercentral.amazon.com.br",
   "sellingPartner": {
@@ -206,6 +210,7 @@ AmazonMarketplace {
   "countryCode": "CA",
   "currency": "CAD",
   "id": "A2EUQ1WTGCTBG2",
+  "launchDate": "2002-06-01",
   "name": "Canada",
   "sellerCentralUri": "https://sellercentral.amazon.ca",
   "sellingPartner": {
@@ -230,6 +235,7 @@ AmazonMarketplace {
   "countryCode": "CN",
   "currency": "CNY",
   "id": "AAHKV2X7AFYLW",
+  "launchDate": "2004-09-01",
   "name": "China",
   "timeZone": "Asia/Shanghai",
   "uri": "https://www.amazon.cn",
@@ -263,6 +269,7 @@ AmazonMarketplace {
   "countryCode": "DE",
   "currency": "EUR",
   "id": "A1PA6795UKMFR9",
+  "launchDate": "1998-10-01",
   "name": "Germany",
   "sellerCentralUri": "https://sellercentral-europe.amazon.com",
   "sellingPartner": {
@@ -308,6 +315,7 @@ AmazonMarketplace {
   "countryCode": "EG",
   "currency": "EGP",
   "id": "ARBP9OOSHTCHU",
+  "launchDate": "2021-09-01",
   "name": "Egypt",
   "sellingPartner": {
     "region": AmazonSellingPartnerApiRegion {
@@ -351,6 +359,7 @@ AmazonMarketplace {
   "countryCode": "ES",
   "currency": "EUR",
   "id": "A1RKKUPIHCS9HS",
+  "launchDate": "2011-09-01",
   "name": "Spain",
   "sellerCentralUri": "https://sellercentral-europe.amazon.com",
   "sellingPartner": {
@@ -396,6 +405,7 @@ AmazonMarketplace {
   "countryCode": "FR",
   "currency": "EUR",
   "id": "A13V1IB3VIYZZH",
+  "launchDate": "2000-08-01",
   "name": "France",
   "sellerCentralUri": "https://sellercentral-europe.amazon.com",
   "sellingPartner": {
@@ -441,6 +451,7 @@ AmazonMarketplace {
   "countryCode": "GB",
   "currency": "GBP",
   "id": "A1F83G8C2ARO7P",
+  "launchDate": "1998-10-01",
   "name": "United Kingdom",
   "sellerCentralUri": "https://sellercentral-europe.amazon.com",
   "sellingPartner": {
@@ -486,6 +497,7 @@ AmazonMarketplace {
   "countryCode": "IN",
   "currency": "INR",
   "id": "A21TJRUUN4KGV",
+  "launchDate": "2013-06-01",
   "name": "India",
   "sellerCentralUri": "https://sellercentral.amazon.in",
   "sellingPartner": {
@@ -531,6 +543,7 @@ AmazonMarketplace {
   "countryCode": "IT",
   "currency": "EUR",
   "id": "APJ6JRA9NG5V4",
+  "launchDate": "2010-11-01",
   "name": "Italy",
   "sellerCentralUri": "https://sellercentral-europe.amazon.com",
   "sellingPartner": {
@@ -576,6 +589,7 @@ AmazonMarketplace {
   "countryCode": "JP",
   "currency": "JPY",
   "id": "A1VC38T7YXB528",
+  "launchDate": "2000-11-01",
   "name": "Japan",
   "sellerCentralUri": "https://sellercentral.amazon.co.jp",
   "sellingPartner": {
@@ -621,6 +635,7 @@ AmazonMarketplace {
   "countryCode": "MX",
   "currency": "MXN",
   "id": "A1AM78C64UM0Y8",
+  "launchDate": "2013-08-01",
   "name": "Mexico",
   "sellerCentralUri": "https://sellercentral.amazon.com.mx",
   "sellingPartner": {
@@ -666,6 +681,7 @@ AmazonMarketplace {
   "countryCode": "NL",
   "currency": "EUR",
   "id": "A1805IZSGTT6HS",
+  "launchDate": "2014-11-01",
   "name": "Netherlands",
   "sellerCentralUri": "https://sellercentral.amazon.nl",
   "sellingPartner": {
@@ -711,6 +727,7 @@ AmazonMarketplace {
   "countryCode": "PL",
   "currency": "PLN",
   "id": "A1C3SOZRARQ6R3",
+  "launchDate": "2021-03-01",
   "name": "Poland",
   "sellerCentralUri": "https://sellercentral.amazon.pl",
   "sellingPartner": {
@@ -756,6 +773,7 @@ AmazonMarketplace {
   "countryCode": "SA",
   "currency": "SAR",
   "id": "A17E79C6D8DWNP",
+  "launchDate": "2020-06-01",
   "name": "Saudi Arabia",
   "sellerCentralUri": "https://sellercentral.amazon.sa",
   "sellingPartner": {
@@ -799,6 +817,7 @@ AmazonMarketplace {
   "countryCode": "SE",
   "currency": "SEK",
   "id": "A2NODRKZP88ZB9",
+  "launchDate": "2020-10-01",
   "name": "Sweden",
   "sellerCentralUri": "https://sellercentral.amazon.se",
   "sellingPartner": {
@@ -844,6 +863,7 @@ AmazonMarketplace {
   "countryCode": "SG",
   "currency": "SGD",
   "id": "A19VAU5U5O7RUS",
+  "launchDate": "2017-07-01",
   "name": "Singapore",
   "sellerCentralUri": "https://sellercentral.amazon.sg",
   "sellingPartner": {
@@ -889,6 +909,7 @@ AmazonMarketplace {
   "countryCode": "TR",
   "currency": "TRY",
   "id": "A33AVAJ2PDY3EV",
+  "launchDate": "2018-09-01",
   "name": "Turkey",
   "sellerCentralUri": "https://sellercentral.amazon.com.tr",
   "sellingPartner": {
@@ -934,6 +955,7 @@ AmazonMarketplace {
   "countryCode": "US",
   "currency": "USD",
   "id": "ATVPDKIKX0DER",
+  "launchDate": "1995-07-01",
   "name": "United States",
   "sellerCentralUri": "https://sellercentral.amazon.com",
   "sellingPartner": {

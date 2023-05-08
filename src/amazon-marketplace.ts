@@ -299,6 +299,18 @@ export interface AmazonMarketplace {
   readonly webServiceUri: string
 
   /**
+   * Date when the marketplace launched in UTC.
+   *
+   * Because we only know which monthly the marketplaces were launched.
+   * So, we suppose that they were launched on the first day of the month.
+   * @see https://en.wikipedia.org/wiki/Amazon_(company)#Amazon.com
+   *
+   * @example
+   * '2023-05-01'
+   */
+  readonly launchDate: string
+
+  /**
    * [Amazon Advertising](https://advertising.amazon.com/API/docs/v2/guides/supported_features).
    */
   readonly advertising?: AmazonMarketplaceAdvertising

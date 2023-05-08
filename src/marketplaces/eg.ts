@@ -18,6 +18,7 @@ export const EG = new AmazonMarketplace({
   uri: 'https://www.amazon.eg',
   vendorCentralUri: 'https://vendorcentral.amazon.me',
   webServiceUri: 'https://mws-eu.amazonservices.com',
+  launchDate: '2021-09-01',
   advertising: {
     countryCode: AmazonMarketplaceAdvertisingCountryCode.EG,
     region: marketplaceAdvertisingRegions.EU,

@@ -13,4 +13,5 @@ export const CN = new AmazonMarketplace({
   name: 'China',
   uri: 'https://www.amazon.cn',
   webServiceUri: 'https://mws.amazonservices.com.cn',
+  launchDate: '2004-09-01',
 })

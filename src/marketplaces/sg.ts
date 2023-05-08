@@ -19,6 +19,7 @@ export const SG = new AmazonMarketplace({
   sellerCentralUri: 'https://sellercentral.amazon.sg',
   vendorCentralUri: 'https://vendorcentral.amazon.com.sg',
   webServiceUri: 'https://mws-fe.amazonservices.com',
+  launchDate: '2017-07-01',
   advertising: {
     countryCode: AmazonMarketplaceAdvertisingCountryCode.SG,
     region: marketplaceAdvertisingRegions.FE,

@@ -19,6 +19,7 @@ export const US = new AmazonMarketplace({
   sellerCentralUri: 'https://sellercentral.amazon.com',
   vendorCentralUri: 'https://vendorcentral.amazon.com',
   webServiceUri: 'https://mws.amazonservices.com',
+  launchDate: '1995-07-01',
   advertising: {
     countryCode: AmazonMarketplaceAdvertisingCountryCode.US,
     region: marketplaceAdvertisingRegions.NA,

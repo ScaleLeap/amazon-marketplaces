@@ -19,6 +19,7 @@ export const TR = new AmazonMarketplace({
   sellerCentralUri: 'https://sellercentral.amazon.com.tr',
   vendorCentralUri: 'https://vendorcentral.amazon.com.tr',
   webServiceUri: 'https://mws-eu.amazonservices.com',
+  launchDate: '2018-09-01',
   advertising: {
     countryCode: AmazonMarketplaceAdvertisingCountryCode.TR,
     region: marketplaceAdvertisingRegions.EU,

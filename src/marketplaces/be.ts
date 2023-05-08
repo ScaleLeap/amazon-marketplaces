@@ -24,6 +24,7 @@ export const BE = new AmazonMarketplace({
   sellerCentralUri: 'https://sellercentral.amazon.com.be',
   vendorCentralUri: 'https://vendorcentral.amazon.com.be',
   webServiceUri: 'https://mws-eu.amazonservices.com',
+  launchDate: '2022-10-01',
   advertising: europeanAdvertisingFactory(
     AmazonMarketplaceAdvertisingCountryCode.BE,
     AmazonMarketplaceAdvertisingTimeZone.EUROPE_BRUSSELS,

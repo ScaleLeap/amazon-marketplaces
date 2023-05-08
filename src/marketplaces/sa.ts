@@ -18,6 +18,7 @@ export const SA = new AmazonMarketplace({
   uri: 'https://www.amazon.sa',
   sellerCentralUri: 'https://sellercentral.amazon.sa',
   webServiceUri: 'https://mws-eu.amazonservices.com',
+  launchDate: '2020-06-01',
   advertising: {
     // UNDEFINED by Amazon
     bids: {

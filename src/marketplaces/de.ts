@@ -20,6 +20,7 @@ export const DE = new AmazonMarketplace({
   sellerCentralUri: europeanSellerCentralUriFactory(),
   vendorCentralUri: amazonVendorCentralUriFactory(AmazonMarketplaceCountryCode.DE),
   webServiceUri: 'https://mws-eu.amazonservices.com',
+  launchDate: '1998-10-01',
   advertising: europeanAdvertisingFactory(AmazonMarketplaceAdvertisingCountryCode.DE),
   sellingPartner: {
     region: sellingPartnerRegions.EU,

@@ -19,6 +19,7 @@ export const BR = new AmazonMarketplace({
   sellerCentralUri: 'https://sellercentral.amazon.com.br',
   vendorCentralUri: 'https://vendorcentral.amazon.com.br',
   webServiceUri: 'https://mws.amazonservices.com',
+  launchDate: '2012-12-01',
   advertising: {
     countryCode: AmazonMarketplaceAdvertisingCountryCode.BR,
     region: marketplaceAdvertisingRegions.NA,

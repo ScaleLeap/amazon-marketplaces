@@ -19,6 +19,7 @@ export const AE = new AmazonMarketplace({
   sellerCentralUri: 'https://sellercentral.amazon.ae',
   vendorCentralUri: 'https://vendorcentral.amazon.me',
   webServiceUri: 'https://mws.amazonservices.ae',
+  launchDate: '2019-05-01',
   advertising: {
     countryCode: AmazonMarketplaceAdvertisingCountryCode.AE,
     region: marketplaceAdvertisingRegions.EU,
