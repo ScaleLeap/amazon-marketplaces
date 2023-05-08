@@ -23,6 +23,7 @@ export const CA = new AmazonMarketplace({
   webServiceUri: 'https://mws.amazonservices.ca',
   sellerCentralUri: 'https://sellercentral.amazon.ca',
   vendorCentralUri: amazonVendorCentralUriFactory(AmazonMarketplaceCountryCode.CA),
+  launchDate: '2002-06-01',
   advertising: {
     countryCode: AmazonMarketplaceAdvertisingCountryCode.CA,
     region: marketplaceAdvertisingRegions.NA,

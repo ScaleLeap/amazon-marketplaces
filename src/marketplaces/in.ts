@@ -19,6 +19,7 @@ export const IN = new AmazonMarketplace({
   sellerCentralUri: 'https://sellercentral.amazon.in',
   vendorCentralUri: 'https://vendorcentral.amazon.in',
   webServiceUri: 'https://mws.amazonservices.in',
+  launchDate: '2013-06-01',
   advertising: {
     countryCode: AmazonMarketplaceAdvertisingCountryCode.IN,
     region: marketplaceAdvertisingRegions.EU,

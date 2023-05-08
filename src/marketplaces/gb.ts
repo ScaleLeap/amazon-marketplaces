@@ -25,6 +25,7 @@ export const GB = new AmazonMarketplace({
   sellerCentralUri: europeanSellerCentralUriFactory(),
   vendorCentralUri: 'https://vendorcentral.amazon.co.uk',
   webServiceUri: DE.webServiceUri,
+  launchDate: '1998-10-01',
   advertising: {
     countryCode: AmazonMarketplaceAdvertisingCountryCode.UK,
     region: marketplaceAdvertisingRegions.EU,

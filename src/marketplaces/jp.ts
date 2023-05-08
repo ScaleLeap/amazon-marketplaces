@@ -19,6 +19,7 @@ export const JP = new AmazonMarketplace({
   sellerCentralUri: 'https://sellercentral.amazon.co.jp',
   vendorCentralUri: 'https://vendorcentral.amazon.co.jp',
   webServiceUri: 'https://mws.amazonservices.jp',
+  launchDate: '2000-11-01',
   advertising: {
     countryCode: AmazonMarketplaceAdvertisingCountryCode.JP,
     region: marketplaceAdvertisingRegions.FE,

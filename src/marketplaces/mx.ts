@@ -19,6 +19,7 @@ export const MX = new AmazonMarketplace({
   sellerCentralUri: 'https://sellercentral.amazon.com.mx',
   vendorCentralUri: 'https://vendorcentral.amazon.com.mx',
   webServiceUri: 'https://mws.amazonservices.com.mx',
+  launchDate: '2013-08-01',
   advertising: {
     countryCode: AmazonMarketplaceAdvertisingCountryCode.MX,
     region: marketplaceAdvertisingRegions.NA,

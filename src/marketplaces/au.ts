@@ -19,6 +19,7 @@ export const AU = new AmazonMarketplace({
   sellerCentralUri: 'https://sellercentral.amazon.com.au',
   vendorCentralUri: 'https://vendorcentral.amazon.com.au',
   webServiceUri: 'https://mws.amazonservices.com.au',
+  launchDate: '2017-11-01',
   advertising: {
     countryCode: AmazonMarketplaceAdvertisingCountryCode.AU,
     region: marketplaceAdvertisingRegions.FE,
