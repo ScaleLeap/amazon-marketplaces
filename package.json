@@ -33,12 +33,12 @@
   },
   "devDependencies": {
     "@scaleleap/utils": "1.9.98",
-    "@types/jest": "29.2.0",
+    "@types/jest": "29.5.1",
     "@types/node": "16.18.26",
     "danger": "11.2.6",
-    "jest": "29.2.1",
+    "jest": "29.5.0",
     "rimraf": "3.0.2",
-    "ts-jest": "29.0.3",
+    "ts-jest": "29.1.0",
     "tsconfigs": "4.0.2",
     "typedoc": "0.24.7",
     "typescript": "4.9.5"
