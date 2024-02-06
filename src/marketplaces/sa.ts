@@ -33,7 +33,7 @@ export const SA = new AmazonMarketplace({
     },
     countryCode: AmazonMarketplaceAdvertisingCountryCode.SA,
     timeZone: AmazonMarketplaceAdvertisingTimeZone.ASIA_RIYADH,
-    region: marketplaceAdvertisingRegions.FE,
+    region: marketplaceAdvertisingRegions.EU,
   },
   sellingPartner: {
     region: sellingPartnerRegions.EU,
