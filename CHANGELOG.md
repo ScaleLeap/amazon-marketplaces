@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [18.0.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v17.3.1...v18.0.0) (2024-05-08)
+
+
+### Features
+
+* add South Africa marketplace ([#629](https://github.com/ScaleLeap/amazon-marketplaces/issues/629)) ([b26ea73](https://github.com/ScaleLeap/amazon-marketplaces/commit/b26ea7365e5e21bc13a8fac92f96a3952c1f5cae))
+
+
+### BREAKING CHANGES
+
+* add South Africa marketplace
+
 ## [17.3.1](https://github.com/ScaleLeap/amazon-marketplaces/compare/v17.3.0...v17.3.1) (2024-05-08)
 
 
