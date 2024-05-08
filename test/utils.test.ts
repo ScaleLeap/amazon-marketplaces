@@ -1,3 +1,5 @@
+import { describe, expect, it } from '@jest/globals'
+
 import { amazonMarketplaces } from '../src/marketplaces'
 import {
   assertMarketplaceHasAdvertising,

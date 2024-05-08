@@ -22,7 +22,7 @@ const eslint = {
     'plugin:eslint-comments/recommended',
     'plugin:jest/all',
     'plugin:jest-formatting/strict',
-    'plugin:sonarjs/recommended',
+    'plugin:sonarjs/recommended-legacy',
     'plugin:unicorn/recommended',
   ],
   plugins: [
