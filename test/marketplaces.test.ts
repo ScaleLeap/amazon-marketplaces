@@ -1,6 +1,8 @@
 import { readdirSync } from 'node:fs'
 import path from 'node:path'
 
+import { describe, expect, it } from '@jest/globals'
+
 import { amazonMarketplaces } from '../src/marketplaces'
 
 const countryCodes = readdirSync(path.join(__dirname, '../src/marketplaces'))
