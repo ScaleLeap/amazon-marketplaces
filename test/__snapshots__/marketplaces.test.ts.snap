@@ -974,3 +974,28 @@ AmazonMarketplace {
   "webServiceUri": "https://mws.amazonservices.com",
 }
 `;
+
+exports[`marketplace ZA should match snapshot 1`] = `
+AmazonMarketplace {
+  "countryCode": "ZA",
+  "currency": "ZAR",
+  "id": "AE08WJ6YKNBMC",
+  "launchDate": "2024-05-07",
+  "name": "South Africa",
+  "sellerCentralUri": "https://sellercentral.amazon.co.za",
+  "sellingPartner": {
+    "region": AmazonSellingPartnerApiRegion {
+      "awsRegion": "eu-west-1",
+      "code": "EU",
+      "endpoint": "https://sellingpartnerapi-eu.amazon.com",
+      "name": "Europe",
+    },
+    "sellerCentralAuthUri": "https://sellercentral.amazon.co.za/apps/authorize/consent",
+    "vendorCentralAuthUri": "https://vendorcentral.amazon.co.za/apps/authorize/consent",
+  },
+  "timeZone": "Africa/Johannesburg",
+  "uri": "https://www.amazon.co.za",
+  "vendorCentralUri": "https://vendorcentral.amazon.co.za",
+  "webServiceUri": "https://mws-eu.amazonservices.com",
+}
+`;

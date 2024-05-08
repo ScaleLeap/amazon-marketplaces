@@ -20,6 +20,7 @@ import { SE } from './se'
 import { SG } from './sg'
 import { TR } from './tr'
 import { US } from './us'
+import { ZA } from './za'
 
 export const amazonMarketplaces = {
   /**
@@ -131,6 +132,11 @@ export const amazonMarketplaces = {
    * United States
    */
   US,
+
+  /**
+   * South Africa
+   */
+  ZA,
 } as const
 
 /**

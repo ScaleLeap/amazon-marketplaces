@@ -27,6 +27,7 @@ export enum AmazonMarketplaceCountryCode {
   SG = 'SG',
   TR = 'TR',
   US = 'US',
+  ZA = 'ZA',
 }
 
 /**
@@ -50,6 +51,7 @@ export enum AmazonMarketplaceAdvertisingCurrency {
   SGD = 'SGD',
   TRY = 'TRY',
   USD = 'USD',
+  ZAR = 'ZAR',
 }
 
 /**
@@ -105,6 +107,7 @@ export enum AmazonMarketplaceAdvertisingTimeZone {
 
 export enum AmazonMarketplaceTimeZone {
   AFRICA_CAIRO = 'Africa/Cairo',
+  AFRICA_JOHANNESBURG = 'Africa/Johannesburg',
   AMERICA_LOS_ANGELES = 'America/Los_Angeles',
   AMERICA_SAO_PAULO = 'America/Sao_Paulo',
   ASIA_DUBAI = 'Asia/Dubai',
