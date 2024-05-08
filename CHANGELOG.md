@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [17.3.1](https://github.com/ScaleLeap/amazon-marketplaces/compare/v17.3.0...v17.3.1) (2024-05-08)
+
+
+### Bug Fixes
+
+* change SA to EU region for ads ([#593](https://github.com/ScaleLeap/amazon-marketplaces/issues/593)) ([d7ac064](https://github.com/ScaleLeap/amazon-marketplaces/commit/d7ac064107a57f706020165ebab3756a47cb354a)), closes [#592](https://github.com/ScaleLeap/amazon-marketplaces/issues/592)
+
 # [17.3.0](https://github.com/ScaleLeap/amazon-marketplaces/compare/v17.2.0...v17.3.0) (2023-05-08)
 
 
