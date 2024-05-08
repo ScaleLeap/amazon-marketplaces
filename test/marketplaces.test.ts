@@ -14,7 +14,7 @@ describe('marketplace', () => {
   it('has a known number of marketplaces', () => {
     expect.assertions(1)
 
-    expect(countryCodes).toHaveLength(22)
+    expect(countryCodes).toHaveLength(23)
   })
 
   describe.each(countryCodes)('%s', (countryCode) => {

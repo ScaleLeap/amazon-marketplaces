@@ -28,6 +28,6 @@ describe('index', () => {
     expect.assertions(2)
 
     expect(Array.isArray(amazonMarketplacesList)).toBeDefined()
-    expect(amazonMarketplacesList).toHaveLength(22)
+    expect(amazonMarketplacesList).toHaveLength(23)
   })
 })
