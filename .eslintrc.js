@@ -3,7 +3,7 @@ const eslint = {
   parserOptions: {
     ecmaVersion: 9,
     sourceType: 'module',
-    project: './tsconfig.json',
+    project: './tsconfig.eslint.json',
   },
   ignorePatterns: ['.eslintrc.js', 'dist'],
   env: {
