@@ -34,7 +34,7 @@
   "devDependencies": {
     "@jest/globals": "29.7.0",
     "@scaleleap/semantic-release-config": "1.1.41",
-    "@types/jest": "29.5.13",
+    "@types/jest": "29.5.14",
     "@types/node": "20.17.5",
     "@typescript-eslint/eslint-plugin": "8.7.0",
     "@typescript-eslint/parser": "8.7.0",
