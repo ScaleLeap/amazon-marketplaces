@@ -530,7 +530,7 @@ AmazonMarketplace {
         "min": 2,
       },
     },
-    "countryCode": "DE",
+    "countryCode": "IT",
     "region": AmazonMarketplaceAdvertisingRegion {
       "accessTokenUri": "https://api.amazon.co.uk/auth/o2/token",
       "authorizationUri": "https://eu.account.amazon.com/ap/oa",
