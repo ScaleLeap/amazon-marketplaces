@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [18.0.2](https://github.com/ScaleLeap/amazon-marketplaces/compare/v18.0.1...v18.0.2) (2025-01-24)
+
+
+### Bug Fixes
+
+* update advertising country code from DE to IT for Italian Amazon… ([#730](https://github.com/ScaleLeap/amazon-marketplaces/issues/730)) ([6e312b9](https://github.com/ScaleLeap/amazon-marketplaces/commit/6e312b9b754e1dd8541172175ba3d3ea203a65b1))
+
 ## [18.0.1](https://github.com/ScaleLeap/amazon-marketplaces/compare/v18.0.0...v18.0.1) (2024-05-13)
 
 
