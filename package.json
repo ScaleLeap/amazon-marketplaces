@@ -1,5 +1,5 @@
 {
-  "name": "@scaleleap/amazon-marketplaces",
+  "name": "@mme321/amazon-marketplaces",
   "description": "A collection of Amazon Marketplace data objects.",
   "license": "MIT",
   "author": {
@@ -10,12 +10,12 @@
   "homepage": "https://github.com/ScaleLeap/amazon-marketplaces#readme",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ScaleLeap/amazon-marketplaces.git"
+    "url": "https://github.com/mme321/amazon-marketplaces.git"
   },
   "bugs": {
-    "url": "https://github.com/ScaleLeap/amazon-marketplaces/issues"
+    "url": "https://github.com/mme321/amazon-marketplaces/issues"
   },
-  "version": "18.0.2",
+  "version": "18.0.3",
   "main": "lib/index.js",
   "scripts": {
     "prebuild": "npm run clean",
