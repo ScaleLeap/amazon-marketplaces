@@ -35,7 +35,7 @@
     "@jest/globals": "29.7.0",
     "@scaleleap/semantic-release-config": "1.1.41",
     "@types/jest": "29.5.14",
-    "@types/node": "22.10.3",
+    "@types/node": "22.13.7",
     "@typescript-eslint/eslint-plugin": "8.25.0",
     "@typescript-eslint/parser": "8.25.0",
     "danger": "12.3.4",
